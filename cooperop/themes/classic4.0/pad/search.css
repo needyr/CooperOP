@@ -1,0 +1,112 @@
+  #wrap {
+        background-color: #fff;
+    }
+#header {
+    text-align: center;
+    /*color: #000;*/
+    width: 100%;
+    /*height:80%;*/
+    background-color: #11b7f3;
+    position: fixed;
+    padding: 0;
+    z-index: 999;
+}
+
+#header .header-div .tiaoZhuan i {
+    float: left;
+    /*margin-left: .5em;*/
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+#header .header-div .tiaoZhuan {
+    float: left;
+    margin-left: .5em;
+    padding-top: .4em;
+    font-size: 1.5em;
+    color: #9aa0a1;
+}
+
+#header .header-div {
+    width: 100%;
+    height: 3em;
+    color: black;
+    /*border-bottom: 1px solid #e7e3e3;*/
+}
+    #main .main-group .massage-content{
+      margin-top:50px;
+    }
+    #main .main-tree{
+      margin-top:50px;
+    }
+
+    #main .main-tree .daohang{
+      width:100%;
+      background-color: #fff;
+      border-bottom: 1px solid #eee;
+      display: inline-block;
+    }
+
+    #main .main-tree .daohang>p>span{
+      /*display: block;*/
+      line-height: 20px;
+      font-size:16px;
+      padding:10px;
+      display: inline-block;
+    }
+
+    #main .main-tree .massage-content{
+      width: 95%;
+      height: 50px;
+      border-bottom: 1px solid #eee;
+      background-color: #fff;
+      float: right;
+    }
+
+    #main .main-tree .massage-content .content-red{
+      float: right;
+      line-height: 50px;
+      font-size: 20px;
+      margin-right: 10px;
+    }
+
+    #main .main-tree .massage-content .content-left{
+      float: left;
+      line-height: 50px;
+      font-size: 20px;
+      margin-right: 10px;
+    }
+    #main .main-tree .massage-content .content-left img{
+      height: 40px;
+    }
+    #main .main-tree .massage-content .content-text .text-span{
+      display: block;
+      float: left;
+      line-height: 50px;
+      font-size: 20px;
+      margin-right: 5px;
+    }
+    #main .main-tree .massage-content .content-text .text-span-dep{
+      display: block;
+      float: left;
+      line-height: 50px;
+      font-size: 16px;
+      color:#999;
+    }
+    .main-ipt {
+    width: 80%;
+    height: 2.5em;
+    /* margin-left: 55px; */
+    background-color: #ffffff;
+    /*border-bottom: 2px solid #f2eeee;*/
+    /*border-top: 2px solid #f2eeee;*/
+    /* padding-left: .5em; */
+    outline: none;
+    text-align: center;
+    /* margin-top: -24px; */
+    /* top: 1px; */
+    position: fixed;
+    top: 3px;
+    left: 48px;
+    z-index: 999;
+}

@@ -1,0 +1,47 @@
+.page-content {
+	background:
+			url('../../pages/media/pages/earth.jpg')
+			right bottom no-repeat #000 !important;
+}
+
+.error_box {
+	margin: 0 auto;
+	color: #fff;
+	text-align: left;
+	padding: 70px 20px 0;
+}
+
+.error_box h1 {
+	color: #000;
+	font-size: 60px;
+	line-height: 100px;
+}
+
+.error_box h2 {
+	color: #000;
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.error_box p {
+	color: #000;
+	font-size: 16px;
+}
+
+@media ( min-width : 768px) {
+	.error_box {
+		width: 750px;
+	}
+}
+
+@media ( min-width : 992px) {
+	.error_box {
+		width: 970px;
+	}
+}
+
+@media ( min-width : 1200px) {
+	.error_box {
+		width: 1170px;
+	}
+}

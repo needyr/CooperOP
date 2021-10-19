@@ -1,0 +1,59 @@
+.form-horizontal .row-fluid select.form-control
+	{
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 18px;
+    font-size: 12px;
+    background: #fff;
+    border: 1px solid #cfd6e0;
+    border-radius: 2px;
+    padding: 6px 8px;
+    vertical-align: top;
+    transition: all 0.5s;
+    box-sizing: border-box;
+}
+
+.form-horizontal .row-fluid .control-content .select-tip {
+    display: block;
+    width: 28px;
+    height: 28px;
+    color: #6381ab;
+    background: #fff;
+    position: absolute;
+    top: 1px;
+    right: 2px;
+    line-height: 28px;
+    text-align: center;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.form-horizontal .row-fluid .control-content .select-tip i {
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.form-horizontal .row-fluid .control-content .form-control:focus + .select-tip i{transform: rotate(180deg);}
+
+.dataTables_wrapper .control-content .select-tip {
+    display: block;
+    width: 24px;
+    height: 20px;
+    color: #6381ab;
+    background: #fff;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    line-height: 24px;
+    text-align: center;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.dataTables_wrapper .control-content .select-tip i {
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.dataTables_wrapper .control-content .form-control:focus + .select-tip i{transform: rotate(180deg);}

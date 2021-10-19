@@ -1,0 +1,60 @@
+/*--------------------------------------------------
+    [TRANSITION]
+----------------------------------------------------*/
+.widget-blog .widget-blog-content {
+	text-indent: 2em;
+	margin-bottom: 30px;
+    text-align: left;
+    height: 170px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.categorys .scroller {
+    margin-right: -12px;
+}
+.categorys .action {
+    float: right;
+    margin-top: 10px;
+}
+
+.categorys .feeds li {
+	position: relative;
+}
+.categorys .feeds li .col1 {
+	float: none;
+	display: block;
+}
+.categorys .feeds li .col1 > .cont {
+	float: none;
+	display: block;
+	position: relative;
+	margin-right: 120px;
+}
+.categorys .feeds li .col1 > .cont > .cont-col1 {
+	position: absolute;
+	left: 0px;
+	top:0px;
+	margin:0px;
+}
+.categorys .feeds li .col1 > .cont > .cont-col1 > .label {
+	padding: 6px 4px 5px 3px;
+}
+.categorys .feeds li .col1 > .cont > .cont-col2 {
+	margin:0px;
+	padding-left: 30px;
+}
+.categorys .feeds li .col1 > .cont > .cont-col2 > .desc {
+	margin: 0px;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.categorys .feeds li .col2 {
+	float: none;
+	position: absolute;
+	top:0px;
+	right:0px;
+	width: 120px;
+	margin: 0px;
+}

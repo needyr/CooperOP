@@ -1,0 +1,79 @@
+/** 文本框样式  b*/
+.form-horizontal .row-fluid input.form-control.ui-selecttree-input
+	{
+	display: block;
+	width: 100%;
+	height: 32px;
+	line-height: 18px;
+	font-size: 12px;
+	background: #fff;
+	border: 1px solid #cfd6e0;
+	border-radius: 2px;
+	padding: 6px 8px;
+	vertical-align: top;
+	transition: all 0.5s;
+	box-sizing: border-box;
+}
+/** 文本框样式 e */
+.form-horizontal .row-fluid input.form-control.ui-selecttree-input:focus {
+	border-color: #82a7db;
+}
+
+
+.ui-selecttree {
+    position: absolute;
+    cursor: default;
+    border-radius: 0;
+    max-height: 230px;
+    overflow-y: auto;
+    border: 1px solid #cfd6e0;
+    background: #ffffff;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 2px 3px 12px rgba(86, 86, 86, 0.3);
+    color: #000000;
+    list-style: none;
+    padding: 2px;
+    margin: 0;
+    margin-top: -2px;
+    display: block;
+    float: left;
+}
+
+.ui-selecttree .ui-menu-item {
+    padding: 0;
+    zoom: 1;
+    float: left;
+    clear: left;
+    width: 100%;
+    border: none !important;
+    margin: 1px;
+}
+
+.ui-selecttree .ui-menu-item.ui-state-focus {
+	background: #3694ff;
+	color: #fff;
+}
+
+.ui-selecttree .ui-menu-pagenation {
+    float: left;
+    border-top: 1px solid #DDD;
+    width: 100%;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+}
+
+.ui-selecttree .ui-menu-pagenation a {
+    color: #4F4F4F;
+}
+
+.ui-helper-hidden-accessible {
+	display: none;
+}
+.ztree{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    z-index: 333;
+    position: relative;
+    overflow: auto;
+}

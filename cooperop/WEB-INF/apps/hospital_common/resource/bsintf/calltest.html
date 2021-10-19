@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>HIS/BS 集成 iadscp测试</title>
+		<!-- <script type="text/javascript" src="http://127.0.0.1:8085/res/hospital_common/bsintf/jquery.min.1.9.1.js"></script> -->
+		<script type="text/javascript" src="http://192.168.1.183:8080/res/hospital_common/bsintf/dyey/ycfun.js"></script>
+		<script type="text/javascript" src="http://192.168.1.183:8080/res/hospital_common/bsintf/layer.js"></script>
+		<!-- <script type="text/javascript" src="http://127.0.0.1:8085/res/hospital_common/bsintf/protocolcheck.js"></script> -->
+	</head>
+	<body>
+		<style type="text/css">
+			#ecode_id{
+				width:732px;
+				height: 30px;
+				font-size: 14px;
+			}
+			#reqd, #respd{
+				width: 800px;
+				margin-top: 5px;
+				outline: none;
+				/* font-family: 'Lucida Console'; */
+				font-family: '微软雅黑';
+				resize: vertical;
+			}
+			#reqd:hover {
+			    box-shadow: 0px 2px 3px 0px #d8d7d7;
+			}
+			button{
+				height: 30px;
+			}
+		</style>
+		<!-- <a id="ycim_zdy1" href="crtech://refreshim?doctor_code=9888">自定义协议crtech</a> -->
+		<div id="main">
+			<form id="tform">
+				<select id="ecode_id" name="ecode">
+					<option value="InterfaceInit">系统初始化 - InterfaceInit</option>
+					<option value="PreCheck_Message">简要提示信息查看 - PreCheck_Message</option>
+					<option value="PreCheck_Audit">医嘱提交或保存审核 - PreCheck_Audit</option>
+					<option value="PreCheck_SIMIC">医保结算审查 - PreCheck_SIMIC</option>
+					<option value="PreCheck_Search">医嘱审核结果查询 - PreCheck_Search</option>
+					<option value="InterfaceDestroy">释放全部资源 - InterfaceDestroy</option>
+				</select>
+				<button onclick="exec()" type="button"> 执行命令 </button> <button onclick="openq()" type="button"> 弹窗测试，点我弹窗 </button><br>
+				<!-- <textarea id="reqd" rows="30">{"request": {"p_type": "1","d_type": "1","doctor": {"code": "9888","name": "超级管理员","duty": "主任医师","departcode": "52","departname": "眼科、耳鼻咽喉科病区"},"patient": {"id": "3715905","visitid": "1","name": "翁启才","chargetype": "新农合","sex": "男","departcode": "52","departname": "眼科、耳鼻咽喉科病区","admissiondate": "2019-05-09 11:10:00","idcardno": "460006197212162374","bedno": "1","status": "其他","birthday": "1972-12-16","weight": "10"},"rows": {"row": {"p_key": "51001010501XXXXX","repeat_indicator": "1","start_date_time": "2019-05-15 11:41:00","order_class": "5","order_code": "51001010501","order_text": "注射用苄星青霉素","group_id": "336750731","order_no": "336750731","order_sub_no": "1051","dosage": "1","dosage_units": "g","amount": "100","administration": "口服","frequency": "一次性","order_status": "0","doctor_no": "9888","doctor": "超级管理员","ordering_dept": "52","ordering_deptname": "眼科、耳鼻咽喉科病区","DRUG_UNIT": "支"}}}}</textarea> -->
+				<textarea id="reqd" placeholder="输入参数" rows="30"><request><p_type>1</p_type><d_type>1</d_type><doctor><code>9888</code><name>超级管理员</name><duty>主任医师</duty><departcode>52</departcode><departname>眼科、耳鼻咽喉科病区</departname></doctor><patient><id>3715905</id><visitid>1</visitid><name>翁启才</name><chargetype>新农合</chargetype><sex>男</sex><departcode>52</departcode><departname>眼科、耳鼻咽喉科病区</departname><admissiondate>2019-05-0911:10:00</admissiondate><idcardno>460006197212162374</idcardno><bedno>1</bedno><status>其他</status><birthday>1972-12-16</birthday><weight>10</weight></patient><rows><row><p_key>51001010501XXXXX</p_key><repeat_indicator>1</repeat_indicator><start_date_time>2019-05-1511:41:00</start_date_time><order_class>5</order_class><order_code>51001010501</order_code><order_text>注射用苄星青霉素</order_text><group_id>336750731</group_id><order_no>336750731</order_no><order_sub_no>1051</order_sub_no><dosage>1</dosage><dosage_units>g</dosage_units><amount>100</amount><administration>口服</administration><frequency>一次性</frequency><order_status>0</order_status><doctor_no>9888</doctor_no><doctor>超级管理员</doctor><ordering_dept>52</ordering_dept><ordering_deptname>眼科、耳鼻咽喉科病区</ordering_deptname><DRUG_UNIT>支</DRUG_UNIT></row></rows></request></textarea>
+				<br><textarea id="respd" placeholder="输出参数"></textarea>
+			</form>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	function exec(){
+		var ecode = $('#ecode_id').val();
+		var reqdata = $('#reqd').val();
+		var rtn_state = crInterfaceDoCall(ecode, reqdata, function(outparams){
+			//layer.msg('回调函数');
+			$('#respd').val('');
+			$('#respd').val(outparams);
+		});
+	}
+	
+	function openq(){
+		layer.open({
+			  type: 2,
+			  title: 'iadscp - 简要信息查看',
+			  area: ['800px', '600px'],
+			  fixed: false,
+			  maxmin: true,
+			  content: "http://192.168.1.183:8080"
+			});
+	}
+</script>

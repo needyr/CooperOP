@@ -1,0 +1,30 @@
+<project name="build-war" default="build-war" basedir="./" xmlns:ac="antlib:net.sf.antcontrib">
+	<property name="project_name" value="pivascockpit"></property>
+	<target name="build-war">
+		<antcall target="build_jar">
+		</antcall>
+		<echo message="正在打包资源...." />
+		<delete file="./${project_name}.zip" />
+		<zip destfile="./${project_name}.zip">
+			<zipfileset dir="./" prefix="${project_name}/">
+				<exclude name=".settings/"/>
+				<exclude name="classes/"/>
+				<exclude name="src/"/>
+				<exclude name="build.xml"/>
+				<exclude name=".classpath"/>
+				<exclude name=".project"/>
+			</zipfileset>
+		</zip>
+		<delete file="lib/${project_name}.jar" />
+		<echo message="OK...." />
+	</target>
+	<target name="build_jar">
+		<echo message="正在生成${project_name}.jar...." />
+		<delete file="lib/${project_name}.jar" />
+		<jar destfile="lib/${project_name}.jar" basedir="./classes">
+			<include name="**/*" />
+		</jar>
+		<echo message="Build ${project_name} Jar OK...." />
+	</target>
+
+</project>

@@ -1,0 +1,2788 @@
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[276720]ms, 参数： 
+<request>
+	<doctor>
+		<departname>老年呼吸科</departname>
+		<code></code>
+		<name></name>
+		<departcode>244</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1941-07-04</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>244</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>老年呼吸科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-05 16:15:00</admissiondate>
+		<bedno></bedno>
+		<name>付淑群</name>
+		<id>383767|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[279741]ms, 参数： 
+<request>
+	<doctor>
+		<departname>肿瘤、血液科</departname>
+		<code></code>
+		<name></name>
+		<departcode>83</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1952-02-01</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>83</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>肿瘤、血液科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-16 12:29:00</admissiondate>
+		<bedno></bedno>
+		<name>谢国英</name>
+		<id>385198|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[234332]ms, 参数： 
+<request>
+	<doctor>
+		<departname>康复科、中西医结合科</departname>
+		<code></code>
+		<name></name>
+		<departcode>97</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1967-09-30</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>97</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>康复科、中西医结合科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-03 12:14:00</admissiondate>
+		<bedno></bedno>
+		<name>刘强</name>
+		<id>383532|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[243389]ms, 参数： 
+<request>
+	<doctor>
+		<departname>眼耳鼻喉、口腔病区</departname>
+		<code></code>
+		<name></name>
+		<departcode>15</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1985-06-20</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>15</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>眼耳鼻喉、口腔病区</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-01 11:10:00</admissiondate>
+		<bedno></bedno>
+		<name>夏琅</name>
+		<id>383260|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[264654]ms, 参数： 
+<request>
+	<doctor>
+		<departname>康复科、中西医结合科</departname>
+		<code></code>
+		<name></name>
+		<departcode>97</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1988-01-02</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>97</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>康复科、中西医结合科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-22 14:40:00</admissiondate>
+		<bedno></bedno>
+		<name>黄康</name>
+		<id>382115|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[258515]ms, 参数： 
+<request>
+	<doctor>
+		<departname>心血管内科</departname>
+		<code></code>
+		<name></name>
+		<departcode>11</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1944-06-29</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>11</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>心血管内科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-20 10:55:00</admissiondate>
+		<bedno></bedno>
+		<name>吴凤君</name>
+		<id>385681|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[234331]ms, 参数： 
+<request>
+	<doctor>
+		<departname>眼耳鼻喉、口腔病区</departname>
+		<code></code>
+		<name></name>
+		<departcode>15</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1967-10-02</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>15</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>眼耳鼻喉、口腔病区</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-31 09:00:00</admissiondate>
+		<bedno></bedno>
+		<name>杨云建</name>
+		<id>383103|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[252484]ms, 参数： 
+<request>
+	<doctor>
+		<departname>眼耳鼻喉、口腔病区</departname>
+		<code></code>
+		<name></name>
+		<departcode>15</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1945-05-12</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>15</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>眼耳鼻喉、口腔病区</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-14 10:30:00</admissiondate>
+		<bedno></bedno>
+		<name>刘术清</name>
+		<id>384881|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[255495]ms, 参数： 
+<request>
+	<doctor>
+		<departname>妇科</departname>
+		<code></code>
+		<name></name>
+		<departcode>16</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1990-04-03</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>16</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>妇科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-21 03:30:00</admissiondate>
+		<bedno></bedno>
+		<name>王颖</name>
+		<id>385728|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[267669]ms, 参数： 
+<request>
+	<doctor>
+		<departname>肾病老年科</departname>
+		<code></code>
+		<name></name>
+		<departcode>204</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1953-05-01</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>204</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>肾病老年科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-01 19:24:00</admissiondate>
+		<bedno></bedno>
+		<name>马金红</name>
+		<id>383328|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[267667]ms, 参数： 
+<request>
+	<doctor>
+		<departname>神经外科</departname>
+		<code></code>
+		<name></name>
+		<departcode>14</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1973-04-13</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>14</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>神经外科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-23 09:45:00</admissiondate>
+		<bedno></bedno>
+		<name>刘玉</name>
+		<id>386045|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[261627]ms, 参数： 
+<request>
+	<doctor>
+		<departname>神经内科</departname>
+		<code></code>
+		<name></name>
+		<departcode>7</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1952-01-28</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>7</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>神经内科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-11 14:05:00</admissiondate>
+		<bedno></bedno>
+		<name>刘述文</name>
+		<id>384554|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[258513]ms, 参数： 
+<request>
+	<doctor>
+		<departname>胃肠外科</departname>
+		<code></code>
+		<name></name>
+		<departcode>243</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1974-08-23</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>243</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>胃肠外科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-07 09:50:00</admissiondate>
+		<bedno></bedno>
+		<name>叶华英</name>
+		<id>383949|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[240369]ms, 参数： 
+<request>
+	<doctor>
+		<departname>肿瘤、血液科</departname>
+		<code></code>
+		<name></name>
+		<departcode>83</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1967-11-03</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>83</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>肿瘤、血液科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-24 09:09:00</admissiondate>
+		<bedno></bedno>
+		<name>苟烈权</name>
+		<id>386166|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[276722]ms, 参数： 
+<request>
+	<doctor>
+		<departname>呼吸与危重症医学科</departname>
+		<code></code>
+		<name></name>
+		<departcode>10</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1951-07-22</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>10</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>呼吸与危重症医学科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-21 23:13:00</admissiondate>
+		<bedno></bedno>
+		<name>孙群英</name>
+		<id>385870|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[249447]ms, 参数： 
+<request>
+	<doctor>
+		<departname>妇科</departname>
+		<code></code>
+		<name></name>
+		<departcode>16</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1971-08-10</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>16</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>妇科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-06 10:00:00</admissiondate>
+		<bedno></bedno>
+		<name>董玉梅</name>
+		<id>383833|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[219236]ms, 参数： 
+<request>
+	<doctor>
+		<departname>内分泌科</departname>
+		<code></code>
+		<name></name>
+		<departcode>245</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1993-01-27</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>245</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>内分泌科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-24 10:06:00</admissiondate>
+		<bedno></bedno>
+		<name>姚佳慧</name>
+		<id>382331|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[279744]ms, 参数： 
+<request>
+	<doctor>
+		<departname>肾病老年科</departname>
+		<code></code>
+		<name></name>
+		<departcode>204</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1975-07-30</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>204</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>肾病老年科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-03 16:24:00</admissiondate>
+		<bedno></bedno>
+		<name>毛翠英</name>
+		<id>383562|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[255494]ms, 参数： 
+<request>
+	<doctor>
+		<departname>肿瘤、血液科</departname>
+		<code></code>
+		<name></name>
+		<departcode>83</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1965-01-01</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>83</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>肿瘤、血液科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-02 08:50:00</admissiondate>
+		<bedno></bedno>
+		<name>詹桂英</name>
+		<id>383372|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[252480]ms, 参数： 
+<request>
+	<doctor>
+		<departname>肾病老年科</departname>
+		<code></code>
+		<name></name>
+		<departcode>204</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1922-07-05</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>204</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>肾病老年科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-12 21:02:00</admissiondate>
+		<bedno></bedno>
+		<name>贾正耕</name>
+		<id>384687|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[264657]ms, 参数： 
+<request>
+	<doctor>
+		<departname>肿瘤、血液科</departname>
+		<code></code>
+		<name></name>
+		<departcode>83</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1959-04-20</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>83</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>肿瘤、血液科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-21 09:13:00</admissiondate>
+		<bedno></bedno>
+		<name>方泽生</name>
+		<id>385766|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[234332]ms, 参数： 
+<request>
+	<doctor>
+		<departname>肿瘤、血液科</departname>
+		<code></code>
+		<name></name>
+		<departcode>83</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1947-10-18</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>83</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>肿瘤、血液科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-23 10:03:00</admissiondate>
+		<bedno></bedno>
+		<name>张金文</name>
+		<id>382179|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[261632]ms, 参数： 
+<request>
+	<doctor>
+		<departname>内分泌科</departname>
+		<code></code>
+		<name></name>
+		<departcode>245</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1950-12-03</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>245</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>内分泌科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-09 11:16:00</admissiondate>
+		<bedno></bedno>
+		<name>黄玉茹</name>
+		<id>384281|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[261629]ms, 参数： 
+<request>
+	<doctor>
+		<departname>眼耳鼻喉、口腔病区</departname>
+		<code></code>
+		<name></name>
+		<departcode>15</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1959-08-24</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>15</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>眼耳鼻喉、口腔病区</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-19 10:10:00</admissiondate>
+		<bedno></bedno>
+		<name>李德芳</name>
+		<id>385559|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[261627]ms, 参数： 
+<request>
+	<doctor>
+		<departname>重症医学科</departname>
+		<code></code>
+		<name></name>
+		<departcode>20</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1947-10-04</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>20</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>重症医学科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-07 04:41:00</admissiondate>
+		<bedno></bedno>
+		<name>向明金</name>
+		<id>383911|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[270689]ms, 参数： 
+<request>
+	<doctor>
+		<departname>肿瘤、血液科</departname>
+		<code></code>
+		<name></name>
+		<departcode>83</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1955-03-15</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>83</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>肿瘤、血液科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-10 10:23:00</admissiondate>
+		<bedno></bedno>
+		<name>谢鑫生</name>
+		<id>384407|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[279746]ms, 参数： 
+<request>
+	<doctor>
+		<departname>胃肠外科</departname>
+		<code></code>
+		<name></name>
+		<departcode>243</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1956-06-21</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>243</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>胃肠外科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-17 09:07:00</admissiondate>
+		<bedno></bedno>
+		<name>郑国成</name>
+		<id>385261|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[243399]ms, 参数： 
+<request>
+	<doctor>
+		<departname>老年呼吸科</departname>
+		<code></code>
+		<name></name>
+		<departcode>244</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1956-07-25</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>244</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>老年呼吸科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-18 15:30:00</admissiondate>
+		<bedno></bedno>
+		<name>杨修明</name>
+		<id>385476|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[276726]ms, 参数： 
+<request>
+	<doctor>
+		<departname>内分泌科</departname>
+		<code></code>
+		<name></name>
+		<departcode>245</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1973-11-17</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>245</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>内分泌科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-24 11:50:00</admissiondate>
+		<bedno></bedno>
+		<name>王学梅</name>
+		<id>386206|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[258513]ms, 参数： 
+<request>
+	<doctor>
+		<departname>心血管内科</departname>
+		<code></code>
+		<name></name>
+		<departcode>11</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1946-09-03</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>11</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>心血管内科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-29 08:30:00</admissiondate>
+		<bedno></bedno>
+		<name>易淑群</name>
+		<id>382900|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[237349]ms, 参数： 
+<request>
+	<doctor>
+		<departname>消化内科</departname>
+		<code></code>
+		<name></name>
+		<departcode>9</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1970-04-14</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>9</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>消化内科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-18 09:50:00</admissiondate>
+		<bedno></bedno>
+		<name>骆久林</name>
+		<id>385405|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[255502]ms, 参数： 
+<request>
+	<doctor>
+		<departname>肝胆外科</departname>
+		<code></code>
+		<name></name>
+		<departcode>12</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1966-10-02</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>12</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>肝胆外科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-01 11:02:00</admissiondate>
+		<bedno></bedno>
+		<name>梁俊华</name>
+		<id>383251|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[219229]ms, 参数： 
+<request>
+	<doctor>
+		<departname>内分泌科</departname>
+		<code></code>
+		<name></name>
+		<departcode>245</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1932-04-25</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>245</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>内分泌科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-27 20:25:00</admissiondate>
+		<bedno></bedno>
+		<name>罗树尧</name>
+		<id>382774|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[249437]ms, 参数： 
+<request>
+	<doctor>
+		<departname>胃肠外科</departname>
+		<code></code>
+		<name></name>
+		<departcode>243</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1965-09-20</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>243</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>胃肠外科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-12 01:12:00</admissiondate>
+		<bedno></bedno>
+		<name>余平</name>
+		<id>384596|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[258519]ms, 参数： 
+<request>
+	<doctor>
+		<departname>神经外科</departname>
+		<code></code>
+		<name></name>
+		<departcode>14</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1956-03-08</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>14</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>神经外科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-06 14:45:00</admissiondate>
+		<bedno></bedno>
+		<name>雷志明</name>
+		<id>383870|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[258511]ms, 参数： 
+<request>
+	<doctor>
+		<departname>内分泌科</departname>
+		<code></code>
+		<name></name>
+		<departcode>245</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1969-07-16</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>245</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>内分泌科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-17 16:40:00</admissiondate>
+		<bedno></bedno>
+		<name>郑玉珍</name>
+		<id>385339|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[249448]ms, 参数： 
+<request>
+	<doctor>
+		<departname>心血管内科</departname>
+		<code></code>
+		<name></name>
+		<departcode>11</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1936-05-03</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>11</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>心血管内科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-12 10:15:00</admissiondate>
+		<bedno></bedno>
+		<name>刘淑华</name>
+		<id>384622|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[255495]ms, 参数： 
+<request>
+	<doctor>
+		<departname>妇科</departname>
+		<code></code>
+		<name></name>
+		<departcode>16</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1976-01-01</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>16</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>妇科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-31 14:56:00</admissiondate>
+		<bedno></bedno>
+		<name>文利琼</name>
+		<id>383169|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[249445]ms, 参数： 
+<request>
+	<doctor>
+		<departname>神经内科</departname>
+		<code></code>
+		<name></name>
+		<departcode>7</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1946-12-24</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>7</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>神经内科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-06 09:00:00</admissiondate>
+		<bedno></bedno>
+		<name>陈玉林</name>
+		<id>383807|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[234336]ms, 参数： 
+<request>
+	<doctor>
+		<departname>神经外科</departname>
+		<code></code>
+		<name></name>
+		<departcode>14</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1974-10-01</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>14</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>神经外科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-22 09:05:00</admissiondate>
+		<bedno></bedno>
+		<name>吴世忠</name>
+		<id>385897|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[264657]ms, 参数： 
+<request>
+	<doctor>
+		<departname>神经内科</departname>
+		<code></code>
+		<name></name>
+		<departcode>7</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1942-02-25</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>7</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>神经内科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-01 14:49:00</admissiondate>
+		<bedno></bedno>
+		<name>王玉林</name>
+		<id>383296|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[279740]ms, 参数： 
+<request>
+	<doctor>
+		<departname>肾病老年科</departname>
+		<code></code>
+		<name></name>
+		<departcode>204</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1987-02-18</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>204</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>肾病老年科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-27 10:05:00</admissiondate>
+		<bedno></bedno>
+		<name>徐金</name>
+		<id>382713|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[249438]ms, 参数： 
+<request>
+	<doctor>
+		<departname>胃肠外科</departname>
+		<code></code>
+		<name></name>
+		<departcode>243</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1990-12-06</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>243</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>胃肠外科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-04 02:30:00</admissiondate>
+		<bedno></bedno>
+		<name>刘威</name>
+		<id>383598|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[252484]ms, 参数： 
+<request>
+	<doctor>
+		<departname>胃肠外科</departname>
+		<code></code>
+		<name></name>
+		<departcode>243</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1943-01-05</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>243</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>胃肠外科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-19 01:22:00</admissiondate>
+		<bedno></bedno>
+		<name>韦华云</name>
+		<id>381669|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[282761]ms, 参数： 
+<request>
+	<doctor>
+		<departname>妇科</departname>
+		<code></code>
+		<name></name>
+		<departcode>16</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1990-05-25</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>16</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>妇科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-07 12:00:00</admissiondate>
+		<bedno></bedno>
+		<name>杨凤</name>
+		<id>383998|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[246414]ms, 参数： 
+<request>
+	<doctor>
+		<departname>消化内科</departname>
+		<code></code>
+		<name></name>
+		<departcode>9</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1971-12-23</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>9</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>消化内科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-12 18:30:00</admissiondate>
+		<bedno></bedno>
+		<name>张晓梅</name>
+		<id>384683|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[270692]ms, 参数： 
+<request>
+	<doctor>
+		<departname>妇科</departname>
+		<code></code>
+		<name></name>
+		<departcode>16</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1973-01-01</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>16</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>妇科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-15 16:10:00</admissiondate>
+		<bedno></bedno>
+		<name>赵玉燕</name>
+		<id>385086|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[276724]ms, 参数： 
+<request>
+	<doctor>
+		<departname>神经外科</departname>
+		<code></code>
+		<name></name>
+		<departcode>14</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1969-11-02</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>14</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>神经外科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-07 14:15:00</admissiondate>
+		<bedno></bedno>
+		<name>鲁容</name>
+		<id>384012|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[270691]ms, 参数： 
+<request>
+	<doctor>
+		<departname>神经外科</departname>
+		<code></code>
+		<name></name>
+		<departcode>14</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1982-01-19</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>14</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>神经外科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-23 10:00:00</admissiondate>
+		<bedno></bedno>
+		<name>陈频</name>
+		<id>382183|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[243394]ms, 参数： 
+<request>
+	<doctor>
+		<departname>泌尿外科</departname>
+		<code></code>
+		<name></name>
+		<departcode>98</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1988-11-13</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>98</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>泌尿外科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-27 17:19:00</admissiondate>
+		<bedno></bedno>
+		<name>钟祥</name>
+		<id>382766|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[237355]ms, 参数： 
+<request>
+	<doctor>
+		<departname>神经内科</departname>
+		<code></code>
+		<name></name>
+		<departcode>7</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1944-06-06</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>7</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>神经内科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-07 14:00:00</admissiondate>
+		<bedno></bedno>
+		<name>何玉如</name>
+		<id>384008|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[252484]ms, 参数： 
+<request>
+	<doctor>
+		<departname>眼耳鼻喉、口腔病区</departname>
+		<code></code>
+		<name></name>
+		<departcode>15</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1994-04-11</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>15</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>眼耳鼻喉、口腔病区</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-20 10:25:00</admissiondate>
+		<bedno></bedno>
+		<name>王怡梅</name>
+		<id>385666|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[273716]ms, 参数： 
+<request>
+	<doctor>
+		<departname>康复科、中西医结合科</departname>
+		<code></code>
+		<name></name>
+		<departcode>97</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1950-08-20</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>97</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>康复科、中西医结合科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-30 09:10:00</admissiondate>
+		<bedno></bedno>
+		<name>罗树德</name>
+		<id>383003|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[267675]ms, 参数： 
+<request>
+	<doctor>
+		<departname>康复科、中西医结合科</departname>
+		<code></code>
+		<name></name>
+		<departcode>97</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1965-05-04</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>97</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>康复科、中西医结合科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-21 09:37:00</admissiondate>
+		<bedno></bedno>
+		<name>罗红荣</name>
+		<id>385774|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[246422]ms, 参数： 
+<request>
+	<doctor>
+		<departname>肿瘤、血液科</departname>
+		<code></code>
+		<name></name>
+		<departcode>83</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1948-09-14</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>83</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>肿瘤、血液科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-31 09:01:00</admissiondate>
+		<bedno></bedno>
+		<name>杨文菊</name>
+		<id>383097|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[267678]ms, 参数： 
+<request>
+	<doctor>
+		<departname>眼耳鼻喉、口腔病区</departname>
+		<code></code>
+		<name></name>
+		<departcode>15</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1927-01-01</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>15</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>眼耳鼻喉、口腔病区</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-19 08:40:00</admissiondate>
+		<bedno></bedno>
+		<name>李崇明</name>
+		<id>385537|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[240380]ms, 参数： 
+<request>
+	<doctor>
+		<departname>神经内科</departname>
+		<code></code>
+		<name></name>
+		<departcode>7</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1945-11-02</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>7</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>神经内科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-03 06:07:00</admissiondate>
+		<bedno></bedno>
+		<name>王跃全</name>
+		<id>383476|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[237363]ms, 参数： 
+<request>
+	<doctor>
+		<departname>内分泌科</departname>
+		<code></code>
+		<name></name>
+		<departcode>245</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1967-10-01</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>245</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>内分泌科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-26 08:20:00</admissiondate>
+		<bedno></bedno>
+		<name>李建明</name>
+		<id>382558|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[264646]ms, 参数： 
+<request>
+	<doctor>
+		<departname>眼耳鼻喉、口腔病区</departname>
+		<code></code>
+		<name></name>
+		<departcode>15</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1952-05-20</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>15</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>眼耳鼻喉、口腔病区</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-20 10:40:00</admissiondate>
+		<bedno></bedno>
+		<name>王能昌</name>
+		<id>385676|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[255492]ms, 参数： 
+<request>
+	<doctor>
+		<departname>康复科、中西医结合科</departname>
+		<code></code>
+		<name></name>
+		<departcode>97</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1926-04-16</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>97</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>康复科、中西医结合科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-29 23:48:00</admissiondate>
+		<bedno></bedno>
+		<name>李秀英</name>
+		<id>382976|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[243404]ms, 参数： 
+<request>
+	<doctor>
+		<departname>胃肠外科</departname>
+		<code></code>
+		<name></name>
+		<departcode>243</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1972-08-20</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>243</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>胃肠外科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-24 23:39:00</admissiondate>
+		<bedno></bedno>
+		<name>王雪英</name>
+		<id>386256|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[240380]ms, 参数： 
+<request>
+	<doctor>
+		<departname>肿瘤、血液科</departname>
+		<code></code>
+		<name></name>
+		<departcode>83</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1951-07-21</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>83</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>肿瘤、血液科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-13 10:01:00</admissiondate>
+		<bedno></bedno>
+		<name>王术芳</name>
+		<id>384740|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[261639]ms, 参数： 
+<request>
+	<doctor>
+		<departname>心血管内科</departname>
+		<code></code>
+		<name></name>
+		<departcode>11</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1976-08-27</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>11</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>心血管内科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-28 11:32:00</admissiondate>
+		<bedno></bedno>
+		<name>李丽</name>
+		<id>382839|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[270688]ms, 参数： 
+<request>
+	<doctor>
+		<departname>心血管内科</departname>
+		<code></code>
+		<name></name>
+		<departcode>11</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1966-12-30</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>11</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>心血管内科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-06 10:29:00</admissiondate>
+		<bedno></bedno>
+		<name>牟玉芬</name>
+		<id>383836|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[237363]ms, 参数： 
+<request>
+	<doctor>
+		<departname>老年呼吸科</departname>
+		<code></code>
+		<name></name>
+		<departcode>244</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1957-04-19</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>244</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>老年呼吸科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-17 10:00:00</admissiondate>
+		<bedno></bedno>
+		<name>王玉琴</name>
+		<id>385279|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[246406]ms, 参数： 
+<request>
+	<doctor>
+		<departname>肝胆外科</departname>
+		<code></code>
+		<name></name>
+		<departcode>12</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1955-10-11</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>12</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>肝胆外科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-28 10:06:00</admissiondate>
+		<bedno></bedno>
+		<name>梁金菊</name>
+		<id>386635|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[240378]ms, 参数： 
+<request>
+	<doctor>
+		<departname>妇科</departname>
+		<code></code>
+		<name></name>
+		<departcode>16</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1981-06-22</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>16</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>妇科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-27 09:00:00</admissiondate>
+		<bedno></bedno>
+		<name>崔大粉</name>
+		<id>382699|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[270702]ms, 参数： 
+<request>
+	<doctor>
+		<departname>神经内科</departname>
+		<code></code>
+		<name></name>
+		<departcode>7</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1930-09-27</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>7</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>神经内科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-20 19:52:00</admissiondate>
+		<bedno></bedno>
+		<name>吴茂生</name>
+		<id>381922|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[276736]ms, 参数： 
+<request>
+	<doctor>
+		<departname>康复科、中西医结合科</departname>
+		<code></code>
+		<name></name>
+		<departcode>97</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1952-09-25</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>97</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>康复科、中西医结合科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-29 09:21:00</admissiondate>
+		<bedno></bedno>
+		<name>王友元</name>
+		<id>382915|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[252471]ms, 参数： 
+<request>
+	<doctor>
+		<departname>消化内科</departname>
+		<code></code>
+		<name></name>
+		<departcode>9</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1974-02-06</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>9</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>消化内科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-02 19:34:00</admissiondate>
+		<bedno></bedno>
+		<name>杨秀丽</name>
+		<id>383453|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[279756]ms, 参数： 
+<request>
+	<doctor>
+		<departname>泌尿外科</departname>
+		<code></code>
+		<name></name>
+		<departcode>98</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1983-01-10</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>98</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>泌尿外科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-28 08:15:00</admissiondate>
+		<bedno></bedno>
+		<name>余广林</name>
+		<id>382784|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[264662]ms, 参数： 
+<request>
+	<doctor>
+		<departname>胃肠外科</departname>
+		<code></code>
+		<name></name>
+		<departcode>243</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1972-08-25</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>243</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>胃肠外科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-05 18:25:00</admissiondate>
+		<bedno></bedno>
+		<name>蒋志勇</name>
+		<id>383775|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[246422]ms, 参数： 
+<request>
+	<doctor>
+		<departname>眼耳鼻喉、口腔病区</departname>
+		<code></code>
+		<name></name>
+		<departcode>15</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1959-06-12</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>15</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>眼耳鼻喉、口腔病区</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-31 10:30:00</admissiondate>
+		<bedno></bedno>
+		<name>黄正茹</name>
+		<id>383131|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[243401]ms, 参数： 
+<request>
+	<doctor>
+		<departname>消化内科</departname>
+		<code></code>
+		<name></name>
+		<departcode>9</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1994-02-01</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>9</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>消化内科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-27 10:45:00</admissiondate>
+		<bedno></bedno>
+		<name>王小婷</name>
+		<id>386517|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[237363]ms, 参数： 
+<request>
+	<doctor>
+		<departname>骨科、心胸外科</departname>
+		<code></code>
+		<name></name>
+		<departcode>13</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1965-10-28</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>13</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>骨科、心胸外科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-20 10:50:00</admissiondate>
+		<bedno></bedno>
+		<name>黄淑芬</name>
+		<id>381858|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[240378]ms, 参数： 
+<request>
+	<doctor>
+		<departname>内分泌科</departname>
+		<code></code>
+		<name></name>
+		<departcode>245</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1951-06-11</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>245</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>内分泌科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-17 20:38:00</admissiondate>
+		<bedno></bedno>
+		<name>高水清</name>
+		<id>385354|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[267664]ms, 参数： 
+<request>
+	<doctor>
+		<departname>神经内科</departname>
+		<code></code>
+		<name></name>
+		<departcode>7</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1942-02-15</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>7</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>神经内科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-15 09:15:00</admissiondate>
+		<bedno></bedno>
+		<name>朱栋良</name>
+		<id>385023|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[273715]ms, 参数： 
+<request>
+	<doctor>
+		<departname>泌尿外科</departname>
+		<code></code>
+		<name></name>
+		<departcode>98</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1952-12-09</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>98</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>泌尿外科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-29 08:57:00</admissiondate>
+		<bedno></bedno>
+		<name>胡登旭</name>
+		<id>382912|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[273716]ms, 参数： 
+<request>
+	<doctor>
+		<departname>肝胆外科</departname>
+		<code></code>
+		<name></name>
+		<departcode>12</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1970-11-08</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>12</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>肝胆外科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-06 14:12:00</admissiondate>
+		<bedno></bedno>
+		<name>王海</name>
+		<id>383863|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[273715]ms, 参数： 
+<request>
+	<doctor>
+		<departname>妇科</departname>
+		<code></code>
+		<name></name>
+		<departcode>16</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1988-07-04</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>16</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>妇科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-25 05:26:00</admissiondate>
+		<bedno></bedno>
+		<name>杨娟</name>
+		<id>386264|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[246420]ms, 参数： 
+<request>
+	<doctor>
+		<departname>妇科</departname>
+		<code></code>
+		<name></name>
+		<departcode>16</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1989-10-04</birthday>
+		<code></code>
+		<sex>女</sex>
+		<departcode>16</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>妇科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-09-01 14:41:00</admissiondate>
+		<bedno></bedno>
+		<name>郑洪雨</name>
+		<id>383293|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 
+2021-09-28 15:21:00: 用户ip：127.0.0.1,审查耗时较长，耗时[273714]ms, 参数： 
+<request>
+	<doctor>
+		<departname>泌尿外科</departname>
+		<code></code>
+		<name></name>
+		<departcode>98</departcode>
+		<duty></duty>
+	</doctor>
+	<d_type>5</d_type>
+	<patient>
+		<birthday>1984-03-06</birthday>
+		<code></code>
+		<sex>男</sex>
+		<departcode>98</departcode>
+		<weight>0</weight>
+		<idcardno/>
+		<type/>
+		<departname>泌尿外科</departname>
+		<visitid>1</visitid>
+		<admissiondate>2020-08-27 09:10:00</admissiondate>
+		<bedno></bedno>
+		<name>杨敏</name>
+		<id>382703|2</id>
+		<chargetype></chargetype>
+		<status>1</status>
+	</patient>
+	<dda_task>1</dda_task>
+	<p_type>4</p_type>
+	<rows/>
+	<is_after>1</is_after>
+	<products>hospital_imic</products>
+</request>
+==== 

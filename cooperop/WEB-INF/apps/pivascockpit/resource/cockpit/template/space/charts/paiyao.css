@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/*驾驶舱样式*/
+.cockpit > .cockpit-tabpanels > .cockpit-tabpanel > .cockpit-box > .cockpit-chart.cockpit-chart-paiyao .cockpit-chart-list{display: flex;flex-direction: column;height: 100%; align-items: center;}
+.cockpit > .cockpit-tabpanels > .cockpit-tabpanel > .cockpit-box > .cockpit-chart.cockpit-chart-paiyao .cockpit-chart-list > div {display: flex;flex: 1;width:100%;padding-top:1vh;align-items: center;margin-bottom:1vh;}
+.cockpit > .cockpit-tabpanels > .cockpit-tabpanel > .cockpit-box > .cockpit-chart.cockpit-chart-paiyao .cockpit-chart-list dl{flex:1;}
+.cockpit > .cockpit-tabpanels > .cockpit-tabpanel > .cockpit-box > .cockpit-chart.cockpit-chart-paiyao .cockpit-chart-list dl:before{content:'';display:table;}
+.cockpit > .cockpit-tabpanels > .cockpit-tabpanel > .cockpit-box > .cockpit-chart.cockpit-chart-paiyao .cockpit-chart-list dl:after{content:'';display:table;clear:both;}
+.cockpit > .cockpit-tabpanels > .cockpit-tabpanel > .cockpit-box > .cockpit-chart.cockpit-chart-paiyao .cockpit-chart-list dl + dl{margin-left: 2%;}
+.cockpit > .cockpit-tabpanels > .cockpit-tabpanel > .cockpit-box > .cockpit-chart.cockpit-chart-paiyao .cockpit-chart-list dt{width: 100%; font-size: 1.6rem; text-align: center; position: relative; top: -1vh;}
+.cockpit > .cockpit-tabpanels > .cockpit-tabpanel > .cockpit-box > .cockpit-chart.cockpit-chart-paiyao .cockpit-chart-list dd{width: calc(100% / 3); padding: 0.2rem; float: left; text-align: center;}
+.cockpit > .cockpit-tabpanels > .cockpit-tabpanel > .cockpit-box > .cockpit-chart.cockpit-chart-paiyao .cockpit-chart-list dd span{display: block; width: 100%; line-height: 7.5rem; font-size: 1.6rem; font-weight: 600; background: url("../images/circle_blue.svg") center center /contain no-repeat; margin: 0 auto;}
+.cockpit > .cockpit-tabpanels > .cockpit-tabpanel > .cockpit-box > .cockpit-chart.cockpit-chart-paiyao .cockpit-chart-list dd span.bg-green{background-image: url("../images/circle_green.svg");}
+.cockpit > .cockpit-tabpanels > .cockpit-tabpanel > .cockpit-box > .cockpit-chart.cockpit-chart-paiyao .cockpit-chart-list dd span.bg-red{background-image: url("../images/circle_red.svg");}
+
+/*大屏样式*/
+.cockpit-chart-paiyao > .cockpit-chart-content > .cockpit-chart-chart .highcharts-container .highcharts-color-0, 
+.cockpit-chart-paiyao > .cockpit-chart-content > .cockpit-chart-chart .highcharts-container .highcharts-color-0 > rect{
+	fill: #e1363c!important;
+	strokeWidth: 0;
+}
+
+.cockpit-chart-paiyao > .cockpit-chart-content > .cockpit-chart-chart .highcharts-container .highcharts-color-1,
+.cockpit-chart-paiyao > .cockpit-chart-content > .cockpit-chart-chart .highcharts-container .highcharts-color-1 > rect {
+	fill: #0264a9!important;
+	strokeWidth: 0;
+}
+
+.cockpit-chart-paiyao > .cockpit-chart-content > .cockpit-chart-chart .highcharts-container .highcharts-color-2,
+.cockpit-chart-paiyao > .cockpit-chart-content > .cockpit-chart-chart .highcharts-container .highcharts-color-2 > rect {
+	fill: #17cb6a!important;
+	strokeWidth: 0;
+}

@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+
+ .portlet-body{
+margin-top: 10px;
+ }
+
+ .portlet-body .form-horizontal{
+ 
+ }
+
+ .portlet-body .form-horizontal .form-extend-body{
+ 
+ }
+
+ .portlet-body .form-horizontal .form-extend-btn{
+ 
+ }
+ 
+ .form-collapse-btn{
+     margin-left: 20px;
+ }
+ 
+ 

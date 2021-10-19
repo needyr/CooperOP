@@ -1,0 +1,39 @@
+.chart-span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5em;
+    text-align: center;
+    background-color: #fff;
+    overflow: hidden;
+}
+.chart-div{
+    width: 60%;
+    padding-bottom: 10px;
+}
+.chart-title{
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+.cspan{
+    margin : 0 auto;
+    border: 2px solid rgb(124, 181, 236);
+    padding: 10px 10px 10px 10px;
+}
+.cspan-head{
+    font-size: 16px;
+}
+.cspan-content{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3em;
+    color: rgb(124, 181, 236);
+}
+.cspan-footer{
+    font-size: 14px;
+}
+.cspan-footer i {
+    margin: 0 5px;
+}

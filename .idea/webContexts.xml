@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_common/view/showturns/detail.jsp" value="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_common/view/showturns" />
+        <entry key="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/view/config/groupengine/edit.jsp" value="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/view/config/groupengine" />
+        <entry key="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/view/costsclass/list.jsp" value="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/view/costsclass" />
+        <entry key="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/view/listbill/billindex.jsp" value="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/view/listbill" />
+        <entry key="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/dda/task/guide_2.jsp" value="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/dda/task" />
+        <entry key="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/dda/task/list.jsp" value="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/dda/task" />
+        <entry key="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/simic/audit_detail.jsp" value="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/simic" />
+        <entry key="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/simic/bill_dtl.jsp" value="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/simic" />
+        <entry key="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/simic/index.jsp" value="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/simic" />
+        <entry key="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic_drgs/view/dgda/Yearfile.jsp" value="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic_drgs/view/dgda" />
+      </map>
+    </option>
+  </component>
+</project>

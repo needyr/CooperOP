@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.crtech.cn/cooperop" xmlns="http://www.crtech.cn/cooperop"
+	elementFormDefault="qualified">
+	<xs:element name="view">
+		<xs:complexType mixed="true">
+			<xs:all maxOccurs="1">
+				<xs:element ref="page"></xs:element>
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="page">
+		<xs:complexType mixed="true">
+			<xs:all maxOccurs="1" minOccurs="0">
+				<xs:element ref="toolbar"></xs:element>
+			</xs:all>
+			<xs:attribute name="disloggedin" type="xs:boolean"
+				default="true">
+				<xs:annotation>
+					<xs:documentation>是否校验页面需要登录</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="dispermission" type="xs:boolean"
+				default="true">
+				<xs:annotation>
+					<xs:documentation>是否校验页面需要授权</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="init-action" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>页面初始化方案</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="ismodal" type="xs:boolean" default="false">
+				<xs:annotation>
+					<xs:documentation>是否模式窗口页面，模式页面将没有顶部导航、左侧菜单、右侧聊天及底部宣传信息，只有页面主体部分
+					</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="toolbar" type="toolbarType">
+	</xs:element>
+	<xs:complexType name="toolbarType" mixed="true">
+		<xs:attribute name="color" type="xs:string">
+			<xs:annotation>
+				<xs:documentation>颜色</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+</xs:schema>

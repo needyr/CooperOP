@@ -1,0 +1,35 @@
+
+e
+java:S1192p"PDefine a constant instead of duplicating this literal "hospital_common" 4 times.(„şés
+b
+java:S1192q"LDefine a constant instead of duplicating this literal "hospital_id" 4 times.(Ì…´ë
+c
+java:S1192p"NDefine a constant instead of duplicating this literal "hospital_name" 4 times.(„şés
+`	java:S112n"FDefine and throw a dedicated exception instead of using a generic one.(Ô…Şüÿÿÿÿ
+a	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ğë¡şÿÿÿÿ
+u
+java:S1488™"YImmediately return this expression instead of assigning it to the temporary variable "r".(¤’”“ûÿÿÿÿ
+D
+java:S1128"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚw
+t
+java:S4144"XUpdate this method so that its implementation is not identical to "addtask" on line 110.(Ğë¡şÿÿÿÿ
+H
+java:S1172n"-Remove this unused method parameter "params".(Ô…Şüÿÿÿÿ
+‡
+java:S1130n"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Ô…Şüÿÿÿÿ
+P
+java:S6213o":Rename this variable to not match a restricted identifier.(²˜¹ú
+U
+java:S6213w":Rename this variable to not match a restricted identifier.(ÑÙÜŠùÿÿÿÿ
+d	java:S100‰"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚÷åĞ
+i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğë¡şÿÿÿÿ
+I
+java:S1172"-Remove this unused method parameter "params".(Ğë¡şÿÿÿÿ
+ˆ
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Ğë¡şÿÿÿÿ
+Q
+java:S6213‘":Rename this variable to not match a restricted identifier.(²˜¹ú
+i	java:S100—"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÚµùÿÿÿÿ
+d	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßŠ½Û
+V
+java:S6213á":Rename this variable to not match a restricted identifier.(ÑÙÜŠùÿÿÿÿ

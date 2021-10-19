@@ -1,0 +1,272 @@
+.lastbox, .firstbox {
+	width: 50%;
+	float: left;
+}
+
+.firstbox {
+	padding-right: 10px
+}
+
+.lastbox {
+	padding-left: 10px
+}
+
+.form-horizontal .row-fluid .firstbox .control-icon {
+	right: 11px;
+}
+
+.lastbox:before {
+	content: "";
+	position: absolute;
+	width: 8px;
+	height: 2px;
+	background-color: #9c9a9a;
+	left: -5px;
+	top: 15px;
+}
+
+/***
+Dropdown Menu
+***/
+.bootstrap-timepicker-widget.dropdown-menu {
+	min-width: 175px;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	float: left;
+	list-style: none;
+	text-shadow: none;
+	padding: 0px;
+	background-color: #ffffff;
+	margin: 10px 0px 0px 0px;
+	box-shadow: 5px 5px rgba(102, 102, 102, 0.1);
+	border: 1px solid #eee;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.bootstrap-timepicker-widget.dropdown-menu li.divider {
+	background: #f1f3f6;
+}
+
+.bootstrap-timepicker-widget.dropdown-menu li.dropdown-header {
+	padding: 8px 14px 2px 14px;
+}
+
+.bootstrap-timepicker-widget.dropdown-menu li>a {
+	padding: 8px 14px;
+	color: #555;
+	text-decoration: none;
+	display: block;
+	clear: both;
+	font-weight: 300;
+	line-height: 18px;
+	white-space: nowrap;
+}
+
+.bootstrap-timepicker-widget.dropdown-menu li>a>[class^="fa-"], .bootstrap-timepicker-widget.dropdown-menu li>a>[class*=" fa-"]
+	{
+	color: #888;
+}
+
+.bootstrap-timepicker-widget.dropdown-menu li>a>[class^="icon-"], .bootstrap-timepicker-widget.dropdown-menu li>a>[class*=" icon-"]
+	{
+	color: #666;
+}
+
+.bootstrap-timepicker-widget.dropdown-menu li>a>[class^="glyphicon-"], .bootstrap-timepicker-widget.dropdown-menu li>a>[class*=" glyphicon-"]
+	{
+	color: #888;
+}
+
+.bootstrap-timepicker-widget.dropdown-menu li>a:hover, .bootstrap-timepicker-widget.dropdown-menu .active>a, .bootstrap-timepicker-widget.dropdown-menu .active>a:hover
+	{
+	text-decoration: none;
+	background-image: none;
+	background-color: #f6f6f6;
+	color: #555;
+	filter: none;
+}
+
+.bootstrap-timepicker-widget.dropdown-menu.bottom-up {
+	top: auto;
+	bottom: 100%;
+	margin-bottom: 2px;
+}
+
+.bootstrap-timepicker-widget.dropdown-menu>li:first-child:hover>a {
+	border-radius: 4px 4px 0px 0px;
+}
+
+.bootstrap-timepicker-widget.dropdown-menu>li:last-child:hover>a {
+	border-radius: 0px 0px 4px 4px;
+}
+
+
+.bootstrap-timepicker-widget.dropdown-menu {
+	padding: 2px 3px 2px 2px
+}
+
+.bootstrap-timepicker-widget.dropdown-menu.open {
+	display: inline-block
+}
+
+.bootstrap-timepicker-widget.dropdown-menu:before {
+	border-bottom: 7px solid rgba(0, 0, 0, 0.2);
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	content: "";
+	display: inline-block;
+	left: 9px;
+	position: absolute;
+	top: -7px
+}
+
+.bootstrap-timepicker-widget.dropdown-menu:after {
+	border-bottom: 6px solid #fff;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	content: "";
+	display: inline-block;
+	left: 10px;
+	position: absolute;
+	top: -6px
+}
+
+.bootstrap-timepicker-widget.timepicker-orient-left:before {
+	left: 6px
+}
+
+.bootstrap-timepicker-widget.timepicker-orient-left:after {
+	left: 7px
+}
+
+.bootstrap-timepicker-widget.timepicker-orient-right:before {
+	right: 6px
+}
+
+.bootstrap-timepicker-widget.timepicker-orient-right:after {
+	right: 7px
+}
+
+.bootstrap-timepicker-widget.timepicker-orient-top:before {
+	top: -7px
+}
+
+.bootstrap-timepicker-widget.timepicker-orient-top:after {
+	top: -6px
+}
+
+.bootstrap-timepicker-widget.timepicker-orient-bottom:before {
+	bottom: -7px;
+	border-bottom: 0;
+	border-top: 7px solid #999
+}
+
+.bootstrap-timepicker-widget.timepicker-orient-bottom:after {
+	bottom: -6px;
+	border-bottom: 0;
+	border-top: 6px solid #fff
+}
+
+.bootstrap-timepicker-widget a.btn, .bootstrap-timepicker-widget input {
+	border-radius: 4px
+}
+
+.bootstrap-timepicker-widget table {
+	width: 100%;
+	margin: 0
+}
+
+.bootstrap-timepicker-widget table td {
+	text-align: center;
+	height: 30px;
+	margin: 0;
+	padding: 2px
+}
+
+.bootstrap-timepicker-widget table td:not (.separator ){
+	min-width: 30px
+}
+
+.bootstrap-timepicker-widget table td span {
+	width: 100%
+}
+
+.bootstrap-timepicker-widget table td a {
+	border: 1px transparent solid;
+	width: 100%;
+	display: inline-block;
+	margin: 0;
+	padding: 8px 0;
+	outline: 0;
+	color: #333
+}
+
+.bootstrap-timepicker-widget table td a:hover {
+	text-decoration: none;
+	background-color: #eee;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border-color: #ddd
+}
+
+.bootstrap-timepicker-widget table td a i {
+	margin-top: 2px;
+	font-size: 18px
+}
+
+.bootstrap-timepicker-widget table td input {
+	width: 25px;
+	margin: 0;
+	text-align: center
+}
+
+.bootstrap-timepicker-widget .modal-content {
+	padding: 4px
+}
+
+@media ( min-width :767px) {
+	.bootstrap-timepicker-widget.modal {
+		width: 200px;
+		margin-left: -100px
+	}
+}
+
+@media ( max-width :767px) {
+	.bootstrap-timepicker {
+		width: 100%
+	}
+	.bootstrap-timepicker .dropdown-menu {
+		width: 100%
+	}
+}
+
+/***
+Bootstrap Time Picker
+***/
+.bootstrap-timepicker-widget table td a {
+	padding: 4px 0;
+}
+
+.bootstrap-timepicker-widget input, .bootstrap-timepicker-widget input:focus
+	{
+	outline: none !important;
+	border: 0;
+}
+
+.modal-open .bootstrap-timepicker-widget {
+	z-index: 10055 !important;
+}
+
+.bootstrap-timepicker-widget.timepicker-orient-bottom:before,
+	.bootstrap-timepicker-widget.timepicker-orient-bottom:after {
+	top: auto;
+}

@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+@IMPORT url("reset.css");
+
+@IMPORT url("web.css");
+
+@IMPORT url("master.css");
+
+@IMPORT url("../plugins/iconfont/iconfont.css");
+
+@IMPORT url("global.css");
+
+@IMPORT url("master1.2.css");
+
+.main {
+	background-color: #f5f5f5;
+	margin: 0 auto;
+}
+
+.main>.content {
+	border-left: none;
+	min-height: 780px;
+}
+
+.main>.content>.contentRight {
+	padding: 0px 10px;
+}
+
+.main>.content>.contentRight>.title {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 50px;
+	padding: 0 15px;
+	border-bottom: 1px solid #eee;
+	position: relative;
+	margin-bottom: 10px;
+	color: #333333;
+}
+
+body.ismodal {
+	background: #FFF;
+	min-width: 0px;
+	min-height: 0px;
+}
+
+body.ismodal .main {
+	background: #FFF;
+	min-width: 0px;
+	min-height: 0px;
+}
+
+body.ismodal .main .content {
+	background: #FFF;
+	min-width: 0px;
+	min-height: 0px;
+}
+
+body.ismodal .main .content .contentRight {
+	min-width: 0px;
+	min-height: 0px;
+	width: 100%;
+	margin: 10px 0px;
+	box-shadow: none;
+	border: none;
+}
+
+.portlet {
+	margin: 0 30px;
+	margin-top: 0px;
+	border: none !important;
+}
+
+.portlet.box>.portlet-title {
+	padding: 0 10px;
+	margin-bottom: 10px;
+	line-height: 36px;
+	height: 36px;
+	font-size: 16px;
+	color: #000;
+	font-weight: normal;
+	border-bottom: 1px dashed #CCC;
+}
+
+.portlet.box>.portlet-title>.tools>.nav.navbar-nav {
+	width: auto;
+	margin-right: 10px;
+	margin-top: 5px;
+	height: 20px;
+}
+
+.portlet.box>.portlet-body {
+	background-color: #fff;
+	padding: 10px 10px;
+}
+
+.portlet>.portlet-title>.caption>i, .portlet.box>.portlet-title>.caption>i, .tab-portlet>.portlet-title>.nav-tabs i {
+	font-size: 14px;
+	margin-right: 5px;
+	color: #c81321;
+}
+
+.portlet>.portlet-title .tools, .portlet.box>.portlet-title .tools {
+	padding: 0px 0 0px 0;
+	margin-top: -2px;
+}
+
+.portlet>.portlet-title .tools .btn-default, .portlet.box>.portlet-title .tools .btn-default {
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #DDD;
+}
+
+.form-horizontal .row-fluid>.cols, .form-horizontal .row-fluid>.cols1, .form-horizontal .row-fluid>.cols2, .form-horizontal .row-fluid>.cols3, .form-horizontal .row-fluid>.cols4 {
+	padding-left: 90px;
+	padding-right: 10px;
+	float: left;
+}
+
+.form-horizontal .row-fluid .control-label {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 85px;
+	padding-top: 0px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.form-horizontal .row-fluid>.cols, .form-horizontal .row-fluid>.cols1 {
+	width: 33.333333%;
+}
+
+.form-horizontal .row-fluid>.cols2 {
+	width: 66.666667%;
+}
+
+.form-horizontal .row-fluid>.cols3 {
+	width: 100%;
+}
+
+.form-horizontal .row-fluid>.cols4 {
+	width: 100%;
+}
+
+.form-horizontal .row-fluid .control-label {
+	position: absolute;
+	left: 5px;
+	top: 0px;
+	width: 75px;
+	padding-top: 0px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+div.dataTables_length label {
+	margin-bottom: 5px;
+}
+
+.dataTables_wrapper .table-scrollable .dataTables_scrollHead table.table-bordered thead th {
+	background: #f5f5f5;
+}
+
+.ui-helper-hidden-accessible {
+	display: none;
+}

@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CooperOp" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="591176f8-8f37-4e95-9a48-41281085b50f" name="还原: 有关医保结算审查优化费用明细检索功能事宜" comment="都江堰人民医院需求-新增中途结算功能以及事后审查队列发起修改">
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB05.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB05_1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB05_1_1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB05_1_2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB05_2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB05_3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB05_31.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB05_31_1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB05_31_2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB05_3_1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB05_3_2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB05_41.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB05_41_1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB05_41_2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB06.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB07.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB071.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB071_1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB072.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB072_1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB072_2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB07_1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB07_1_1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB07_1_2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB07_2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB07_2_1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB07_2_2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB08.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB09.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB10.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB11.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB12.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB12_1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB13.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB14.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB15.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB15_1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB20.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB20_1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB20_1_1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB20_2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB20_3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB20_3_1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/chart/chart/BB20_4.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/query" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/query/q" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/query/q/YBCX-PM1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/query/q/YBCX-PM1_1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/query/q/YBCX-PM1_1_1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/query/q/YBCX-PM2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/query/q/YBCX-PM3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/query/q/YBCX-PM4.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/query/q/YBCX-PM5.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/query/q/YBCX-PM51.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/query/q/YBCX-PM6.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/query/q/YBCX-PM7.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/query/q/YBCX01.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/query/q/YBCX02.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/query/q/YBCX03.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/query/q/YBCX04.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/query/q/YBCX05.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/query/q/YBCX06.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/query/q/YBCX07.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/crdc/crdc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/crdc/crdc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/src/cn/crtech/cooperop/hospital_drgs/action/pgje/TempleAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/src/cn/crtech/cooperop/hospital_drgs/action/pgje/TempleAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/src/cn/crtech/cooperop/hospital_drgs/service/pgje/TempleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/src/cn/crtech/cooperop/hospital_drgs/service/pgje/TempleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/view/drg_dict/yearpgje/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/view/drg_dict/yearpgje/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/src/cn/crtech/cooperop/hospital_imic/dao/dda/TaskDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/src/cn/crtech/cooperop/hospital_imic/dao/dda/TaskDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/src/cn/crtech/cooperop/hospital_imic/service/dda/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/src/cn/crtech/cooperop/hospital_imic/service/dda/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/dda/task/after_audit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/dda/task/after_audit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/dda/task/guide_new.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/dda/task/guide_new.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/dda/task/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/view/dda/task/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/config/datasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/config/datasource.xml" afterDir="false" />
+    </list>
+    <list id="94881f1a-3ce1-4916-bad9-6a224afe1d60" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/view/listbill/billindex2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-jxh/scripts/login-cz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/aliicon" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/aliicon/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/aliicon/demo_fontclass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/aliicon/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/aliicon/demo_symbol.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/aliicon/demo_unicode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/aliicon/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/aliicon/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/aliicon/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/aliicon/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/aliicon/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/aliicon/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/aliicon/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/aliicon/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/login-cz.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/cicon" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/cicon/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/cicon/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/cicon/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/cicon/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/cicon/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/cicon/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/cicon/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/cicon/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/cicon/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/cicon/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/OpenSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/OpenSans-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/OpenSans-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/OpenSans-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/OpenSans-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/OpenSans-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/OpenSans-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/OpenSans-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/OpenSans-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/OpenSans-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/OpenSans.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/OpenSans.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/OpenSans.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/webfontkit-20190523-033537" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/webfontkit-20190523-033537/generator_config.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/webfontkit-20190523-033537/opensans-regular-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/webfontkit-20190523-033537/opensans-regular-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/webfontkit-20190523-033537/opensans-regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/webfontkit-20190523-033537/opensans-regular-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/webfontkit-20190523-033537/specimen_files" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/webfontkit-20190523-033537/specimen_files/grid_12-825-55-15.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/webfontkit-20190523-033537/specimen_files/specimen_stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/OpenSans/webfontkit-20190523-033537/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/Roboto" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/Roboto/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/Roboto/Roboto-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/Roboto/Roboto-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/Roboto/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/Roboto/Roboto-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/Roboto/Roboto-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/Roboto/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/Roboto/Roboto-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/Roboto/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/Roboto/Roboto-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/Roboto/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/Roboto/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/fonts/Roboto/Roboto-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/images/bg_head.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/images/bg_yj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/images/head_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/images/laba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/main/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/myicon" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/myicon/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/myicon/demo_fontclass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/myicon/demo_symbol.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/myicon/demo_unicode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/myicon/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/myicon/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/myicon/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/myicon/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/myicon/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css/myicon/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/img/error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/img/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/img/title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/img/wechat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/img/zw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/scripts/login-cz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/aliicon" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/aliicon/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/aliicon/demo_fontclass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/aliicon/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/aliicon/demo_symbol.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/aliicon/demo_unicode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/aliicon/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/aliicon/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/aliicon/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/aliicon/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/aliicon/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/aliicon/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/aliicon/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/aliicon/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/login-cz.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/cicon" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/cicon/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/cicon/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/cicon/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/cicon/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/cicon/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/cicon/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/cicon/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/cicon/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/cicon/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/cicon/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/OpenSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/OpenSans-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/OpenSans-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/OpenSans-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/OpenSans-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/OpenSans-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/OpenSans-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/OpenSans-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/OpenSans-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/OpenSans-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/OpenSans.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/OpenSans.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/OpenSans.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/webfontkit-20190523-033537" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/webfontkit-20190523-033537/generator_config.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/webfontkit-20190523-033537/opensans-regular-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/webfontkit-20190523-033537/opensans-regular-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/webfontkit-20190523-033537/opensans-regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/webfontkit-20190523-033537/opensans-regular-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/webfontkit-20190523-033537/specimen_files" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/webfontkit-20190523-033537/specimen_files/grid_12-825-55-15.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/webfontkit-20190523-033537/specimen_files/specimen_stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/OpenSans/webfontkit-20190523-033537/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/Roboto" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/Roboto/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/Roboto/Roboto-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/Roboto/Roboto-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/Roboto/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/Roboto/Roboto-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/Roboto/Roboto-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/Roboto/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/Roboto/Roboto-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/Roboto/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/Roboto/Roboto-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/Roboto/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/Roboto/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/fonts/Roboto/Roboto-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/images/bg_head.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/images/bg_yj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/images/head_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/images/laba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/main/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/myicon" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/myicon/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/myicon/demo_fontclass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/myicon/demo_symbol.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/myicon/demo_unicode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/myicon/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/myicon/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/myicon/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/myicon/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/myicon/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css/myicon/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/img/bg_footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/img/btn_v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/img/error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/img/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/img/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/img/title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/img/wave.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/img/wechat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/img/zs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/img/zs2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/img/zw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/scripts/login-cz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/src/cn/crtech/cooperop/hospital_drgs/dao/listBillDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/src/cn/crtech/cooperop/hospital_drgs/dao/listBillDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/src/cn/crtech/cooperop/hospital_drgs/service/listBillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/src/cn/crtech/cooperop/hospital_drgs/service/listBillService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/view/drg_dict/querydrgs/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/view/drg_dict/querydrgs/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/view/listbill/billindex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/view/listbill/billindex.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic_drgs/hospital_imic_drgs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic_drgs/hospital_imic_drgs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/ipc/src/cn/crtech/precheck/ipc/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/ipc/src/cn/crtech/precheck/ipc/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/setting/classes/cn/crtech/cooperop/setting/action/DepAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/setting/classes/cn/crtech/cooperop/setting/action/DepAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/setting/classes/cn/crtech/cooperop/setting/dao/DepDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/setting/classes/cn/crtech/cooperop/setting/dao/DepDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/setting/classes/cn/crtech/cooperop/setting/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/setting/classes/cn/crtech/cooperop/setting/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/setting/classes/cn/crtech/cooperop/setting/service/DepService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/setting/classes/cn/crtech/cooperop/setting/service/DepService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/setting/src/cn/crtech/cooperop/setting/action/DepAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/setting/src/cn/crtech/cooperop/setting/action/DepAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/setting/src/cn/crtech/cooperop/setting/dao/DepDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/setting/src/cn/crtech/cooperop/setting/dao/DepDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/setting/src/cn/crtech/cooperop/setting/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/setting/src/cn/crtech/cooperop/setting/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/setting/src/cn/crtech/cooperop/setting/service/DepService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/setting/src/cn/crtech/cooperop/setting/service/DepService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/setting/view/dep/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/setting/view/dep/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/apps/setting/view/dep/deptree.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/apps/setting/view/dep/deptree.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/WEB-INF/config/memcached.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cooperop/WEB-INF/config/memcached.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-jxh/scripts" beforeDir="true" afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-jxh/scripts" afterDir="true" />
+      <change beforePath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css" beforeDir="true" afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/css" afterDir="true" />
+      <change beforePath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/img" beforeDir="true" afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/img" afterDir="true" />
+      <change beforePath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/scripts" beforeDir="true" afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-yb/scripts" afterDir="true" />
+      <change beforePath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css" beforeDir="true" afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/css" afterDir="true" />
+      <change beforePath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/img" beforeDir="true" afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/img" afterDir="true" />
+      <change beforePath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/scripts" beforeDir="true" afterPath="$PROJECT_DIR$/cooperop/themes/classic4.0/logins/login-znjc/scripts" afterDir="true" />
+      <change beforePath="$PROJECT_DIR$/src/cn/crtech/cooperop/bus/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/crtech/cooperop/bus/Bus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/crtech/cooperop/bus/license/License.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/crtech/cooperop/bus/license/License.java" afterDir="false" />
+    </list>
+    <list id="2ae0b045-4d4f-4d85-bf0e-936c053399e5" name="还原: 取消医保控费费用明细中次均费用的显示" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="CommittedChangesCache">
+    <option name="refreshEnabled" value="true" />
+    <option name="refreshInterval" value="600" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\maven-rep" />
+        <option name="userSettingsFile" value="F:\JetBrains\IntelliJ IDEA 2020.1.3\plugins\maven\lib\maven3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qauGnmZms31UVtyW3zrrCCJxD3" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder5" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="236" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="237" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="236" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="238" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="236" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth5" value="82" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder5" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="236" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="237" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="236" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3" value="238" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="236" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth5" value="82" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.14513788" />
+    <property name="project.structure.side.proportion" value="0.17006803" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.gitee.ui.GiteeSettingsConfigurable" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/test" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\YICE_PROJECT\ideaworkA\CooperOP\cooperop\WEB-INF\apps\hospital_imic\jasper\selfpaid" />
+      <recent name="D:\YICE_PROJECT\ideaworkA\CooperOP\cooperop\WEB-INF\apps\hospital_common\view\additional" />
+      <recent name="D:\YICE_PROJECT\ideaworkA\CooperOP\cooperop\WEB-INF\apps\hospital_imic\resource\css" />
+      <recent name="D:\YICE_PROJECT\ideaworkA\CooperOP\cooperop\WEB-INF\apps\hospital_imic\resource" />
+      <recent name="D:\YICE_PROJECT\ideaworkA\CooperOP\cooperop\WEB-INF\apps\hospital_imic_drgs\resource\script" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\YICE_PROJECT\ideaworkA\CooperOP\cooperop\WEB-INF\apps\hospital_imic\view\selfpaid" />
+      <recent name="D:\YICE_PROJECT\ideaworkA\CooperOP\cooperop\WEB-INF\apps\hosiptal_kpi\view" />
+      <recent name="D:\YICE_PROJECT\ideaworkA\CooperOP\cooperop\WEB-INF\apps\hospital_drgs\view\pgje" />
+      <recent name="D:\YICE_PROJECT\ideaworkA\CooperOP\cooperop\WEB-INF\apps\hospital_drgs\view\pgje\inputtask\temple" />
+      <recent name="D:\YICE_PROJECT\ideaworkA\CooperOP\cooperop\WEB-INF\apps\hospital_drgs\view\pgje\inputtask\task" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.crtech.cooperop.hospital_kpi.service.config" />
+      <recent name="cn.crtech.cooperop.hospital_kpi.dao.config" />
+      <recent name="cn.crtech.ylz" />
+      <recent name="cn.crtech.cooperop.hospital_kpi.dao" />
+      <recent name="cn.crtech.cooperop.hospital_drgs.dao.pgje" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.24">
+    <configuration name="ExcelFileDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.crtech.cooperop.hospital_drgs.dao.ExcelFileDao" />
+      <module name="hospital_drgs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.crtech.cooperop.hospital_drgs.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.crtech.cooperop.hospital_drgs.action.Test" />
+      <module name="hospital_drgs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.crtech.cooperop.hospital_drgs.action.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XmlCheckService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.crtech.cooperop.hospital_common.service.XmlCheckService" />
+      <module name="hospital_common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.crtech.cooperop.hospital_common.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ylz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.crtech.ylz.ylz" />
+      <module name="hospital_common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.crtech.ylz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.0.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.24" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="$PROJECT_DIR$/cooperop">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="7cfc2af9-96a5-4ece-a157-abe2f4f3c4cc" />
+        <option name="JNDI_PORT" value="1098" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61173" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="false" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ExcelFileDao" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.XmlCheckService" />
+      <item itemvalue="Application.ylz" />
+      <item itemvalue="Tomcat Server.Tomcat 8.0.24" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\10767\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+    <option name="FORCE_UPDATE" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94881f1a-3ce1-4916-bad9-6a224afe1d60" name="Default Changelist" comment="" />
+      <changelist id="591176f8-8f37-4e95-9a48-41281085b50f" name="还原: 有关医保结算审查优化费用明细检索功能事宜" comment="" />
+      <changelist id="2ae0b045-4d4f-4d85-bf0e-936c053399e5" name="还原: 取消医保控费费用明细中次均费用的显示" comment="" />
+      <created>1617329928236</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617329928236</updated>
+      <workItem from="1617329936498" duration="2428000" />
+      <workItem from="1617332796751" duration="1907000" />
+      <workItem from="1617334904193" duration="19716000" />
+      <workItem from="1617624671087" duration="596000" />
+      <workItem from="1617671413266" duration="23572000" />
+      <workItem from="1617757599404" duration="23691000" />
+      <workItem from="1617844183410" duration="9377000" />
+      <workItem from="1617892299035" duration="525000" />
+      <workItem from="1617930546133" duration="4928000" />
+      <workItem from="1617947449859" duration="67000" />
+      <workItem from="1617948019360" duration="7317000" />
+      <workItem from="1618103999600" duration="20658000" />
+      <workItem from="1618189525245" duration="1780000" />
+      <workItem from="1618194419123" duration="15260000" />
+      <workItem from="1618277063718" duration="18982000" />
+      <workItem from="1618362818222" duration="7220000" />
+      <workItem from="1618449164512" duration="5582000" />
+      <workItem from="1618465453652" duration="7519000" />
+      <workItem from="1618535614643" duration="15093000" />
+      <workItem from="1618653391557" duration="713000" />
+      <workItem from="1618881288782" duration="15600000" />
+      <workItem from="1618906462018" duration="5847000" />
+      <workItem from="1618916485903" duration="9000" />
+      <workItem from="1618967969939" duration="12833000" />
+      <workItem from="1618986856216" duration="10911000" />
+      <workItem from="1619053906445" duration="4924000" />
+      <workItem from="1619060384761" duration="699000" />
+      <workItem from="1619062993998" duration="244000" />
+      <workItem from="1619063759698" duration="9394000" />
+      <workItem from="1619097046481" duration="40000" />
+      <workItem from="1619140082938" duration="28678000" />
+      <workItem from="1619250531064" duration="56000" />
+      <workItem from="1619313337512" duration="7016000" />
+      <workItem from="1619329016210" duration="586000" />
+      <workItem from="1619330115598" duration="2955000" />
+      <workItem from="1619357584137" duration="651000" />
+      <workItem from="1619399774069" duration="372000" />
+      <workItem from="1619400599017" duration="10986000" />
+      <workItem from="1619434722949" duration="637000" />
+      <workItem from="1619438584095" duration="622000" />
+      <workItem from="1619486881753" duration="3749000" />
+      <workItem from="1619491136969" duration="16853000" />
+      <workItem from="1619520407724" duration="80000" />
+      <workItem from="1619659101995" duration="22950000" />
+      <workItem from="1619745025097" duration="19841000" />
+      <workItem from="1620212360202" duration="1322000" />
+      <workItem from="1620263908380" duration="7307000" />
+      <workItem from="1620349848539" duration="13187000" />
+      <workItem from="1620436363984" duration="4795000" />
+      <workItem from="1620442962818" duration="4845000" />
+      <workItem from="1620454550233" duration="11346000" />
+      <workItem from="1620609128062" duration="25090000" />
+      <workItem from="1620695485811" duration="13270000" />
+      <workItem from="1620782629857" duration="571000" />
+      <workItem from="1620784004293" duration="21891000" />
+      <workItem from="1620814510917" duration="1236000" />
+      <workItem from="1620868469487" duration="22094000" />
+      <workItem from="1620954811131" duration="15659000" />
+      <workItem from="1620976391965" duration="8830000" />
+      <workItem from="1621072592445" duration="717000" />
+      <workItem from="1621214245220" duration="24560000" />
+      <workItem from="1621300401147" duration="245000" />
+      <workItem from="1621301186082" duration="11317000" />
+      <workItem from="1621319356129" duration="1822000" />
+      <workItem from="1621321628234" duration="5279000" />
+      <workItem from="1621327148918" duration="4841000" />
+      <workItem from="1621386716428" duration="9392000" />
+      <workItem from="1621402983163" duration="684000" />
+      <workItem from="1621403682222" duration="26000" />
+      <workItem from="1621403717824" duration="828000" />
+      <workItem from="1621404973171" duration="786000" />
+      <workItem from="1621405775654" duration="384000" />
+      <workItem from="1621406339514" duration="675000" />
+      <workItem from="1621407212906" duration="75000" />
+      <workItem from="1621407295611" duration="357000" />
+      <workItem from="1621407664788" duration="165000" />
+      <workItem from="1621407837888" duration="386000" />
+      <workItem from="1621408234304" duration="1671000" />
+      <workItem from="1621412062394" duration="244000" />
+      <workItem from="1621412315709" duration="8451000" />
+      <workItem from="1621472869157" duration="894000" />
+      <workItem from="1621473950303" duration="567000" />
+      <workItem from="1621474907520" duration="23499000" />
+      <workItem from="1621559228619" duration="18983000" />
+      <workItem from="1621818937718" duration="599000" />
+      <workItem from="1621819548652" duration="260000" />
+      <workItem from="1621819820661" duration="1711000" />
+      <workItem from="1621826412880" duration="121000" />
+      <workItem from="1621826543718" duration="58000" />
+      <workItem from="1621826614926" duration="110000" />
+      <workItem from="1621826735230" duration="155000" />
+      <workItem from="1621826901539" duration="87000" />
+      <workItem from="1621826998468" duration="129000" />
+      <workItem from="1621827138328" duration="3735000" />
+      <workItem from="1621838196715" duration="627000" />
+      <workItem from="1621839315726" duration="5406000" />
+      <workItem from="1621904871649" duration="5312000" />
+      <workItem from="1621991187626" duration="2591000" />
+      <workItem from="1621995820108" duration="995000" />
+      <workItem from="1621996819848" duration="127000" />
+      <workItem from="1621996949957" duration="310000" />
+      <workItem from="1621997263659" duration="552000" />
+      <workItem from="1621997819351" duration="727000" />
+      <workItem from="1621998586381" duration="11176000" />
+      <workItem from="1622014370612" duration="2808000" />
+      <workItem from="1622017186487" duration="1207000" />
+      <workItem from="1622018398017" duration="56000" />
+      <workItem from="1622018468901" duration="3183000" />
+      <workItem from="1622077893133" duration="20820000" />
+      <workItem from="1622103295195" duration="1331000" />
+      <workItem from="1622104849062" duration="4488000" />
+      <workItem from="1622164249049" duration="18029000" />
+      <workItem from="1622187296512" duration="6077000" />
+      <workItem from="1622423395586" duration="12577000" />
+      <workItem from="1622443925203" duration="328000" />
+      <workItem from="1622444463338" duration="6532000" />
+      <workItem from="1622509585225" duration="16997000" />
+      <workItem from="1622596575099" duration="11874000" />
+      <workItem from="1622682504069" duration="19517000" />
+      <workItem from="1622769014095" duration="22157000" />
+      <workItem from="1623028342277" duration="23478000" />
+      <workItem from="1623114550930" duration="23758000" />
+      <workItem from="1623201044730" duration="24134000" />
+      <workItem from="1623287473200" duration="21096000" />
+      <workItem from="1623374012493" duration="7330000" />
+      <workItem from="1623382703682" duration="12579000" />
+      <workItem from="1623735456049" duration="40000" />
+      <workItem from="1623735505474" duration="13307000" />
+      <workItem from="1623805789449" duration="10490000" />
+      <workItem from="1623892669388" duration="9048000" />
+      <workItem from="1623913580083" duration="2540000" />
+      <workItem from="1623916599509" duration="3324000" />
+      <workItem from="1623920608618" duration="1230000" />
+      <workItem from="1623978970528" duration="9248000" />
+      <workItem from="1624410739527" duration="2475000" />
+      <workItem from="1624420869053" duration="14397000" />
+      <workItem from="1624497218854" duration="22229000" />
+      <workItem from="1624583867072" duration="14881000" />
+      <workItem from="1624671015625" duration="5697000" />
+      <workItem from="1624842857023" duration="17085000" />
+      <workItem from="1624930690694" duration="2736000" />
+      <workItem from="1625016347095" duration="18774000" />
+      <workItem from="1625101761688" duration="2122000" />
+      <workItem from="1625104380493" duration="14152000" />
+      <workItem from="1625188426624" duration="8708000" />
+      <workItem from="1625447732802" duration="10275000" />
+      <workItem from="1625465765235" duration="12651000" />
+      <workItem from="1625534325710" duration="10495000" />
+      <workItem from="1625551556738" duration="6237000" />
+      <workItem from="1625557817992" duration="42000" />
+      <workItem from="1625557870505" duration="5177000" />
+      <workItem from="1625563922319" duration="2762000" />
+      <workItem from="1625620843107" duration="19106000" />
+      <workItem from="1625653810241" duration="97000" />
+      <workItem from="1625707287626" duration="26960000" />
+      <workItem from="1625793587681" duration="98000" />
+      <workItem from="1625793698532" duration="26798000" />
+      <workItem from="1625966803303" duration="26456000" />
+      <workItem from="1626052772328" duration="19650000" />
+      <workItem from="1626138525596" duration="20272000" />
+      <workItem from="1626227479565" duration="10041000" />
+      <workItem from="1626311847105" duration="6226000" />
+      <workItem from="1626407742145" duration="8386000" />
+      <workItem from="1626656853761" duration="810000" />
+      <workItem from="1626659938739" duration="4926000" />
+      <workItem from="1626668833910" duration="1329000" />
+      <workItem from="1626744367523" duration="12193000" />
+      <workItem from="1627029759033" duration="3167000" />
+      <workItem from="1627262799021" duration="10202000" />
+      <workItem from="1627348401809" duration="20359000" />
+      <workItem from="1627434725370" duration="14786000" />
+      <workItem from="1627456665325" duration="8240000" />
+      <workItem from="1627521402257" duration="13912000" />
+      <workItem from="1627551363715" duration="1055000" />
+      <workItem from="1627608544076" duration="16563000" />
+      <workItem from="1627867077833" duration="134000" />
+      <workItem from="1627867223318" duration="16185000" />
+      <workItem from="1627952475681" duration="24228000" />
+      <workItem from="1628039589529" duration="9088000" />
+      <workItem from="1628126308340" duration="1352000" />
+      <workItem from="1628129346051" duration="7948000" />
+      <workItem from="1628212663919" duration="7827000" />
+      <workItem from="1628229910269" duration="3805000" />
+      <workItem from="1628471774609" duration="6263000" />
+      <workItem from="1628558418858" duration="13670000" />
+      <workItem from="1628587441951" duration="939000" />
+      <workItem from="1628588393292" duration="794000" />
+      <workItem from="1628589330310" duration="647000" />
+      <workItem from="1628644487946" duration="934000" />
+      <workItem from="1628645436344" duration="146000" />
+      <workItem from="1628645627568" duration="627000" />
+      <workItem from="1628646268655" duration="13616000" />
+      <workItem from="1628666179585" duration="9390000" />
+      <workItem from="1628730338860" duration="9717000" />
+      <workItem from="1628752614473" duration="612000" />
+      <workItem from="1628818087989" duration="5226000" />
+      <workItem from="1629076449741" duration="4488000" />
+      <workItem from="1629162692438" duration="4642000" />
+      <workItem from="1629258972927" duration="4786000" />
+      <workItem from="1629284549400" duration="112000" />
+      <workItem from="1629422149002" duration="5842000" />
+      <workItem from="1629681607338" duration="2601000" />
+      <workItem from="1629768398387" duration="7830000" />
+      <workItem from="1629854307360" duration="1364000" />
+      <workItem from="1629964815981" duration="5041000" />
+      <workItem from="1629972076853" duration="399000" />
+      <workItem from="1630027456081" duration="4270000" />
+      <workItem from="1630286254895" duration="18825000" />
+      <workItem from="1630319186115" duration="424000" />
+      <workItem from="1630371831721" duration="6443000" />
+      <workItem from="1630379080814" duration="17578000" />
+      <workItem from="1630458125656" duration="6300000" />
+      <workItem from="1630545526848" duration="5293000" />
+      <workItem from="1630631444498" duration="6794000" />
+      <workItem from="1630892563917" duration="10421000" />
+      <workItem from="1630977016993" duration="10402000" />
+      <workItem from="1631063365420" duration="11823000" />
+      <workItem from="1631150544734" duration="8752000" />
+      <workItem from="1631236403008" duration="9623000" />
+      <workItem from="1631412746870" duration="22076000" />
+      <workItem from="1631495801878" duration="8484000" />
+      <workItem from="1631511768681" duration="12345000" />
+      <workItem from="1631581820948" duration="10250000" />
+      <workItem from="1631598056735" duration="12578000" />
+      <workItem from="1631668170077" duration="24854000" />
+      <workItem from="1631755129831" duration="19628000" />
+      <workItem from="1631840939794" duration="18124000" />
+      <workItem from="1631927080342" duration="19479000" />
+      <workItem from="1632272703271" duration="13510000" />
+      <workItem from="1632297010776" duration="8065000" />
+      <workItem from="1632359255779" duration="21141000" />
+      <workItem from="1632445884980" duration="12345000" />
+      <workItem from="1632618507901" duration="15562000" />
+      <workItem from="1632644958595" duration="3558000" />
+      <workItem from="1632705990120" duration="13244000" />
+      <workItem from="1632792862561" duration="21635000" />
+      <workItem from="1632878400583" duration="3366000" />
+      <workItem from="1632882879664" duration="6809000" />
+      <workItem from="1632895169601" duration="1634000" />
+      <workItem from="1632896817141" duration="10388000" />
+      <workItem from="1633654923180" duration="11457000" />
+      <workItem from="1633741881662" duration="2396000" />
+      <workItem from="1634613742507" duration="380000" />
+      <workItem from="1634614152204" duration="541000" />
+      <workItem from="1634614738340" duration="4855000" />
+      <workItem from="1634626418638" duration="3361000" />
+    </task>
+    <task id="LOCAL-00046" summary="DRG在线审查记录查看字段更改">
+      <created>1625825394985</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1625825394985</updated>
+    </task>
+    <task id="LOCAL-00047" summary="DRG保存预设分组更改">
+      <created>1625825434526</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1625825434526</updated>
+    </task>
+    <task id="LOCAL-00048" summary="DRG医保结算清单调整">
+      <created>1625825462570</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1625825462570</updated>
+    </task>
+    <task id="LOCAL-00049" summary="DRG年度评估金额导入功能缺失文件">
+      <created>1625825502241</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1625825502241</updated>
+    </task>
+    <task id="LOCAL-00050" summary="DRG评估金额导入页面调整">
+      <created>1625827136341</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1625827136342</updated>
+    </task>
+    <task id="LOCAL-00051" summary="DRG在线审查分组详情查看MDC名称不显示问题">
+      <created>1625968030853</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1625968030854</updated>
+    </task>
+    <task id="LOCAL-00052" summary="DRG评估金额导入流程修改">
+      <created>1625996074774</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1625996074774</updated>
+    </task>
+    <task id="LOCAL-00053" summary="DRG评估金额数据年度与任务年度检查">
+      <created>1625997126471</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1625997126471</updated>
+    </task>
+    <task id="LOCAL-00054" summary="DRG年度评估金额删除任务时数据没有删除完整的问题">
+      <created>1626072126510</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1626072126510</updated>
+    </task>
+    <task id="LOCAL-00055" summary="DRG诊断辅助查询功能调整和添加">
+      <created>1626078931520</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1626078931520</updated>
+    </task>
+    <task id="LOCAL-00056" summary="分组倍率资料维护">
+      <created>1626078982740</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1626078982740</updated>
+    </task>
+    <task id="LOCAL-00057" summary="字段显示名称修改">
+      <created>1626079020755</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1626079020755</updated>
+    </task>
+    <task id="LOCAL-00058" summary="DRG保存分组预设内容添加">
+      <created>1626080896869</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1626080896869</updated>
+    </task>
+    <task id="LOCAL-00059" summary="DRG年度评估金额上传功能调整">
+      <created>1626157173117</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1626157173117</updated>
+    </task>
+    <task id="LOCAL-00060" summary="DRG分组倍率设置显示调整">
+      <created>1626159369600</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1626159369600</updated>
+    </task>
+    <task id="LOCAL-00061" summary="DRG分组预设保存以及DRG分组列表显示调整">
+      <created>1626169733996</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1626169733996</updated>
+    </task>
+    <task id="LOCAL-00062" summary="医保结算清单调整">
+      <created>1626169765549</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1626169765550</updated>
+    </task>
+    <task id="LOCAL-00063" summary="DRG后端代码格式调整以及医保结算页面调整">
+      <created>1626315457113</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1626315457113</updated>
+    </task>
+    <task id="LOCAL-00064" summary="DRG诊断辅助查询评估金额修改">
+      <created>1626410586353</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1626410586354</updated>
+    </task>
+    <task id="LOCAL-00065" summary="事后审查查看为空问题解决以及医保结算清单页面内容调整">
+      <created>1626419349702</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1626419349702</updated>
+    </task>
+    <task id="LOCAL-00066" summary="诊断辅助查询调整">
+      <created>1626419398882</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1626419398882</updated>
+    </task>
+    <task id="LOCAL-00067" summary="DRG审查页面调整以及辅助查询显示内容调整">
+      <created>1626426239547</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1626426239547</updated>
+    </task>
+    <task id="LOCAL-00068" summary="DRG审查记录显示字段调整">
+      <created>1626427168256</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1626427168256</updated>
+    </task>
+    <task id="LOCAL-00069" summary="DRG审查详情查看显示字段调整">
+      <created>1626749178764</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1626749178764</updated>
+    </task>
+    <task id="LOCAL-00070" summary="DRG从DRG选择病组预设保存功能完成">
+      <created>1626771740633</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1626771740633</updated>
+    </task>
+    <task id="LOCAL-00071" summary="删除DRG审核中不必要的字段以及新增盈亏金额显示">
+      <created>1627357869470</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1627357869470</updated>
+    </task>
+    <task id="LOCAL-00072" summary="删除病组分值付费审核详情中评估金额显示，新增盈亏金额显示">
+      <created>1627357974141</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1627357974141</updated>
+    </task>
+    <task id="LOCAL-00073" summary="DRG新增单个患者审核函数">
+      <created>1627376306510</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1627376306510</updated>
+    </task>
+    <task id="LOCAL-00074" summary="新增分组依据来源">
+      <created>1627544119609</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1627544119610</updated>
+    </task>
+    <task id="LOCAL-00075" summary="都江堰人民医院需求调整-住院天数显示提醒以及患者诊断显示字段调整">
+      <created>1627982293876</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1627982293876</updated>
+    </task>
+    <task id="LOCAL-00076" summary="有关医保结算审查优化费用明细检索功能事宜">
+      <created>1627982359472</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1627982359472</updated>
+    </task>
+    <task id="LOCAL-00077" summary="病值分组付费审查结果中添加入组诊断显示">
+      <created>1627982422920</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1627982422920</updated>
+    </task>
+    <task id="LOCAL-00078" summary="取消医保控费费用明细中次均费用的显示">
+      <created>1628068225700</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1628068225700</updated>
+    </task>
+    <task id="LOCAL-00079" summary="绩效指标模块新增HIS费用分类与系统标准分类匹配功能">
+      <created>1628666838439</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1628666838440</updated>
+    </task>
+    <task id="LOCAL-00080" summary="DRG基础资料新增版本号字段以及相关维护调整">
+      <created>1628667683996</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1628667683996</updated>
+    </task>
+    <task id="LOCAL-00081" summary="DRG辅助查询报错">
+      <created>1628668478744</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1628668478744</updated>
+    </task>
+    <task id="LOCAL-00082" summary="新增病组指标数据导入分析">
+      <created>1630546244108</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1630546244108</updated>
+    </task>
+    <task id="LOCAL-00083" summary="病值分组付费辅助查询添加年度条件筛选">
+      <created>1630632123393</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1630632123393</updated>
+    </task>
+    <task id="LOCAL-00084" summary="新增绩效分析标杆值配置功能">
+      <created>1630637803365</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1630637803365</updated>
+    </task>
+    <task id="LOCAL-00085" summary="修复病组指标数据导入分析中出现的问题以及新增数据来源选择">
+      <created>1630908862332</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1630908862332</updated>
+    </task>
+    <task id="LOCAL-00086" summary="更新一些页面中查询条件表述不明的问题">
+      <created>1631780648174</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1631780648175</updated>
+    </task>
+    <task id="LOCAL-00087" summary="新增医院需求医保系统强转自费功能">
+      <created>1632882665117</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1632882665118</updated>
+    </task>
+    <task id="LOCAL-00088" summary="医保强转自费功能提交缺少的接口文件-1">
+      <created>1632882712825</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1632882712825</updated>
+    </task>
+    <task id="LOCAL-00089" summary="扣费数据分析功能页面调整">
+      <created>1632883032664</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1632883032664</updated>
+    </task>
+    <task id="LOCAL-00090" summary="页面显示字段调整">
+      <created>1632883055999</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1632883055999</updated>
+    </task>
+    <task id="LOCAL-00091" summary="扣费数据分析新页面缺少的css文件">
+      <created>1632883077345</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1632883077345</updated>
+    </task>
+    <task id="LOCAL-00092" summary="都江堰人民医院需求-新增中途结算功能以及事后审查队列发起修改">
+      <created>1633678640087</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1633678640087</updated>
+    </task>
+    <task id="LOCAL-00093" summary="金堂医院需求-新增查看HIS转自费功能">
+      <created>1633678703186</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1633678703186</updated>
+    </task>
+    <task id="LOCAL-00094" summary="病组分组付费事后审查线程池创建位置错误更改">
+      <created>1633678858942</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1633678858942</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DRG新增单个患者审核函数" />
+    <MESSAGE value="新增分组依据来源" />
+    <MESSAGE value="都江堰人民医院需求调整-住院天数显示提醒以及患者诊断显示字段调整" />
+    <MESSAGE value="有关医保结算审查优化费用明细检索功能事宜" />
+    <MESSAGE value="病值分组付费审查结果中添加入组诊断显示" />
+    <MESSAGE value="取消医保控费费用明细中次均费用的显示" />
+    <MESSAGE value="新增绩效指标模块HIS费用分类与系统标准分类匹配功能" />
+    <MESSAGE value="绩效指标模块新增HIS费用分类与系统标准分类匹配功能" />
+    <MESSAGE value="DRG基础资料新增版本号字段以及相关维护调整" />
+    <MESSAGE value="DRG辅助查询报错" />
+    <MESSAGE value="数据库配置文件新增hospital_kpi库连接配置" />
+    <MESSAGE value="新增病组指标数据导入分析" />
+    <MESSAGE value="病值分组付费辅助查询添加年度条件筛选" />
+    <MESSAGE value="新增绩效分析标杆值配置功能" />
+    <MESSAGE value="新增绩效分析标杆值配置功能目录（上一次未提交成功的）" />
+    <MESSAGE value="修复病组指标数据导入分析中出现的问题以及新增数据来源选择" />
+    <MESSAGE value="更新一些页面中查询条件表述不明的问题" />
+    <MESSAGE value="新增医院需求医保系统强转自费功能" />
+    <MESSAGE value="医保强转自费功能提交缺少的接口文件-1" />
+    <MESSAGE value="扣费数据分析功能页面调整" />
+    <MESSAGE value="页面显示字段调整" />
+    <MESSAGE value="扣费数据分析新页面缺少的css文件" />
+    <MESSAGE value="都江堰人民医院需求-新增中途结算功能以及事后审查队列发起修改" />
+    <MESSAGE value="金堂医院需求-新增查看HIS转自费功能" />
+    <MESSAGE value="病组分组付费事后审查线程池创建位置错误更改" />
+    <option name="LAST_COMMIT_MESSAGE" value="病组分组付费事后审查线程池创建位置错误更改" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/crtech/cooperop/application/action/test/XmlCheckAction.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo />
+        <PinnedItemInfo parentTag="java.util.HashMap$Node" memberName="key" />
+        <PinnedItemInfo parentTag="java.util.LinkedHashMap$Entry" memberName="value" />
+        <PinnedItemInfo parentTag="cn.crtech.cooperop.bus.rdms.Result" memberName="resultset" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="excelMust" language="JAVA" />
+        <watch expression="exRes" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CooperOP$Tomcat_8_0_24.ic" NAME="Tomcat 8.0.24 覆盖结果" MODIFIED="1630379218047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

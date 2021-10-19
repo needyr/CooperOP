@@ -1,0 +1,178 @@
+.form-horizontal .row-fluid .checkbox-list {
+    min-height: 30px;
+    padding: 0px 5px;
+    font-size: 12px;
+    line-height: 28px;
+    font-weight: normal;
+    color: #333;
+    background-color: #fff;
+    box-shadow: none;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    border-radius: 2px !important;
+    border: 1px dashed #cfd6e0;
+}
+
+.form-horizontal .row-fluid .checkbox-list > label.checkbox-inline {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0px;
+    vertical-align: inherit;
+    margin-right: 15px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.form-horizontal .row-fluid .checkbox-list > label.checkbox-inline > div.checker {
+    position: relative;
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    top: 5px;
+    margin-right: 5px;
+}
+
+.form-horizontal .row-fluid .checkbox-list > label.checkbox-inline > div.checker span {
+    display: inline-block;
+    background-position: 0 -260px;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    border-radius: 2px;
+    transition: all 0.5s;
+    border: 1px solid #cfd6e0;
+    background-repeat: no-repeat;
+    -webkit-font-smoothing: antialiased;
+}
+
+.form-horizontal .row-fluid .checkbox-list > label.checkbox-inline > div.checker input {
+    width: 19px;
+    height: 19px;
+    -webkit-appearance: none;
+    display: none;
+}
+
+.form-horizontal .row-fluid .checkbox-list > label.checkbox-inline > div.checker span.checked {
+	background: #2f77dc;
+	border-color: #2f77dc;
+}
+
+.form-horizontal .row-fluid .checkbox-list > label.checkbox-inline > div.checker span i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    display: none;
+    color: #fff;
+}
+
+.form-horizontal .row-fluid .checkbox-list > label.checkbox-inline > div.checker .checked i {
+    display: block;
+}
+
+
+.form-horizontal .row-fluid .checkbox-list > label.checkbox-inline > div.checker.disabled {
+    cursor: no-drop;
+    background-color: #eee;
+}
+
+.form-horizontal .row-fluid .checkbox-list > label.checkbox-inline > div.checker.disabled span input{
+	cursor: no-drop;
+}
+
+
+.dataTables_wrapper .control-content .checkbox-list {
+    min-height: 28px;
+    padding: 0px 5px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: normal;
+    color: #333;
+    background-color: #fff;
+    box-shadow: none;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    border-radius: 2px !important;
+    border: 1px solid #cfd6e0;
+}
+
+.dataTables_wrapper .control-content .checkbox-list > label.checkbox-inline {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0px;
+    vertical-align: middle;
+    margin-right: 15px;
+    margin-left: 0px;
+    margin-top: -2px;
+    cursor: pointer;
+    line-height: 20px;
+    height: 26px;
+}
+
+.dataTables_wrapper .control-content .checkbox-list > label.checkbox-inline > div.checker {
+    position: relative;
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    top: 7px;
+    margin-right: 5px;
+}
+
+.dataTables_wrapper .control-content .checkbox-list > label.checkbox-inline > div.checker span {
+    display: inline-block;
+    background-position: 0 -260px;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    border-radius: 2px;
+    transition: all 0.5s;
+    border: 1px solid #cfd6e0;
+    background-repeat: no-repeat;
+    -webkit-font-smoothing: antialiased;
+}
+
+.dataTables_wrapper .control-content .checkbox-list > label.checkbox-inline > div.checker input {
+    width: 19px;
+    height: 19px;
+    -webkit-appearance: none;
+    display: none !important;
+}
+
+.dataTables_wrapper .control-content .checkbox-list > label.checkbox-inline > div.checker span.checked {
+	background: #2f77dc;
+	border-color: #2f77dc;
+}
+
+.dataTables_wrapper .control-content .checkbox-list > label.checkbox-inline > div.checker span i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    display: none;
+    color: #fff;
+}
+
+.dataTables_wrapper .control-content .checkbox-list > label.checkbox-inline > div.checker .checked i {
+    display: block;
+}
+
+
+.dataTables_wrapper .control-content .checkbox-list > label.checkbox-inline > div.checker.disabled {
+    cursor: no-drop;
+    background-color: #eee;
+}
+
+.dataTables_wrapper .control-content .checkbox-list > label.checkbox-inline > div.checker.disabled span input{
+	cursor: no-drop;
+}
+
+
+
+/* div.selector, div.selector span, div.checker span, div.radio span, div.uploader, div.uploader span.action, div.button, div.button span { */
+/*     background-repeat: no-repeat; */
+/*     -webkit-font-smoothing: antialiased; */
+/* } */

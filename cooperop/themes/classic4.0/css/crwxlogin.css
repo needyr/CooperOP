@@ -1,0 +1,16 @@
+@charset "utf-8";
+/*iconfont*/
+
+iframe{
+	width: 128px;
+	height: 128px;	
+}
+.impowerBox .title{
+	display: none;
+}
+.impowerBox .panelContent .info{
+	display: none;
+}
+.impowerBox .panelContent .wrp_code .qrcode{
+	width: 126px;
+}

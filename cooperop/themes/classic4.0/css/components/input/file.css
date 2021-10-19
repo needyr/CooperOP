@@ -1,0 +1,191 @@
+.form-horizontal .row-fluid .fileupload {
+    min-height: 30px;
+    padding: 0px;
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: normal;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: none;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    border-radius: 4px;
+}
+
+.form-horizontal .row-fluid .fileupload .fileupload-buttonbar{
+	text-align: center;
+	padding: 16px 0;
+}
+
+.form-horizontal .row-fluid .fileupload .fileupload-buttonbar .btn.green {
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #a9b1bd;
+    overflow: inherit;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.form-horizontal .row-fluid .fileupload .fileupload-buttonbar .btn.green input{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    -ms-filter: 'alpha(opacity=0)';
+    font-size: 0;
+    direction: ltr;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.form-horizontal .row-fluid .fileupload .fileupload-buttonbar .btn.green:hover{
+	color: #333;
+    border-color: #85aee6;
+    background-color:#fff;
+    box-shadow: 0 1px 4px rgba(10, 15, 226, 0.24);
+}
+
+.form-horizontal .row-fluid .fileupload .fileupload-buttonbar .btn {
+    background-color: #2f77dc;
+    color: #fff;
+    margin: 5px 0px 5px 5px;
+}
+
+.form-horizontal .row-fluid .fileupload .fileupload-buttonbar .btn:hover{
+	background: #4384de;
+}
+
+.form-horizontal .row-fluid .fileupload .table {
+    margin-bottom: 0px;
+}
+
+button.btn.btn-sm.blue.start {
+    border-color: #2469ca;
+}
+
+.form-horizontal .row-fluid .fileupload .table {
+    margin-bottom: 0px;
+}
+.clearfix {
+    zoom: 1;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.form-horizontal .row-fluid .fileupload .table>tbody>tr:nth-of-type(odd) {
+    background: none;
+}
+
+.form-horizontal .row-fluid .fileupload .table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.form-horizontal .row-fluid .fileupload .fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+}
+.form-horizontal .row-fluid .fileupload .fade.in {
+    opacity: 1;
+}
+
+.form-horizontal .row-fluid .fileupload .table .files tr:last-child td {
+    border-bottom: none;
+}
+
+.form-horizontal .row-fluid .fileupload .table .files tr:first-child td {
+    border-top: 1px dashed #eee;
+}
+.form-horizontal .row-fluid .fileupload .table .files tr td {
+    position: relative;
+    padding: 0px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 32px;
+    border-top: none;
+    border-bottom: 1px dashed #eee;
+}
+
+.form-horizontal .row-fluid .fileupload .table .files tr:last-child td {
+    border-bottom: none;
+}
+
+.form-horizontal .row-fluid .fileupload .table .files tr:first-child td {
+    border-top: 1px dashed #eee;
+    /* width: 20px; */
+    box-sizing: border-box;
+    padding: 0;
+}
+.form-horizontal .row-fluid .fileupload .table .files tr td {
+    position: relative;
+    padding: 0px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 32px;
+    border-top: none;
+    border-bottom: 1px dashed #eee;
+}
+
+.form-horizontal .row-fluid .fileupload .progress {
+    height: 6px;
+    overflow: hidden;
+    background-color: #ddd;
+    border: 0;
+    background-image: none;
+    filter: none;
+    box-shadow: none;
+    width: 100px;
+    position: absolute;
+    left: 0;
+    top: 13px;
+}
+
+.form-horizontal .row-fluid .fileupload .progress > .progress-bar-success {
+    background-color: #45B6AF;
+}
+
+.form-horizontal .row-fluid .fileupload .progress-bar.active, .progress.active .progress-bar {
+    animation: progress-bar-stripes 2s linear infinite;
+    height: 6px;
+    transition: 0.5s;
+}
+
+.form-horizontal .row-fluid .fileupload i.cicon.icon-document {
+    color: #fcb955;
+}
+
+.form-horizontal .row-fluid .fileupload p.size {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 12px;
+    box-sizing: border-box;
+    height: 34px;
+    line-height: 30px;
+    letter-spacing: -1px;
+}
+
+.form-horizontal .row-fluid .fileupload a.font-red {
+    text-decoration: none;
+    color: #888;
+    font-size: 14px;
+}
+
+.form-horizontal .row-fluid .fileupload .files tr{
+	border-bottom:1px dashed #ddd;
+}
+
+.form-horizontal .row-fluid .fileupload table .files{
+	padding:0 20px;
+}

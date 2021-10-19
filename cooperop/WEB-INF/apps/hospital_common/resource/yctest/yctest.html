@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>iadscp cmmand 压力测试</title>
+		<script type="text/javascript" src="./yctest.js"></script>
+	</head>
+	<body>
+		<style type="text/css">
+			#ecode_id{
+				width:732px;
+				height: 30px;
+				font-size: 14px;
+			}
+			#reqd, #respd, #rsql{
+				width: 800px;
+				outline: none;
+				/* font-family: 'Lucida Console'; */
+				font-family: '微软雅黑';
+				resize: vertical;
+			}
+			#reqd:hover {
+			    box-shadow: 0px 2px 3px 0px #d8d7d7;
+			}
+			button{
+				height: 30px;
+			}
+			.tit{
+				margin-top: 5px;
+				display: table;
+				padding: 2px 5px 2px 5px;
+				background: #cff3f9;
+				font-size: 12px;
+			}
+		</style>
+		<!-- <a href="crtech://openim?params=xx">自定以协议crtech</a> -->
+		<div id="main">
+			<form id="tform">
+				<span class="tit"> 数据源SQL </span>
+				<textarea id="rsql" placeholder="数据源SQL" rows="10">select his_req from auto_common</textarea>
+				
+				<span class="tit"> 单组访问数 </span>
+				<input id="surf_int" type="text" value="10" />
+				
+				<span class="tit"> 每组访问间隔时间/s </span>
+				<input id="wait_int" type="text" value="10" />
+				
+				<span class="tit"> 命令 </span>
+				<input type="checkbox" name="callcmd" value="InterfaceInit"> InterfaceInit
+				<input type="checkbox" name="callcmd" value="PreCheck_Message"> PreCheck_Message
+				<input type="checkbox" name="callcmd" value="PreCheck_Audit"> PreCheck_Audit
+				<input type="checkbox" name="callcmd" value="PreCheck_SIMIC"> PreCheck_SIMIC
+				<input type="checkbox" name="callcmd" value="PreCheck_Search"> PreCheck_Search
+				
+				<div style="margin-top: 30px;">
+					<button onclick="exec()" type="button"> 执行命令 </button>
+					<button onclick="upctrl(1)" type="button" style="margin-left: 100px;"> 审查后返回  </button>
+					<button onclick="upctrl(2)" type="button"> 返回后审查 </button>
+					<button onclick="upctrl(3)" type="button"> 审查并监听返回 </button>
+					<button onclick="upctrl(4)" type="button"> 审查并监听返回(使用audit-core) </button>
+					<button onclick="upctrl(5)" type="button"> 直接返回 </button>
+					
+					<button onclick="msg()" type="button"> 消息测试 </button>
+				</div>
+				<ol id="res-nitic"></ol>
+			</form>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	var fornum = 0;
+	var waits = 3;
+	var add = 10;
+	var maxnum = 0;
+	var start = 0;
+	
+	function exec(){
+		var list = execSQL();
+		var cmds = '';
+		$('[name=callcmd]:checked').each(function(i){
+			cmds += ","+ $(this).val();
+		});
+		maxnum = list.length;
+		start = (new Date()).getTime();
+		waits = parseInt($('#wait_int').val());
+		add = parseInt($('#surf_int').val());
+		// 重置 
+		fornum = 0;
+		console.log('========================');
+		console.log('==总数量' + maxnum);
+		console.log('=='+waits + '秒一组');
+		console.log('==每组' + add + "个");
+		console.log('==命令' + cmds);
+		console.log('==初始值' + fornum);
+		console.log('========================');
+		var set_i = setInterval(function(){
+			var  old = fornum;
+			if(fornum + add >= maxnum){
+				fornum = maxnum;
+			}else{
+				fornum +=add
+			}
+			console.log('fornum:' + fornum);
+			for(var i = old; i < fornum ; i++){
+				var wr = '<li>当前ms：'+((new Date()).getTime() - start)+', 第' + i +' 个执行命令：' + cmds + '；返回</li>';
+				if(cmds.indexOf('InterfaceInit') >= 0){
+					crInterfaceDoCall('InterfaceInit', list[i].his_req, function(rtn){
+						console.log(i + 'InterfaceInit 返回:');
+						console.log(rtn);
+						cmdcallback(wr + JSON.stringify(rtn));
+					});
+				}
+				if(cmds.indexOf('PreCheck_Audit') >= 0){
+					crInterfaceDoCall('PreCheck_Audit', list[i].his_req, function(rtn){
+						console.log(i + 'PreCheck_Audit 返回:');
+						console.log(rtn);
+						cmdcallback(wr + JSON.stringify(rtn));
+					});
+				}
+				console.log('for:' + i);
+				if(fornum == maxnum){
+					window.clearTimeout(set_i);
+				}
+			}
+		}, waits* 1000);
+	}
+	
+	function cmdcallback(wr){
+		$('#res-nitic').append(wr)
+	}
+	
+	function msg(){
+		$.ajax({
+			"async": false,
+			"dataType" : "json",
+			"type" : "POST",
+			"contentType" : "application/x-www-form-urlencoded; charset=UTF-8",
+			"url" : IADRESS + "/w/hospital_common/test_jq/addnewmsg.json",
+			"data" : {} ,
+			"success" : function(rtn) {
+				if(rtn.data != null){
+					list = rtn.data;
+				}
+			},
+			"error" : function(XMLHttpRequest, textStatus, errorThrown) {
+				alert('请求失败！');
+			}
+		});
+	}
+</script>

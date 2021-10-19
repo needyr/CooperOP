@@ -1,0 +1,828 @@
+*{
+    font-size: 12px;
+}
+
+/* #jydetail b{
+	color: red;
+    font-size: 20px;
+	font-weight: 400;
+	font-family: "Microsoft YaHei", "Microsoft SongT", "Open Sans",sans-serif;
+	text-shadow: 0px 0px 2px red;
+    margin-bottom: 10px;
+} */
+
+
+.wk{
+    width: 800px;
+    height: 550px;
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+.wk .hzxx{
+}
+
+.wk .hzxx>p{
+    margin: 0;
+}
+
+.wk .hzxx>p>b{
+    margin-right: 12px;
+    font-weight: 400;
+    display:  inline-block;
+    text-align:  center;
+    color: #000;
+    font-size: 14px;
+	font-weight: 400;
+	font-family: "Microsoft YaHei", "Microsoft SongT", "Open Sans",sans-serif;
+    color:black;
+    margin-bottom: 10px;
+}
+
+.wk .hzxx>p>span{
+    color: #12c0e6;
+    line-height: 40px;
+}
+
+.div-list{
+    /* border: 1px solid #eee; */
+    height: 490px;
+}
+
+.div-list .dyq{
+    margin: 0;
+    height: 30px;
+    background-color: #ffffff;
+    color: #639bf3;
+    /* margin-bottom:  10px; */
+    border-left: 1px solid #69696a;
+}
+
+.div-list .dyq>span{
+    display:  inline-block;
+    width: 113px;
+    text-align:  center;
+    line-height: 28px;
+    margin-right: 0px;
+    font-size:  14px;
+    border: 1px solid #939292;
+    border-left: none;
+    cursor:  pointer;
+    color: #333;
+    float: left;
+}
+
+.div-list .dyq span:active{
+    background-color: #77a5ed;
+    color:#fff;
+}
+
+.wk .yizhu{
+    margin: auto;
+    overflow:auto;
+    position:relative;
+    height: 459px;
+    display: none;
+    color: #333;
+    margin-top: 1px;
+    border: 1px solid #eee;
+}
+
+.wk .yizhu>table{
+    table-layout: fixed;
+    empty-cells: show;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 1px solid #cad9ea;
+    color: #333;
+    width: 100%;
+    /* height: 100%; */
+    overflow:  auto;
+    font-size: 12px;
+}
+
+.wk .yizhu>table>tbody{
+
+}
+
+.wk .yizhu>table>tbody>tr:hover{
+    background-color: #e6edf3;
+}
+
+.wk .yizhu>table>tbody>tr:nth-child(2n){
+    background-color: #f2f2f2;
+}
+
+.wk .yizhu>table>tbody>tr>td,.wk .yizhu>table>thead>tr>th{
+   border: 1px solid #d7d7d7;
+    padding: 0 5px 0;
+    height: 30px;
+    font-size: 12px;
+    width:55px;
+    font-weight:  400;
+    box-sizing: border-box;
+}
+
+/*2ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â*/
+
+.wk .zd{
+    overflow: auto;
+    height: 459px;
+    display: none;
+    color: #333;
+    border: 1px solid #eee;
+}
+
+.wk .zd>table{
+    table-layout: fixed;
+    empty-cells: show;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 1px solid #cad9ea;
+    color: #666;
+    width: 100%;
+    /* height: 100%; */
+    overflow:  auto;
+    font-size: 12px;
+}
+
+.wk .zd>table>tbody{
+
+}
+
+.wk .zd>table>tbody>tr:hover{
+    background-color: #e6edf3;
+}
+
+.wk .zd>table>tbody>tr>th{
+    border: 1px solid #d7d7d7;
+    padding: 0 5px 0;
+    height: 30px;
+    font-size: 12px;
+    font-weight:  400;
+    color: #333;
+}
+
+.wk .zd>table>tbody>tr:nth-child(2n){
+    background-color: #f2f2f2;
+}
+
+.wk .zd>table>tbody>tr>td{
+    border: 1px solid #d7d7d7;
+    padding: 5px 1em 5px;
+    font-size: 12px;
+    color: #333;
+}
+
+
+/*3-------------------------------------*/
+
+.wk .jiancha{
+    /* overflow: auto; */
+    height: 459px;
+    display: none;
+    border: 1px solid #eee;
+}
+
+.wk .jiancha .left-tb{
+    width: 50%;
+    overflow:  auto;
+    height: 100%;
+    color: #333;
+    float:  left;
+    box-sizing:  border-box;
+    border: 1px solid #cacaca;
+}
+
+.wk .jiancha .left-tb>table{
+    table-layout: fixed;
+    empty-cells: show;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 1px solid #cad9ea;
+    color: #666;
+    width: 100%;
+    overflow:  auto;
+    font-size: 12px;
+}
+
+.wk .jiancha .left-tb>table>tbody{
+
+}
+
+.wk .jiancha .left-tb>table>tbody>tr:hover{
+    background-color: #e6edf3;
+}
+
+.wk .jiancha .left-tb>table>tbody>tr>th{
+    border: 1px solid #d7d7d7;
+    padding: 0 5px 0;
+    height: 30px;
+    font-size: 12px;
+    font-weight:  400;
+    color: #333;
+}
+
+.wk .jiancha .left-tb>table>tbody>tr>th:nth-child(1){
+    width:20px;
+}
+
+.wk .jiancha .left-tb>table>tbody>tr>th:nth-child(2){
+    width:60px;
+}
+
+.wk .jiancha .left-tb>table>tbody>tr>th:nth-child(3){
+    width:80px;
+}
+
+.wk .jiancha .left-tb>table>tbody>tr>th:nth-child(4){
+    width:80px;
+}
+
+.wk .jiancha .left-tb>table>tbody>tr>th:nth-child(5){
+    width:135px;
+}
+
+.wk .jiancha .left-tb>table>tbody>tr>th:nth-child(6){
+    width:135px;
+}
+
+.wk .jiancha .left-tb>table>tbody>tr>th:nth-child(7){
+    width:80px;
+}
+
+.wk .jiancha .left-tb>table>tbody>tr>th:nth-child(8){
+    width:135px;
+}
+
+.wk .jiancha .left-tb>table>tbody>tr>th:nth-child(9){
+    width:80px;
+}
+
+.wk .jiancha .left-tb>table>tbody>tr:nth-child(2n){
+    background-color: #f2f2f2;
+}
+
+.wk .jiancha .left-tb>table>tbody>tr>td{
+    border: 1px solid #d7d7d7;
+    padding: 5px 1em 5px;
+    font-size: 12px;
+    color: #333;
+}
+
+.right-content{
+    width: 50%;
+    float:  left;
+    height: 100%;
+    overflow:  auto;
+    outline: 1px solid #e5e3e3;
+    color: #333;
+}
+
+.right-content .p-head{
+    margin: 0;
+    line-height: 30px;
+    padding-left: 10px;
+    background-color:  #eee;
+}
+
+.right-content .list-p{
+    padding-left: 10px;
+}
+
+.right-content .list-p>span{
+    margin-right:  10px;
+    display:  inline-block;
+    width: 60px;
+}
+
+/*4----------------------------*/
+
+.wk .jianyan{
+    height: 459px;
+    display: none;
+    border: 1px solid #eee;
+}
+
+.wk .jianyan .left-tb{
+    width: 50%;
+    overflow:  auto;
+    height: 100%;
+    float:  left;
+    /* border: 1px solid #e5e3e3; */
+}
+
+.wk .jianyan .left-tb>table{
+    table-layout: fixed;
+    empty-cells: show;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 1px solid #cad9ea;
+    color: #666;
+    width: 100%;
+    overflow:  auto;
+    font-size: 12px;
+}
+
+.wk .jianyan .left-tb>table>tbody{
+
+}
+
+.wk .jianyan .left-tb>table>tbody>tr:hover{
+    background-color: #e6edf3;
+}
+
+.wk .jianyan .left-tb>table>tbody>tr>th{
+    border: 1px solid #d7d7d7;
+    padding: 0 5px 0;
+    height: 30px;
+    font-size: 12px;
+    font-weight:  400;
+    color: #333;
+}
+
+.wk .jianyan .left-tb>table>tbody>tr:nth-child(2n){
+    background-color: #f2f2f2;
+}
+
+.wk .jianyan .left-tb>table>tbody>tr>td{
+    border: 1px solid #d7d7d7;
+    padding: 5px 1em 5px;
+    font-size: 12px;
+    color: #333;
+}
+
+.wk .jianyan .left-tb>table>tbody>tr>th:nth-child(1){
+    width: 20px;
+}
+
+.wk .jianyan .left-tb>table>tbody>tr>th:nth-child(2){
+    width: 60px;
+}
+
+.wk .jianyan .left-tb>table>tbody>tr>th:nth-child(3){
+    width: 300px;
+}
+
+.wk .jianyan .left-tb>table>tbody>tr>th:nth-child(4){
+    width: 60px;
+}
+
+.wk .jianyan .left-tb>table>tbody>tr>th:nth-child(5){
+    width: 135px;
+}
+
+.wk .jianyan .left-tb>table>tbody>tr>th:nth-child(6){
+    width: 135px;
+}
+
+
+
+
+
+
+
+
+
+/* .wk .jianyan .right-content>table{
+    table-layout: fixed;
+    empty-cells: show;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 1px solid #cad9ea;
+    color: #666;
+    width: 100%;
+    overflow:  auto;
+    font-size: 12px;
+}
+
+.wk .jianyan .right-content>table>tbody{
+
+}
+
+.wk .jianyan .right-content>table>tbody>tr:hover{
+    background-color: #e6edf3;
+}
+
+.wk .jianyan .right-content>table>tbody>tr>th{
+    border: 1px solid #cad9ea;
+    padding: 0 5px 0;
+    height: 30px;
+    font-size: 14px;
+    width: 65px;
+}
+
+.wk .jianyan .right-content>table>tbody>tr:nth-child(2n){
+    background-color: #f5fafe;
+}
+
+.wk .jianyan .right-content>table>tbody>tr>td{
+    border: 1px solid #cad9ea;
+    padding: 5px 1em 5px;
+    font-size: 12px; ÃƒÂ¦Ã‚Â£Ã¢â€šÂ¬ÃƒÂ¦Ã…Â¸Ã‚Â¥ ÃƒÂ¥Ã‚ÂÃ‚Â³ÃƒÂ¨Ã‚Â¾Ã‚Â¹ÃƒÂ¦Ã‚Â Ã‚Â·ÃƒÂ¥Ã‚Â¼Ã‚Â
+} */
+
+
+
+
+
+
+
+
+
+.right-content .p-head{
+    margin: 0;
+    line-height: 30px;
+    padding-left: 10px;
+    background-color: #cecaca;
+}
+
+.right-content .list-p{
+    padding-left: 10px;
+    position:  relative;
+}
+
+.right-content .list-p .title{
+    margin-right:  10px;
+    display:  inline-block;
+    width: 60px;
+    position:  absolute;
+}
+
+.right-content .list-p .content{
+    margin-left: 70px;
+    display:  inline-block;
+    width: 290px;
+}
+
+/*5----------------------------*/
+
+.wk .tizheng{
+    overflow: auto;
+    height: 450px;
+    display: none;
+    border: 1px solid #eee;
+}
+
+.wk .tizheng .left-tb{
+    width: 20%;
+    overflow:  auto;
+    height: 99%;
+    float:  left;
+}
+
+.wk .tizheng .left-tb>table{
+    table-layout: fixed;
+    empty-cells: show;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 1px solid #cad9ea;
+    color: #666;
+    width: 100%;
+    overflow:  auto;
+    font-size: 12px;
+}
+
+.wk .tizheng .left-tb>table>tbody{
+
+}
+
+.wk .tizheng .left-tb>table>tbody>tr:hover{
+    background-color: #d1d1d1;
+}
+
+.wk .tizheng .left-tb>table>tbody>tr>th{
+    border: 1px solid #d7d7d7;
+    padding: 0 5px 0;
+    height: 30px;
+    font-size: 12px;
+    width: 90px;
+    font-weight:  400;
+    color: #333;
+}
+
+.wk .tizheng .left-tb>table>tbody>tr:nth-child(2n){
+    background-color: #f2f2f2;
+}
+
+.wk .tizheng .left-tb>table>tbody>tr>td{
+    border: 1px solid #cad9ea;
+    padding: 5px 1em 5px;
+    font-size: 12px;
+    text-align:  center;
+}
+
+
+
+.wk .tizheng .right-content>table{
+    table-layout: fixed;
+    empty-cells: show;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 1px solid #cad9ea;
+    color: #666;
+    width: 100%;
+    overflow:  auto;
+    font-size: 12px;
+}
+
+.wk .tizheng .right-content>table>tbody{
+
+}
+
+.wk .tizheng .right-content>table>tbody>tr:hover{
+    background-color: #e6edf3;
+}
+
+.wk .tizheng .right-content>table>tbody>tr>th{
+    border: 1px solid #d7d7d7;
+    padding: 0 5px 0;
+    height: 30px;
+    font-size: 12px;
+    font-weight:  400;
+    color: #333;
+}
+
+.wk .tizheng .right-content>table>tbody>tr>th:nth-child(1){
+    width: 20px;
+}
+
+.wk .tizheng .right-content>table>tbody>tr>th:nth-child(2){
+    width: 135px;
+}
+
+.wk .tizheng .right-content>table>tbody>tr>th:nth-child(3){
+    width: 135px;
+}
+
+.wk .tizheng .right-content>table>tbody>tr>th:nth-child(5){
+    width: 50px;
+}
+
+.wk .tizheng .right-content>table>tbody>tr>th:nth-child(6){
+    width: 40px;
+}
+
+.wk .tizheng .right-content>table>tbody>tr:nth-child(2n){
+    background-color: #f2f2f2;
+}
+
+.wk .tizheng .right-content>table>tbody>tr>td{
+    border: 1px solid #d7d7d7;
+    padding: 7px 1em 6px;
+    font-size: 12px;
+    color: #333;
+}
+
+tbody>tr:first-child:hover{
+    background-color: #fff !important;
+    cursor: pointer;
+}
+
+tbody>tr:hover{
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.div-list .dyq span:hover {
+    background-color: #77a5ed;
+    color: #fff;
+}
+
+.tradcss{
+	background-color: #eee !important;
+}
+
+
+.wk .otherinfo{
+    overflow: auto;
+    height: 459px;
+    /*  display: none; */
+    color: #333;
+}
+
+.wk .otherinfo>b{
+	font-weight: 400;
+	display: inline-block;
+	width: 100px;
+	line-height: 30px;
+}
+
+.wk .otherinfo span{
+    padding-right: 10px;
+    padding-left: 20px;
+    display: inline-block;
+    width: 100px;
+    line-height: 30px;
+}
+
+
+.fali{
+	font-size: 14px;
+	font-weight: 600;
+}
+
+#jydetail th {
+    font-weight: 400;
+    color: #333;
+}
+
+/*         6                */
+.wk .shoushu{
+    overflow: auto;
+    height: 450px;
+    display: none;
+    border: 1px solid #eee;
+}
+
+.wk .shoushu .left-tb{
+    width: 50%;
+    overflow:  auto;
+    height: 99%;
+    float:  left;
+}
+
+.wk .shoushu .left-tb>table{
+    table-layout: fixed;
+    empty-cells: show;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 1px solid #cad9ea;
+    color: #666;
+    width: 100%;
+    overflow:  auto;
+    font-size: 12px;
+}
+
+.wk .shoushu .left-tb>table>tbody{
+
+}
+
+.wk .shoushu .left-tb>table>tbody>tr:hover{
+    background-color: #e6edf3;
+}
+
+.wk .shoushu .left-tb>table>tbody>tr>th{
+    border: 1px solid #cad9ea;
+    padding: 0 5px 0;
+    height: 30px;
+    font-size: 12px;
+    width: 90px;
+    font-weight:  400;
+    color: #333;
+}
+
+.wk .shoushu .left-tb>table>tbody>tr:nth-child(2n){
+    background-color: #f5fafe;
+}
+
+.wk .shoushu .left-tb>table>tbody>tr>td{
+    border: 1px solid #cad9ea;
+    padding: 5px 1em 5px;
+    font-size: 12px;
+    text-align:  center;
+}
+
+
+
+.wk .shoushu .right-content>table{
+    table-layout: fixed;
+    empty-cells: show;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 1px solid #cad9ea;
+    color: #666;
+    width: 50%;
+    overflow:  auto;
+    font-size: 12px;
+}
+
+.wk .shoushu .right-content>table>tbody{
+
+}
+
+.wk .shoushu .right-content>table>tbody>tr:hover{
+    background-color: #e6edf3;
+}
+
+.wk .shoushu .right-content>table>tbody>tr>th{
+    border: 1px solid #cad9ea;
+    padding: 0 5px 0;
+    height: 30px;
+    font-size: 12px;
+    font-weight:  400;
+    color: #333;
+}
+
+.wk .shoushu .right-content>table>tbody>tr>th:nth-child(1){
+    width: 30px;
+}
+
+.wk .shoushu .right-content>table>tbody>tr>th:nth-child(2){
+    width: 60px;
+}
+
+.wk .shoushu .right-content>table>tbody>tr>th:nth-child(3){
+    width: 150px;
+}
+
+.wk .shoushu .right-content>table>tbody>tr>th:nth-child(4){
+    width: 150px;
+}
+
+.wk .shoushu .right-content>table>tbody>tr>th:nth-child(5){
+    width: 100px;
+}
+
+.wk .shoushu .right-content>table>tbody>tr>th:nth-child(6){
+    width: 150px;
+}
+
+.wk .shoushu .left-tb>table>tbody>tr>th:nth-child(1){
+    width: 30px;
+}
+
+.wk .shoushu .left-tb>table>tbody>tr>th:nth-child(2){
+    width: 100px;
+}
+
+.wk .shoushu .left-tb>table>tbody>tr>th:nth-child(3){
+    width: 150px;
+}
+
+.wk .shoushu .left-tb>table>tbody>tr>th:nth-child(4){
+    width: 50px;
+}
+
+.wk .shoushu .left-tb>table>tbody>tr>th:nth-child(5){
+    width: 60px;
+}
+
+.wk .shoushu .left-tb>table>tbody>tr>th:nth-child(6){
+    width: 150px;
+}
+.wk .shoushu .left-tb>table>tbody>tr>th:nth-child(7){
+    width: 150px;
+}
+
+.wk .shoushu .left-tb>table>tbody>tr>th:nth-child(8){
+    width: 60px;
+}
+
+.wk .shoushu .left-tb>table>tbody>tr>th:nth-child(9){
+    width: 145px;
+}
+
+.wk .shoushu .left-tb>table>tbody>tr>th:nth-child(10){
+    width: 145px;
+}
+
+
+.wk .shoushu .right-content>table>tbody>tr:nth-child(2n){
+    background-color: #f5fafe;
+}
+
+.wk .shoushu .right-content>table>tbody>tr>td{
+    border: 1px solid #cad9ea;
+    padding: 7px 1em 6px;
+    font-size: 12px;
+    color: #333;
+}
+
+tbody>tr:first-child:hover{
+    background-color: #fff !important;
+    cursor: pointer;
+}
+
+tbody>tr:hover{
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.div-list .dyq span:hover {
+    background-color: #717171;
+    color: #fff;
+}
+
+
+.position-th-fixed{
+	position:absolute;top:0
+}
+.wk .yizhu table{
+	width: 1412px;
+}
+.wk .yizhu table tbody tr:FIRST-CHILD{
+	margin-top:30px;
+}
+.wk .yizhu table thead tr{
+	background-color: #fff; 
+	width: 1410px;
+}
+.wk .yizhu table tbody tr{
+	display: block;
+}
+table tr td{
+	color:#333;
+	padding: 5px 5px 5px 2px;
+}
+</style>

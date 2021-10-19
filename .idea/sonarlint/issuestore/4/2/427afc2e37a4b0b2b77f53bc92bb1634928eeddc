@@ -1,0 +1,167 @@
+
+c
+java:S1192;"MDefine a constant instead of duplicating this literal "excel_column" 6 times.(Ô®ÒÞ
+b
+java:S1192×"KDefine a constant instead of duplicating this literal " (nolock) " 6 times.(ˆÏðÀ
+g
+java:S1192À"KDefine a constant instead of duplicating this literal " (nolock)" 18 times.(Óº™Îüÿÿÿÿ
+o
+java:S1192À"SDefine a constant instead of duplicating this literal " select  * from  " 18 times.(Óº™Îüÿÿÿÿ
+`
+java:S1192×"IDefine a constant instead of duplicating this literal "   FROM " 4 times.(ˆÏðÀ
+q
+java:S1192©"ZDefine a constant instead of duplicating this literal "ybdrgs_nian_input_task_id" 5 times.(ŸÚ´ô
+_
+java:S1192^"IDefine a constant instead of duplicating this literal "file_id" 10 times.(ÃÁ«ô
+x
+java:S1192•"\Define a constant instead of duplicating this literal "  and task_name like :name " 4 times.(ô›‘¼úÿÿÿÿ
+a
+java:S1192“"JDefine a constant instead of duplicating this literal "task_name" 8 times.(ÌƒÅš
+b
+java:S1192ì"LDefine a constant instead of duplicating this literal " ( nolock )" 4 times.(ôßå~
+p
+java:S1192¼"TDefine a constant instead of duplicating this literal "admission_dept_name" 6 times.(ÆÅ®Ãüÿÿÿÿ
+i
+java:S1192Æ"MDefine a constant instead of duplicating this literal "patient_name" 6 times.(¿¦Óìøÿÿÿÿ
+e
+java:S1192)"JDefine a constant instead of duplicating this literal "file_name" 4 times.(ßÕ˜£üÿÿÿÿ
+_
+java:S1192Á"HDefine a constant instead of duplicating this literal "dg_name" 6 times.(÷åûû
+k
+java:S1192]"UDefine a constant instead of duplicating this literal "ybdrgs_input_task_id" 5 times.(±ä¹Ú
+k	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÆÕ–øÿÿÿÿ
+k	java:S117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øðùôüÿÿÿÿ
+g	java:S117Ž"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤èÒý
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øðùôüÿÿÿÿ
+s
+java:S1488ï"\Immediately return this expression instead of assigning it to the temporary variable "size".(Ñèºâ
+x
+java:S1488ø"\Immediately return this expression instead of assigning it to the temporary variable "size".(‘·Ýˆÿÿÿÿÿ
+x
+java:S1488‰"\Immediately return this expression instead of assigning it to the temporary variable "size".(‘·Ýˆÿÿÿÿÿ
+x
+java:S1488Ä"\Immediately return this expression instead of assigning it to the temporary variable "size".(‘·Ýˆÿÿÿÿÿ
+s
+java:S1488ì"\Immediately return this expression instead of assigning it to the temporary variable "size".(Ñèºâ
+x
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "size".(‘·Ýˆÿÿÿÿÿ
+G
+java:S1128"1Remove this unused import 'java.math.BigDecimal'.(êêŠ
+n
+java:S3008!"XRename this field "DEAUFT_DOUBLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûœ€Ì
+J
+java:S1659"/Declare "YBDRGS_INPUT_TASK" on a separate line.(¥ÙÜ¾ûÿÿÿÿ
+G
+java:S1659",Declare "YBDRGS_PATIENT" on a separate line.(¥ÙÜ¾ûÿÿÿÿ
+E
+java:S1659"/Declare "YBDRGS_INPUT_FILE" on a separate line.(Ìš‚ö
+J
+java:S1659"4Declare "YBDRGS_year_INPUT_TASK" on a separate line.(Ìš‚ö
+O
+java:S1659"4Declare "YBDRGS_NIAN_INPUT_FILE" on a separate line.(‘´³¯úÿÿÿÿ
+L
+java:S1659"1Declare "YBDRGS_nian_PATIENT" on a separate line.(‘´³¯úÿÿÿÿ
+O
+java:S1659"9Declare "YBDRGS_MAP_EXCEL_TABLE_YEAR" on a separate line.(Â„–Å
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ìš‚ö
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‘´³¯úÿÿÿÿ
+{
+java:S1149¿"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149Æ"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149Ì"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149Ò"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149Ý"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149å"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149ë"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149÷"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149Š"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149›"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149©"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149°"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149ë"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149ô"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149ý"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149„"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149œ"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149§"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149¿"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149É"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149Ï"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149à"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149è"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149÷"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149ý"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149†"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149¦"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149Æ"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149Ó"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149ß"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149æ"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+{
+java:S1149ì"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êéÑ°üÿÿÿÿ
+U
+java:S18542":Remove this useless assignment to local variable "column".(èþÕèûÿÿÿÿ
+g
+java:S3776%"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(Ï‘>
+o
+java:S22930"YReplace the type specification in this constructor call with the diamond operator ("<>").(¢¡€¹
+?
+java:S19053")Remove this unnecessary cast to "Record".(”«¢¼
+V	java:S125d"<This block of commented-out lines of code should be removed.(¤¼Á‡þÿÿÿÿ
+U
+java:S1854~":Remove this useless assignment to local variable "column".(èþÕèûÿÿÿÿ
+m
+java:S3776p"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(ÿŸØ‡ùÿÿÿÿ
+o
+java:S2293|"YReplace the type specification in this constructor call with the diamond operator ("<>").(¢¡€¹
+?
+java:S1905")Remove this unnecessary cast to "Record".(”«¢¼
+W	java:S125±"<This block of commented-out lines of code should be removed.(¤¼Á‡þÿÿÿÿ
+p
+java:S2293þ"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯ßäÉ
+p
+java:S2293„"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯ßäÉ
+Q
+java:S6213Ö":Rename this variable to not match a restricted identifier.(²˜¹ú
+d	java:S100›"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚÷åÐ
+d	java:S100­"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßŠ½Û
+Q
+java:S6213³":Rename this variable to not match a restricted identifier.(²˜¹ú
+p
+java:S2293ñ"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯ßäÉ
+p
+java:S2293Í"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯ßäÉ

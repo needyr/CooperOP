@@ -1,0 +1,36 @@
+#importentbu{
+	color: #0eabc3;
+    background-color: #ffffff;
+    border: 1px solid #0eabc3;
+}
+#importentbu:hover{
+	background: #FFFFFF;
+    color: #1d808f;
+    border: 1px solid #1d808f;
+}
+
+#importentbu2{
+	color: #0eabc3;
+    background-color: #ffffff;
+    border: 1px solid #0eabc3;
+}
+#importentbu2:hover{
+	background: #FFFFFF;
+    color: #1d808f;
+    border: 1px solid #1d808f;
+}
+
+.manycontent{
+    margin-left: 5px;
+    font-size: 13px;
+    right: 20px;
+}
+
+.linkadd{
+    position: relative;
+    left: 200px;
+    bottom: 24px;
+}
+.form-horizontal .row-fluid .control-label {
+    width: 78px !important;
+}

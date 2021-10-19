@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<application>
+		<id>im</id>
+		<driver>cn.crtech.cooperop.bus.im.ws.Connection</driver>
+	</application>
+	<application>
+		<id>yaoxunkang</id>
+		<driver>cn.crtech.cooperop.yaoxunkang.ws.Connection</driver>
+	</application>
+</config>

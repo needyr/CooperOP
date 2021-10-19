@@ -1,0 +1,102 @@
+.CodeMirror-hints {
+	position: absolute;
+    z-index: 10;
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+    padding: 2px;
+    -webkit-box-shadow: 2px 3px 5px rgba(0,0,0,.2);
+    -moz-box-shadow: 2px 3px 5px rgba(0,0,0,.2);
+    box-shadow: 2px 3px 5px rgba(0,0,0,.2);
+    border-radius: 3px;
+    border: 1px solid silver;
+    background: white;
+    font-size: 90%;
+    font-family: monospace;
+    max-height: 20em;
+    overflow-y: auto;
+/*     Shine 修改，增加帮助提示 */
+    width: 200px;
+    box-sizing: border-box;
+/*     Shine 修改，增加帮助提示 end */
+}
+
+.CodeMirror-hint {
+  margin: 0;
+  padding: 0 4px;
+  border-radius: 2px;
+  white-space: pre;
+  color: black;
+  cursor: pointer;
+/*     Shine 修改，增加帮助提示 */
+	color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    word-break: break-all;
+    text-overflow: ellipsis;
+/*     Shine 修改，增加帮助提示 end */
+}
+
+li.CodeMirror-hint-active {
+  background: #08f;
+  color: white;
+}
+
+
+/*     Shine 修改，增加帮助提示 */
+.CodeMirror-hint.shint {
+	color: #333;
+	font-weight: bold;
+}
+li.CodeMirror-hint-active.shint {
+  color: white;
+}
+.CodeMirror-hints-help {
+ 	position: absolute;
+    left: 184px;
+    width: 200px;
+    top: 0px;
+    color: #666;
+    box-sizing: border-box;
+    cursor: default;
+    height: auto;
+    background: #fff;
+    -webkit-box-shadow: 2px 3px 5px rgba(0,0,0,.2);
+    -moz-box-shadow: 2px 3px 5px rgba(0,0,0,.2);
+    box-shadow: 2px 3px 5px rgba(0,0,0,.2);
+    border-radius: 0px 3px 3px 0px;
+    border: 1px solid silver;
+    z-index: 11;
+}
+
+.CodeMirror-hints-help > h3 {
+	padding: 5px 5px 5px 5px;
+    margin: 0px;
+    font-size: 12px;
+    word-break: break-all;
+    overflow-wrap: break-word;
+}
+
+.CodeMirror-hints-help > h4 {
+	margin: 0px;
+    padding: 0px 5px 5px;
+    font-size: 12px;
+    font-weight: normal;
+    word-break: break-all;
+    overflow-wrap: break-word;
+}
+
+.CodeMirror-hints-help > div {
+    margin: 0px;
+    padding: 5px;
+    border-top: 1px solid #ddd;
+    font-size: 12px;
+    overflow: hidden;
+    overflow-y: auto;
+    word-break: break-all;
+    overflow-wrap: break-word;
+}
+/*     Shine 修改，增加帮助提示 end*/
+

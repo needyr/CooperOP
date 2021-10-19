@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+.panel-group .list-group-item {
+	cursor: pointer;
+}
+
+.flowdesigner {
+	overflow: scroll;
+	position: relative;
+}
+
+.flowdesigner .contextmenu {
+	position:absolute;
+	display:none;
+	z-index: 999;
+	left: 20px;
+	top: 400px;
+	border: 1px solid #AAA;
+	border-color: rgba(0, 0, 0, 0.3);
+	border-bottom-color: rgba(0, 0, 0, 0.5);
+	background-image: -moz-linear-gradient(top, #F2F4F9, #F2F4F9); /* Firefox */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F2F4F9), color-stop(1, #F2F4F9)); /* Saf4+, Chrome */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F2F4F9', endColorstr='#F2F4F9', GradientType='0'); /* IE*/
+	text-decoration: none;
+	white-space: nowrap;
+	-webkit-user-select: none;
+	user-select: none;
+	-webkit-border-radius: .3em;
+	border-radius: .3em;
+	-webkit-box-shadow:  1px 1px 5px rgba(0, 0, 0, 0.3), 1px 1px 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3), 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.flowdesigner .contextmenu .menu{
+	text-decoration: none;
+	white-space: nowrap;
+	cursor:pointer;
+	font: 12px "微软雅黑";
+	color: #333;
+	background:transparent;
+	border: 1px solid transparent;
+	margin: 2px;
+	padding: 2px 5px;
+	display:block;
+}
+
+.flowdesigner .contextmenu .menu:hover {
+	color: #333;
+	border: 1px solid #7DA2CE;
+	-webkit-border-radius: .2em;
+	border-radius: .2em;
+	background-image: -moz-linear-gradient(top, #DCEBFD, #C2DDFD); /* Firefox */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #DCEBFD), color-stop(1, #C2DDFD)); /* Saf4+, Chrome */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DCEBFD', endColorstr='#C2DDFD', GradientType='0'); /* IE*/
+}
+
+.flowdesigner .contextmenu .sepbtn {
+	margin: 5px 0;
+	height: 1px;
+	line-height: 1px;
+	border-bottom: 1px solid #CCD9EA;
+	-webkit-box-shadow:  1px 1px 2px #D9E3F0;
+	box-shadow: 1px 1px 2px #D9E3F0;
+}

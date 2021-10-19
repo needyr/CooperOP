@@ -1,0 +1,214 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+}
+
+ul {
+	list-style: none;
+}
+
+ul li:hover {
+    color: #00a4ff;
+}
+
+a {
+	text-decoration: none;
+}
+
+.tabs {
+	/* width: 1200px; */
+	margin: 0 auto;
+}
+
+.tabs h2 {
+	font-size: 24px;
+	color: #333;
+	line-height: 1;
+	font-weight: 400;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+.tabs .category {
+	/* width: 1180px; */
+	overflow: hidden;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.tabs .category:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: 1px;
+	background-color: #EDEDED;
+	z-index: 2;
+}
+
+.tabs .category:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	height: 1px;
+	background-color: #EDEDED;
+	z-index: 2;
+}
+
+.tabs .category a:after {
+	content: "";
+	display: inline-block;
+	width: 0;
+	height: 100%;
+	vertical-align: middle;
+}
+
+/*.tabs .category .prev {
+	display: none;
+	position: absolute;
+	top: 0;
+	width: 59px;
+	height: 100%;
+	box-shadow: 0 0 3px #c6c6c7;
+	background: #fff;
+	text-align: center;
+	font-size: 0;
+	left: 0;
+	border-right: 1px solid #e1e3e6;
+}
+
+.tabs .category .prev span {
+	display: inline-block;
+	vertical-align: middle;
+	width: 9px;
+	height: 14px;
+	background-repeat: no-repeat;
+	background-image: url(../images/arrow.svg);
+	background-position: 96.77% 25%;
+	background-size: initial;
+}
+
+.tabs .category .next span {
+	display: inline-block;
+	vertical-align: middle;
+	width: 9px;
+	height: 14px;
+	background-repeat: no-repeat;
+	background-image: url(../images/arrow.svg);
+	background-position: 61.29% 25%;
+	background-size: initial;
+}
+
+.tabs .category .next {
+	position: absolute;
+	top: 0;
+	width: 59px;
+	height: 100%;
+	box-shadow: 0 0 3px #c6c6c7;
+	background: #fff;
+	text-align: center;
+	font-size: 0;
+	right: 0;
+	border-left: 1px solid #e1e3e6;
+} */
+
+.tabs .category ul li {
+	display: table-cell;
+	white-space: nowrap;
+	font-size: 14px;
+	text-align: center;
+	border-bottom: 3px solid transparent;
+	cursor: pointer;
+	position: relative;
+	padding: 8px 25px;
+}
+
+.tabs .category ul li.active {
+	border-bottom-color: #00a4ff;
+	color: #00a4ff;
+}
+
+.tabs .cont {
+	display: none;
+}
+
+.tabs .cont.active {
+	display: block;
+}
+
+.tabs .cont ul li {
+	width: 280px;
+	float: left;
+	margin: 0 10px;
+	box-sizing: border-box;
+}
+
+.tabs .cont ul li:nth-child(4n) {
+	margin-right: 0px!important;
+}
+
+.tabs .cont ul li a {
+	display: block;
+	border: 1px solid #E5E5E5;
+	background-color: #fff;
+	margin-top: 20px;
+	padding: 13px 20px 15px;
+}
+
+.tabs .cont ul li a:hover {
+	box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .1);
+	border-color: rgba(229, 229, 229, .73);
+}
+
+.tabs .cont ul li a:hover .cont_main h3.title {
+	color: #00a4ff;
+}
+
+.tabs .cont ul li a .cont_main {
+	display: table-cell;
+	vertical-align: top;
+}
+
+.tabs .cont ul li a .cont_main h3.title {
+	font-size: 18px;
+	font-weight: 400;
+	color: #333;
+	line-height: 32px;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+	text-overflow: ellipsis;
+}
+
+.tabs .cont ul li a .cont_main p.desc {
+	font-size: 14px;
+	line-height: 1.5;
+	color: #666;
+	height: 42px;
+	margin-top: -2px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+
+/* <div class="tabs">
+    <div class="category">
+        <ul style="margin-bottom: 0px;">
+            <li class="active">药品使用强度统计</li>
+            <li>药物类使用强度统计</li>
+        </ul>
+    </div>
+    <div class="cont active">
+        <table class="layui-hide" id="test" lay-filter="test"></table>
+    </div>
+    <div class="cont">
+        <table class="layui-hide" id="test2" lay-filter="test"></table>
+    </div>
+</div> */

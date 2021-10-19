@@ -1,0 +1,348 @@
+.btn {
+    display: inline-block;
+    line-height: 28px;
+    color: #666;
+    font-size: 12px;
+    text-decoration: none;
+    border: 1px solid #a9b1bd;
+    padding: 0 5px;
+    border-radius: 2px;
+    transition: all 0.3s;
+    background-color: #fff;
+    cursor: pointer;
+    min-width: 90px;
+}
+
+.btn>i {
+    margin-left: 4px;
+    margin-right: 4px;
+    line-height: 18px;
+    display: inline-block;
+    /* color: #666; */
+}
+
+.btn+.btn {
+	margin-left: 5px;
+}
+.btn.btn-default{
+	background: #FFF;
+	color: #333;
+	border: 1px solid #a9b1bd;
+}
+
+.btn.btn-default:hover{
+	background: #F0F0F0;
+	border-color: #999fac;
+}
+
+
+
+.btn.btn-primary{
+	color: #fff;
+	background: #2f77dc;	
+	border: 1px solid #2469ca;
+}
+
+.btn.btn-primary:hover{
+	background: #4384de;
+}
+
+
+.btn.btn-info{
+	color: #fff;
+	background: #2fa1dc;	
+	border: 1px solid #2799d4;
+}
+
+.btn.btn-info:hover{
+	background: #3eaae2;
+}
+
+
+
+.btn.btn-warning{
+	color: #fff;
+	background: #faaa1f;	
+	border: 1px solid #eaa01e;
+}
+
+.btn.btn-warning:hover{
+	background: #fcb437;
+}
+
+
+.btn.btn-danger{
+	color: #fff;
+	background: #f44336;	
+	border: 1px solid #d66026;
+}
+
+.btn.btn-danger:hover{
+	background: #d32f2f;
+}
+
+
+.btn.btn-success{
+	color: #fff;
+	background: #64b01d;	
+	border: 1px solid #59a215;
+}
+
+.btn.btn-success:hover{
+	background: #74c12b;
+}
+
+
+.btn.btn-link{
+	color: #3077dd;
+	background: none;	
+	border: 1px solid transparent;
+}
+
+.btn.btn-link:hover{
+	color:#4f91ef;
+}
+
+
+.btn-group, .btn-group-vertical {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.btn-group>.dropdown-menu {
+	min-width:100%;
+	position: absolute;
+	top: 32px;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	float: left;
+	list-style: none;
+	text-shadow: none;
+	padding: 0px;
+	background-color: #ffffff;
+	margin: 0px 0px 0px 0px;
+	border: 1px solid #a9b1bd;
+	border-radius: 0 0 4px 4px;
+	box-shadow: 2px 3px 12px rgba(86, 86, 86, 0.3);
+}
+.btn-group.open>.dropdown-menu {
+	display: block;
+}
+
+.btn-group > .dropdown-menu li > a {
+    padding: 8px 14px;
+    color: #555;
+    text-decoration: none;
+    display: block;
+    clear: both;
+    font-weight: 300;
+    line-height: 18px;
+    white-space: nowrap;
+}
+
+.btn-group > .dropdown-menu.pull-right li:hover {
+    background-color: #f0f0f0;
+}
+
+.btn-group > .dropdown-menu li > a i{
+    color: #555;
+	margin-right:5px;
+}
+
+.btn-group > .dropdown-menu li > a.btn-default{
+	color: #666666;
+}
+
+.btn-group > .dropdown-menu li > a.btn-default i{
+    color: #666666;
+}
+
+.btn-group > .dropdown-menu li > a.btn-default:hover{
+	color: #000000;
+}
+
+.btn-group > .dropdown-menu li > a.btn-primary {
+	color: #2f77dc;
+}
+
+.btn-group > .dropdown-menu li > a.btn-primary i{
+    color: #2f77dc;
+}
+
+.btn-group > .dropdown-menu li > a.btn-primary:hover {
+	color: #4384de;
+}
+
+.btn-group > .dropdown-menu li > a.btn-success {
+	color: #64b01d;
+}
+
+.btn-group > .dropdown-menu li > a.btn-success i{
+    color: #64b01d;
+}
+
+.btn-group > .dropdown-menu li > a.btn-success:hover {
+	color: #74c12b;
+}
+
+.btn-group > .dropdown-menu li > a.btn-info {
+	color: #2fa1dc;
+}
+
+.btn-group > .dropdown-menu li > a.btn-info i{
+    color: #2fa1dc;
+}
+
+.btn-group > .dropdown-menu li > a.btn-info:hover {
+	color: #3eaae2;
+}
+
+.btn-group > .dropdown-menu li > a.btn-warning {
+	color: #faaa1f;
+}
+
+.btn-group > .dropdown-menu li > a.btn-warning i{
+    color: #faaa1f;
+}
+
+.btn-group > .dropdown-menu li > a.btn-warning:hover {
+	color: #fcb437;
+}
+
+.btn-group > .dropdown-menu li > a.btn-error {
+	color: #dc682f;
+}
+
+.btn-group > .dropdown-menu li > a.btn-error i{
+    color: #dc682f;
+}
+
+.btn-group > .dropdown-menu li > a.btn-error:hover {
+	color: #e67944;
+}
+
+
+
+
+
+/**link button-group*/
+li.dropdown, li.dropdown-vertical {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+li.dropdown>.dropdown-menu {
+	min-width:100%;
+	position: absolute;
+	top: 32px;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	float: left;
+	list-style: none;
+	text-shadow: none;
+	padding: 0px;
+	background-color: #ffffff;
+	margin: 0px 0px 0px 0px;
+	border: 1px solid #a9b1bd;
+	border-radius: 0 0 4px 4px;
+	box-shadow: 2px 3px 12px rgba(86, 86, 86, 0.3);
+}
+li.dropdown.open>.dropdown-menu {
+	display: block;
+}
+
+li.dropdown > .dropdown-menu li > a {
+    padding: 8px 14px;
+    color: #555;
+    text-decoration: none;
+    display: block;
+    clear: both;
+    font-weight: 300;
+    line-height: 18px;
+    white-space: nowrap;
+}
+
+li.dropdown > .dropdown-menu.pull-right li:hover {
+    background-color: #f0f0f0;
+}
+
+li.dropdown > .dropdown-menu li > a i{
+    color: #555;
+	margin-right:5px;
+}
+
+li.dropdown > .dropdown-menu li > a.btn-default{
+	color: #666666;
+}
+
+li.dropdown > .dropdown-menu li > a.btn-default i{
+    color: #666666;
+}
+
+li.dropdown > .dropdown-menu li > a.btn-default:hover{
+	color: #000000;
+}
+
+li.dropdown > .dropdown-menu li > a.btn-primary {
+	color: #2f77dc;
+}
+
+li.dropdown > .dropdown-menu li > a.btn-primary i{
+    color: #2f77dc;
+}
+
+li.dropdown > .dropdown-menu li > a.btn-primary:hover {
+	color: #4384de;
+}
+
+li.dropdown > .dropdown-menu li > a.btn-success {
+	color: #64b01d;
+}
+
+li.dropdown > .dropdown-menu li > a.btn-success i{
+    color: #64b01d;
+}
+
+li.dropdown > .dropdown-menu li > a.btn-success:hover {
+	color: #74c12b;
+}
+
+li.dropdown > .dropdown-menu li > a.btn-info {
+	color: #2fa1dc;
+}
+
+li.dropdown > .dropdown-menu li > a.btn-info i{
+    color: #2fa1dc;
+}
+
+li.dropdown > .dropdown-menu li > a.btn-info:hover {
+	color: #3eaae2;
+}
+
+li.dropdown > .dropdown-menu li > a.btn-warning {
+	color: #faaa1f;
+}
+
+li.dropdown > .dropdown-menu li > a.btn-warning i{
+    color: #faaa1f;
+}
+
+li.dropdown > .dropdown-menu li > a.btn-warning:hover {
+	color: #fcb437;
+}
+
+li.dropdown > .dropdown-menu li > a.btn-error {
+	color: #dc682f;
+}
+
+li.dropdown > .dropdown-menu li > a.btn-error i{
+    color: #dc682f;
+}
+
+li.dropdown > .dropdown-menu li > a.btn-error:hover {
+	color: #e67944;
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/out/artifacts/CooperOp/WEB-INF/web.xml" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://chaoran.crtech.cn:10391/svn/References/frame/CooperOP" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_common">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://chaoran.crtech.cn:10391/svn/References/ylzwork/hospital_common" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/cooperop/WEB-INF/apps/ipc">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://chaoran.crtech.cn:10391/svn/References/ylzwork/ipc" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

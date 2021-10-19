@@ -1,0 +1,20 @@
+.form-horizontal .row-fluid textarea.form-control {
+    min-height: 30px;
+    padding: 5px 5px;
+    font-size: 12px;
+    line-height: 18px;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    font-weight: normal;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-horizontal .row-fluid textarea:focus {
+	border-color: #82a7db;
+}

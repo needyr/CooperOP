@@ -1,0 +1,10 @@
+.row-fluid:before {
+    display: table;
+    content: '';
+}
+
+.row-fluid:after {
+    display: table;
+    content: '';
+    clear: both;
+}

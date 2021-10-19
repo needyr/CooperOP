@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+.cockpit-chart-pici_class > .cockpit-chart-content > .cockpit-chart-chart .highcharts-container .highcharts-color-0, 
+.cockpit-chart-pici_class > .cockpit-chart-content > .cockpit-chart-chart .highcharts-container .highcharts-color-0 > rect{
+	fill: #e1363c!important;
+	strokeWidth: 0;
+}
+
+.cockpit-chart-pici_class > .cockpit-chart-content > .cockpit-chart-chart .highcharts-container .highcharts-color-1,
+.cockpit-chart-pici_class > .cockpit-chart-content > .cockpit-chart-chart .highcharts-container .highcharts-color-1 > rect {
+	fill: #0264a9!important;
+	strokeWidth: 0;
+}
+
+.cockpit-chart-pici_class > .cockpit-chart-content > .cockpit-chart-chart .highcharts-container .highcharts-color-2,
+.cockpit-chart-pici_class > .cockpit-chart-content > .cockpit-chart-chart .highcharts-container .highcharts-color-2 > rect {
+	fill: #17cb6a!important;
+	strokeWidth: 0;
+}
+/*驾驶舱样式*/
+
+
+/*大屏样式*/

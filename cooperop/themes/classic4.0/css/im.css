@@ -1,0 +1,1197 @@
+*{
+    padding:0;
+    margin:0;
+    font-size: 14px;
+}
+
+.content{
+    width:  100%;
+    height: 100%;
+    display:  block;
+}
+
+.content .leftMain{
+    position:  absolute;
+    width: 260px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-right: 1px solid #eee;
+}
+
+.content .leftMain .iptDiv{
+    height: 50px;
+    border-bottom:  1px solid #eee;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    background-color: #fff;
+    overflow: hidden;
+    
+}
+
+.content .leftMain .iptDiv.active{
+    top: 0;
+    bottom: 50px;
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    height: auto;
+    background-color: #fff;
+    z-index: 9;
+    overflow: auto;
+}
+
+.content .leftMain .iptDiv>input{
+    width: 230px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #eee;
+    border-radius: 4px;
+    padding-left: 25px;
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.content .leftMain .iptDiv .icon-magnifier{
+    position:  absolute;
+    line-height:  30px;
+    font-weight:  600;
+    color: #9e9999;
+    left: 20px;
+    top: 10px;
+}
+.content .leftMain .iptDiv .icon-close{
+	display: none;
+    position: absolute;
+    line-height: 30px;
+    font-weight: 600;
+    color: #4d4d4d;
+    right: 20px;
+    top: 10px;
+}
+.content .leftMain .iptDiv.active .icon-close{
+	display: block;
+}
+.content .leftMain .iptDiv.active .icon-close:hover{
+	cursor: pointer;
+	color: #039eb5;
+}
+.choho-im-search-warper{
+
+margin-top: 10px;
+
+padding-left: 5px;
+
+overflow: auto;
+}
+
+.choho-im-search-result{
+
+overflow:  hidden;
+
+margin-top: 10px;
+}
+
+.choho-im-search-result-title{
+
+color: #7c7c7c;
+}
+
+
+.choho-im-search-result-list{
+    
+padding-left: 10px;
+}
+
+.choho-im-comment{
+
+overflow:  hidden;
+
+float:  left;
+
+width: 100%;
+
+margin-top: 5px;
+}
+
+.choho-im-avatar{
+
+float:  left;
+
+width: 20px;
+
+height: 20px;
+
+border-radius:  3px;
+
+overflow:  hidden;
+
+border: 1px solid #908f8f;
+}
+
+.choho-im-avatar-img{
+
+width: 100%;
+
+height: 20px;
+
+background-size:  100%;
+}
+
+.choho-im-comment-content{
+
+float:  left;
+
+margin-left: 5px;
+}
+
+.choho-im-comment-name{
+
+float:  left;
+
+color: #3f3f3f;
+}
+
+.choho-im-comment-text{
+    
+float: left;
+    
+color: #898989;
+    
+margin-left: 5px;
+}
+
+.content .leftMain .listDiv{
+    position:  absolute;
+    top: 50px;
+    bottom: 40px;
+    width: 260px;
+    overflow:  auto;
+    display:  none;
+}
+.content .leftMain .listDiv.active{
+    display: block;
+}
+.content .leftMain .listDiv .list{
+    height: 60px;
+    padding: 5px 15px;
+    position:  relative;
+    box-sizing: border-box;
+    border-bottom:  1px solid #f1f1f1;
+}
+
+.content .leftMain .listDiv .list:hover{
+    background-color: #eee;
+}
+
+.content .leftMain .listDiv .list:active{
+    background-color: #eee;
+}
+
+.content .leftMain .listDiv .list>img{
+    width: 40px;
+    height: 40px;
+    border-radius:  50%;
+    margin-right: 20px;
+    float:  left;
+    /* margin-top: 10px; */
+}
+
+.content .leftMain .listDiv .list .titleP{
+    line-height: 25px;
+    /* margin-top: 10px; */
+    width: 110px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.content .leftMain .listDiv .list .textP{
+    font-size:  12px;
+    color: #a09d9d;
+    width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.content .leftMain .listDiv .list .daySpan{
+    position:  absolute;
+    right: 15px;
+    top: 10px;
+    font-size:  12px;
+    color: #a09d9d;
+}
+
+.content .leftMain .listDiv .list .weiSpan{
+    position: absolute;
+    right: 15px;
+    top: 32px;
+    font-size: 12px;
+    color: #ffffff;
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0.54);
+    border-radius: 12px;
+    text-align: center;
+    padding: 0 5px;
+}
+.content .leftMain .listDiv .list .weiSpan.hide{
+    display: none;
+}
+
+/*----------------------qunzu----------------*/
+
+.content .leftMain .qz-listDiv{
+    position:  absolute;
+    top: 41px;
+    bottom: 40px;
+    width: 260px;
+    overflow:  auto;
+    display:  none;
+}
+.content .leftMain .jg-listDiv.active{
+    display: block;
+}
+.content .leftMain .qz-listDiv .list{
+    height: 60px;
+    padding: 5px 15px;
+    position:  relative;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.content .leftMain .qz-listDiv .list:hover{
+    background-color: #eee;
+}
+
+.content .leftMain .qz-listDiv .list:active{
+    background-color: #eee;
+}
+
+.content .leftMain .qz-listDiv .list>img{
+    width: 40px;
+    height: 40px;
+    border-radius:  50%;
+    margin-right: 20px;
+    float:  left;
+    margin-top: 5px;
+}
+
+.content .leftMain .qz-listDiv .list .titleP{
+    line-height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.content .leftMain .jg-listDiv .list .titleP .content-text{
+    max-width: 110px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    float: left;
+}
+.content .leftMain .jg-listDiv .list .titleP .child_num.hide{
+    display: none;
+}
+
+/*--------------------------end------------------*/
+
+
+/*------------------------------jiagou-------------*/
+
+.content .leftMain .jg-listDiv{
+    position:  absolute;
+    top: 41px;
+    bottom: 40px;
+    width: 260px;
+    overflow:  auto;
+    display: none;
+}
+.content .leftMain .jg-listDiv.active{
+    display: block;
+}
+.content .leftMain .jg-listDiv .dhP{
+    line-height: 35px;
+    border-bottom:  1px solid #eee;
+    padding:  0 10px;
+    color: #aeaeae;
+}
+
+.content .leftMain .jg-listDiv .dhP>a{
+    text-decoration:  none;
+    color: #333;
+}
+
+.content .leftMain .jg-listDiv .dhP .ma{
+    color: #04b3ff;
+}
+
+.content .leftMain .jg-listDiv .list{
+    height: 60px;
+    padding: 5px 15px;
+    position:  relative;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.content .leftMain .jg-listDiv .list:hover{
+    background-color: #eee;
+}
+
+.content .leftMain .jg-listDiv .list:active{
+    background-color: #eee;
+}
+
+.content .leftMain .jg-listDiv .list>img{
+    width: 40px;
+    height: 40px;
+    border-radius:  50%;
+    margin-right: 20px;
+    float:  left;
+    margin-top: 5px;
+}
+
+.content .leftMain .jg-listDiv .list .titleP{
+    line-height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    width: 140px;
+}
+
+
+/*---------------------------end--------------------*/
+
+.content .leftMain .footer{
+    position:  absolute;
+    bottom: 0;
+    left: 0;
+    width: 260px;
+    height: 50px;
+    padding: 2px 25px;
+    box-sizing: border-box;
+    border-top: 1px solid #eee;
+    background-color: #fff;
+}
+
+.content .leftMain .footer>div{
+    display:  inline-block;
+    width: 70px;
+    height: 45px;
+    float:  left;
+}
+.content .leftMain .footer>div:hover{
+    cursor: pointer;
+}
+.content .leftMain .footer>div:hover>i{
+    color: #23c2fa;
+}
+
+.content .leftMain .footer>div:hover>span   {
+    color: #23c2fa;
+}
+
+.content .leftMain .footer>div.active>i{
+    color: #23c2fa;
+}
+
+.content .leftMain .footer>div.active>span   {
+    color: #23c2fa;
+}
+
+.content .leftMain .footer>div>i{
+    display:  block;
+    text-align:  center;
+    line-height: 22px;
+    color:  #666;
+}
+
+.content .leftMain .footer>div>span{
+    display:  block;
+    text-align:  center;
+    line-height: 22px;
+    color: #666;
+    font-size:  12px;
+}
+
+.content .rightMain{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 261px;
+    background-color: #f3f3f3;
+    /* display:  none; */
+}
+
+.content .rightMain .textDiv{
+    position:  absolute;
+    top: 40px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    overflow:  auto;
+    margin-bottom: 50px;
+}
+
+.content .rightMain1 .textDiv{
+    position:  absolute;
+    top: 40px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    overflow:  auto;
+    margin-bottom: 50px;
+}
+
+.content .rightMain .textDiv .leftText .wenben.im-message-text,
+.content .rightMain .textDiv .rightText .wenben.im-message-text,
+.content .rightMain1 .textDiv .leftText .wenben.im-message-text{
+    width: 240px;
+    height: 70px;
+    padding: 5px;
+}
+
+.content .rightMain .textDiv .leftText .im-message-text .text-i,
+.content .rightMain .textDiv .rightText .im-message-text .text-i,
+.content .rightMain1 .textDiv .leftText .im-message-text .text-i{
+    width: 50px;
+    height: 50px;
+    display:  inline-block;
+    border: 1px solid #eee;
+    float:  left;
+}
+
+.content .rightMain .textDiv .leftText .im-message-text .text-i>i,
+.content .rightMain .textDiv .rightText .im-message-text .text-i>i,
+.content .rightMain1 .textDiv .leftText .im-message-text .text-i>i{
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    width:50px;
+    font-size: 40px;
+}
+
+.content .rightMain .textDiv .leftText .im-message-text div .text-m,
+.content .rightMain .textDiv .rightText .im-message-text div .text-m,
+.content .rightMain1 .textDiv .leftText .im-message-text div .text-m{
+    font-size: 14px;
+    font-weight: 600;
+    display:  block;
+    color: #333;
+    text-align: left;
+    line-height: 32px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.content .rightMain .textDiv .leftText .im-message-text .r-msg,
+.content .rightMain .textDiv .rightText .im-message-text .r-msg,
+.content .rightMain1 .textDiv .leftText .im-message-text .r-msg{
+    display: inline-block;
+    width: 170px;
+    margin-left:  10px;
+    border-bottom:  1px solid #eee;
+}
+
+
+.content .rightMain .textDiv .leftText .im-message-text div .text-d,
+.content .rightMain .textDiv .rightText .im-message-text div .text-d,
+.content .rightMain1 .textDiv .leftText .im-message-text div .text-d{
+    font-size: 12px;
+    font-weight: 300;
+    color: #999;
+    text-align: left;
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.content .rightMain .textDiv .leftText .im-message-text .text-x,
+.content .rightMain .textDiv .rightText .im-message-text .text-x,
+.content .rightMain1 .textDiv .leftText .im-message-text .text-x{
+    display:  block;
+    float:  right;
+    text-align:  right;
+}
+
+.content .rightMain .textDiv .leftText .im-message-text .text-x>a,
+.content .rightMain .textDiv .rightText .im-message-text .text-x>a,
+.content .rightMain1 .textDiv .leftText .im-message-text .text-x>a{
+    text-decoration: none;
+}
+
+.content .rightMain .textDiv .leftText .timeDiv,
+.content .rightMain1 .textDiv .leftText .timeDiv{
+    text-align:  center;
+    overflow:  hidden;
+    margin-bottom:  20px;
+}
+
+.content .rightMain .textDiv .leftText .timeDiv .timeSpan,
+.content .rightMain1 .textDiv .leftText .timeDiv .timeSpan{
+    padding: 2px 5px;
+    background-color: #cdcdcd;
+    display:  inline-block;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.content .rightMain .textDiv .rightText .timeDiv{
+    text-align:  center;
+    overflow:  hidden;
+    margin-bottom:  20px;
+}
+
+.content .rightMain .textDiv .rightText .timeDiv .timeSpan{
+    padding: 2px 5px;
+    background-color: #cdcdcd;
+    display:  inline-block;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.content .rightMain .textDiv .leftText,
+.content .rightMain1 .textDiv .leftText {
+    overflow:  hidden;
+    margin-bottom:  20px;
+}
+
+.content .rightMain .textDiv .leftText>img,
+.content .rightMain1 .textDiv .leftText>img{
+    width: 35px;
+    height: 35px;
+    border-radius:  50%;
+    float:  left;
+}
+
+.content .rightMain .textDiv .leftText .im-name,
+.content .rightMain1 .textDiv .leftText .im-name{
+    margin-bottom: 5px;
+    text-indent: 1em;
+}
+.content .rightMain .textDiv .rightText .im-name,
+.content .rightMain1 .textDiv .rightMain .im-name{
+    display: none;
+}
+.content .rightMain .textDiv .leftText .wenben,
+.content .rightMain1 .textDiv .leftText .wenben{
+    display:  inline-block;
+    margin-left: 10px;
+    padding: 10px;
+    background-color:  #fff;
+    border-radius:  5px;
+    max-width: 80%;
+}
+
+.content .rightMain .textDiv .leftText .wenben>img,
+.content .rightMain1 .textDiv .leftText .wenben>img{
+    width: 100%;
+}
+
+.content .rightMain .textDiv .leftText .wenben>span,
+.content .rightMain1 .textDiv .leftText .wenben>span{
+    float: right;
+    color: #7e7e7e;
+    font-size: 12px;
+}
+
+.content .rightMain .textDiv .rightText{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.content .rightMain .textDiv .rightText>img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    float:  right;
+}
+
+.content .rightMain .textDiv .rightText .wenben{
+    float:  right;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    max-width: 80%;
+}
+
+.content .rightMain .textDiv .rightText .wenben .im-img-content img{
+    width: 100%;
+}
+
+.content .rightMain .textDiv .rightText .wenben .im-img-content span{
+    float:  right;
+    color: #7e7e7e;
+    font-size:  12px;
+}
+
+.content .rightMain .ipt{
+    position: fixed;
+    right: 0;
+    left: 260px;
+    bottom: 0;
+    height: 40px;
+    border-top: 1px solid #d6d5d5;
+    padding: 5px 55px;
+    background-color: #f3f3f3;
+}
+
+.content .rightMain .ipt .tw-div{
+    position: absolute;
+    left: 1px;
+    right: 0;
+    top: 50px;
+    bottom: 0;
+    background-color: #fff;
+}
+
+.content .rightMain .ipt .tw-div.active{
+    top:0;
+}
+
+.content .rightMain .ipt .tw-div .r-close{
+    float: right;
+    margin-right:  10px;
+    line-height: 40px;
+}
+
+.content .rightMain .ipt .tw-div i{
+    font-size: 20px;
+    line-height: 50px;
+    margin-left: 20px;
+    color: #666;
+    padding: 5px;
+}
+.content .rightMain .ipt .tw-div>div{
+    display: inline-block;
+}
+
+.content .rightMain .ipt .tw-div .img-ipt{
+    position:  absolute;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    left: 20px;
+    border: none;
+    outline:  none;
+    background-color: rgba(238, 238, 238, 0);
+    cursor:  pointer;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.content .rightMain .ipt .tw-div .folder-ipt{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    left: 74px;
+    border: none;
+    outline: none;
+    background-color: rgba(238, 238, 238, 0);
+    cursor:  pointer;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.content .rightMain .ipt .tw-div .img-ipt:hover + .icon-picture{
+    color: #1289ee;
+}
+
+.content .rightMain .ipt .tw-div .folder-ipt:hover + .icon-folder{
+    color: #1289ee;
+}
+
+.content .rightMain .ipt>input{
+    display:  block;
+    height: 35px;
+    outline: none;
+    padding: 0 5px;
+    border: none;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 98%;
+    margin-top: 2px;
+    box-sizing:border-box;
+}
+
+.content .rightMain .ipt>button{
+    line-height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    text-align: center;
+    width: 40px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 15px;
+    background-color: #21dafa;
+    border: none;
+}
+
+.content .rightMain .ipt>button:hover{
+    background-color: #06c0d7;
+}
+
+.content .rightMain .r-title{
+    line-height: 40px;
+    text-align:  center;
+    background-color:  #fff;
+    font-size: 16px;
+    padding-left: 40px;
+}
+
+.content .rightMain .r-title>i{
+    float: right;
+    line-height: 40px;
+    padding: 0 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.content .rightMain .r-title>i:hover{
+    color: #05b3ff;
+}
+
+.content .rightMain .ipt>i{
+    line-height: 25px;
+    position:  absolute;
+    right: 15px;
+    top: 12px;
+    text-align:  center;
+    width: 25px;
+    border-radius:  50%;
+    border: 1px solid #dad8d8;
+    color: #b0b0b0;
+    font-size:  16px;
+}
+.content .leftMain > .jg-listDiv > .list>i:hover{
+    background-color: #dedede;
+    cursor: pointer;
+}
+.content .leftMain > .jg-listDiv > .list>i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 60px;
+    width: 40px;
+    font-size: 16px;
+    text-align: center;
+}
+.content .leftMain > .jg-listDiv > .list>i.hide{
+    display: none;
+}
+
+.content .rightMain1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f3f3f3;
+    display: none;
+    transition: 0.5s;
+    box-shadow: 0 0 20px 0 #bdbcbc;
+    overflow: auto;
+    z-index: 3;
+}
+
+.content .rightMain1 .groupUl{
+    position:  absolute;
+    top: 40px;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.content .rightMain1 .group-footer{
+    position:  absolute;
+    bottom: 0;
+    left: 0;
+    right:  0;
+    height: 50px;
+    padding: 10px;
+    box-sizing:  border-box;
+    text-align:  right;
+    background-color:  #fff;
+}
+
+.content .rightMain1 .group-footer>button{
+    border: none;
+    height: 30px;
+    width: 85px;
+    font-size:  12px;
+    color:  #fff;
+    background-color: #00b4de;
+    border-radius:  4px;
+    margin-right: 10px;
+}
+
+.content .rightMain1 .group-footer>button>i{
+
+    font-size:  14px;
+
+    margin-right: 5px;
+}
+
+.content .rightMain1 .group-footer .t-btn{
+    background-color: #fd6b00;
+}
+
+.content .rightMain1 .groupUl>ul{
+
+}
+
+.content .rightMain1 .groupUl>ul>li{
+    padding: 5px 10px;
+    height: 35px;
+    position: relative;
+}
+
+.content .rightMain1 .groupUl>ul>li:hover{
+    background-color: #e3e3e3;
+}
+
+
+.content .rightMain1 .groupUl>ul>li>img{
+    width: 35px;
+    height: 35px;
+    border-radius:  50%;
+    float:  left;
+}
+
+.content .rightMain1 .groupUl>ul>li>i{
+    position:  absolute;
+    top: 32px;
+    left: 42px;
+}
+
+.content .rightMain1 .groupUl>ul>li>span{
+    line-height:  35px;
+    display:  inline-block;
+    margin-left: 10px;
+}
+
+.content .rightMain1>p{
+    line-height: 40px;
+    text-align:  center;
+    background-color:  #fff;
+}
+
+.content .rightMain1 .r-time{
+    position:  absolute;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    border-top: 1px solid #dadada;
+}
+
+.content .rightMain1 .r-time .time-input-div{
+    display:  inline-block;
+    height: 50px;
+    width: 50%;
+    text-align: right;
+    float:  left;
+    position:  relative;
+}
+
+.content .rightMain1 .r-time .time-input-div>i{
+    position:  absolute;
+    top: 10px;
+    line-height:  30px;
+    right: 10px;
+    width: 40px;
+    text-align:  center;
+    background-color: #00b5fc;
+    color: #fff;
+    border-radius:  0 4px 4px 0;
+    cursor:  pointer;
+}
+
+.content .rightMain1 .r-time .time-input-div>input{
+    height: 30px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 4px;
+    width: 60%;
+    margin-right: 10px;
+    outline: none;
+    padding: 0 50px 0 10px;
+}
+
+.content .rightMain1 .r-time .r-fy{
+    display: inline-block;
+    height: 50px;
+    width: 50%;
+    text-align: left;
+    line-height:  50px;
+}
+
+.content .rightMain1 .r-time .r-fy .sty{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.content .rightMain1 .r-time .r-fy .dq-page{
+    color: #0fb5ee;
+}
+
+.content .rightMain1 .r-time .r-fy>i{
+    /* margin-left: 10px; */
+    width: 20px;
+    text-align:  center;
+    cursor:  pointer;
+}
+
+.content .rightMain1.active{
+    display: block;
+    left: 550px;
+}
+
+.content .rightMain1 .renText{
+    width: 100%;
+    height: 180px;
+    background-color:  #fff;
+    border-radius:  5px;
+    box-shadow: 0 5px 10px #ededed;
+    padding-top: 20px;
+    border: 1px solid #ededed;
+}
+
+.content .rightMain1 .renText>img{
+    width: 70px;
+    border-radius:  50%;
+    display:  block;
+    margin: 0 auto;
+}
+
+.content .rightMain1 .renText .renName{
+    text-align:  center;
+    line-height:  30px;
+    margin-top: 20px;
+}
+
+.content .rightMain1 .renText .renZhi{
+    text-align:  center;
+    line-height:  30px;
+}
+
+.content .rightMain1 .msg {
+    position:  absolute;
+    top: 210px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.content .rightMain1 .msg>ul {
+    list-style:  none;
+    margin-top: 50px;
+}
+
+.content .rightMain1 .msg>ul>li {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0  5px 0;
+}
+
+.content .rightMain1 .msg>ul>li .DH{
+    font-size:  12px;
+    color: #979797;
+}
+
+.content .rightMain1 .msg>ul>li .WB{
+    line-height: 30px;
+}
+
+
+.content .leftMain> .listDiv .list>i{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+.icon-zaixianim{
+    color: #03c40a;
+}
+
+.icon-zaixianim::after{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    z-index: 1;
+}
+
+.icon-zaixianim::before{
+    position: absolute;
+    z-index: 2;
+}
+
+
+.icon-likaiim{
+    color: #8d8d8d;
+    font-weight: 600;
+}
+
+.icon-likaiim::after{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    z-index: 1;
+}
+
+.icon-likaiim::before{
+    position: absolute;
+    z-index: 2;
+}
+
+.icon-mangluim{
+    color: #ff8163;
+}
+
+.icon-mangluim::after{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    z-index: 1;
+}
+
+.icon-mangluim::before{
+    position: absolute;
+    z-index: 2;
+}
+
+.icon-ban{
+    color: rgba(250, 5, 0, 0.8);
+}
+
+.icon-ban::after{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    z-index: 1;
+}
+
+.icon-ban::before{
+    position: absolute;
+    z-index: 2;
+}
+
+.content .rightMain .ipt {
+    position: fixed;
+    right: 0;
+    left: 260px;
+    bottom: 0;
+    height: 50px;
+    border-top: 1px solid #d6d5d5;
+    padding: 5px 120px 5px 50px;
+    background-color: #f3f3f3;
+    box-sizing:  border-box;
+}
+.content .rightMain .ipt .choho-im-text1 .choho-im-text-content{
+    display: block;
+    height: 35px;
+    outline: none;
+    padding: 0 5px;
+    border: none;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 100%;
+    /* margin-top: 2px; */
+    box-sizing: border-box;
+    overflow: auto;
+}
+.choho-im-text1{
+    /* padding: 5px 0px 5px 0px; */
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    height: 35px;
+}
+.content .rightMain .ipt>i {
+    line-height: 25px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    text-align: center;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid #dad8d8;
+    color: #b0b0b0;
+    font-size: 16px;
+}
+.content .rightMain .ipt>button {
+    line-height: 30px;
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    text-align: center;
+    width: 60px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 15px;
+    background-color: #04d5ef;
+    border: none;
+}
+
+.content .rightMain .ipt>button:hover{
+    background-color: #06c0d7;
+}
+
+.content .rightMain-mask.active{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 261px;
+    background-color: rgba(243, 243, 243, 0);
+    z-index: 2;
+}
+
+.content .rightMain-mask{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(243, 243, 243, 0);
+    z-index: 2;
+}

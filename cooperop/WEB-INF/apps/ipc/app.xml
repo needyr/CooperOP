@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cooperop-app>
+	<initmethod>
+		<name>initEngine</name>
+		<class>cn.crtech.precheck.ipc.Engine</class>
+		<method>init</method>
+	</initmethod>
+<!-- 	<initmethod>
+		<name>initEngineClient</name>
+		<class>cn.crtech.precheck_ipc.client.EngineClient</class>
+		<method>init</method>
+	</initmethod> -->
+</cooperop-app>

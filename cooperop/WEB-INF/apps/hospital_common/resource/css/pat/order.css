@@ -1,0 +1,78 @@
+*{
+    font-size: 12px;
+    font-family: "Microsoft YaHei", "Microsoft SongT", "Open Sans",sans-serif;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.position-th-fixed{
+	position:absolute;
+	top:0;
+}
+
+.yizhu table{
+	width: 1522px;
+}
+.yizhu table tbody tr:FIRST-CHILD{
+	margin-top:30px;
+}
+.yizhu table thead tr{
+	background-color: #a9c5c5;
+	width: 1870px;
+}
+.yizhu table tbody tr{
+	display:  inline-flex;
+}
+table tr td{
+	color:#333;
+	padding: 5px 5px 5px 2px;
+}
+
+.yizhu{
+    margin: auto;
+    overflow:auto;
+    position:relative;
+    height: 455px !important;
+    /* display: none; */
+    color: #333;
+    margin-top: 1px;
+    border: 1px solid #eee;
+    height: calc(100% - 30px);
+}
+
+.yizhu>table{
+    table-layout: fixed;
+    empty-cells: show;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 1px solid #cad9ea;
+    color: #333;
+    width: 100% !important;
+    /* height: 100%; */
+    overflow:  auto;
+    font-size: 12px;
+}
+
+
+.yizhu>table>tbody>tr:hover{
+    background-color: #e6edf3;
+}
+
+.yizhu>table>tbody>tr:nth-child(2n){
+    background-color: #f2f2f2;
+}
+
+.yizhu>table>tbody>tr>td, .yizhu>table>thead>tr>th{
+   border: 1px solid #d7d7d7;
+    padding: 0 5px 0;
+    height: 30px;
+    font-size: 12px;
+    width:55px;
+    font-weight:  400;
+    box-sizing: border-box;
+}

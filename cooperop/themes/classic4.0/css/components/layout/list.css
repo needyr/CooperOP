@@ -1,0 +1,305 @@
+.portlet-body {
+	margin-top: 10px;
+}
+
+.datalist {
+	display: block;
+	overflow: hidden;
+}
+
+.datalist>.datalist-header {
+	display: block;
+	overflow: hidden;
+	background: #f8f8f8;
+	border: 1px solid #ddd;
+	border-bottom: 0px;
+	border-radius: 5px 5px 0 0;
+}
+
+.datalist>.datalist-header:before {
+	content: '';
+	display: table;
+}
+
+.datalist>.datalist-header:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.datalist>.datalist-content {
+	overflow: auto;
+	background: #fcfcfc;
+	border: 1px solid #ddd;
+	border-radius: 5px 5px 5px 5px;
+	position: relative;
+}
+
+.datalist>.datalist-header + .datalist-content {
+    border-radius: 0px 0px 5px 5px;
+}
+
+.datalist>.datalist-header>.datalist-sorts {
+	float: left;
+}
+
+.datalist>.datalist-header>.datalist-sorts>.datalist-sortbtn {
+	float: left;
+	display: block;
+	position: relative;
+	outline: none !important;
+	background-image: none !important;
+	filter: none;
+	text-shadow: none;
+	box-shadow: none;
+	padding: 0px 10px 0px 15px;
+	font-size: 13px;
+	line-height: 1.5;
+	cursor: pointer;
+	line-height: 1.5;
+	color: #666;
+	font-size: 14px;
+	text-decoration: none;
+	transition: all 0.3s;
+	cursor: pointer;
+	background: #f8f8f8;
+	border-right-width: 1px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: 600;
+	color: #666;
+	padding: 8px 15px 8px 15px;
+	border-right: 1px solid #eee;
+}
+
+.datalist>.datalist-header>.datalist-sorts>.datalist-sortbtn:after {
+	content: "\020\f0dc";
+	opacity: 0.3;
+	font: normal normal normal 14px/1 FontAwesome;
+}
+
+.datalist>.datalist-header>.datalist-sorts>.datalist-sortbtn.sorting {
+	/* color: #fff; */
+	/* background-color: #2f77dc; */
+	/* border-color: #2f77dc; */
+	
+}
+
+.datalist>.datalist-header>.datalist-sorts>.datalist-sortbtn.sorting:after
+	{
+	/* color: #fff; */
+	opacity: 1;
+	font: normal normal normal 14px/1 FontAwesome;
+}
+
+.datalist>.datalist-header>.datalist-sorts>.datalist-sortbtn.sorting-asc:after
+	{
+	content: "\020\f0de";
+}
+
+.datalist>.datalist-header>.datalist-sorts>.datalist-sortbtn.sorting-desc:after
+	{
+	content: "\020\f0dd";
+}
+
+.datalist>.datalist-header>.datalist-selectall {
+	float: left;
+	position: relative;
+	outline: none !important;
+	background-image: none !important;
+	filter: none;
+	text-shadow: none;
+	box-shadow: none;
+	padding: 0px 10px 0px 15px;
+	font-size: 13px;
+	line-height: 1.5;
+	cursor: pointer;
+	line-height: 1.5;
+	color: #666;
+	font-size: 14px;
+	text-decoration: none;
+	transition: all 0.3s;
+	cursor: pointer;
+	background: #f8f8f8;
+	border-right-width: 1px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: 600;
+	color: #666;
+	padding: 8px 15px 8px 15px;
+	border-right: 1px solid #eee;
+}
+
+.datalist>.datalist-header>.datalist-selectall input {
+	margin-right: 5px;
+	width: 14px;
+	height: 14px;
+}
+
+.datalist>.datalist-header>.datalist_filter {
+	float: left;
+	position: relative;
+	outline: none !important;
+	background-image: none !important;
+	filter: none;
+	text-shadow: none;
+	box-shadow: none;
+	padding: 0px 10px 0px 15px;
+	font-size: 13px;
+	line-height: 1.5;
+	cursor: pointer;
+	line-height: 1.5;
+	color: #666;
+	font-size: 14px;
+	text-decoration: none;
+	transition: all 0.3s;
+	cursor: pointer;
+	background: #f8f8f8;
+	border-right-width: 1px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: 600;
+	color: #666;
+	padding: 4px 10px 3px 10px;
+	border-right: 1px solid #eee;
+	width: 240px;
+}
+
+.datalist>.datalist-header>.datalist_filter label {
+	float: none;
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	padding-left: 30px;
+	padding-top: 0px;
+	/* border: 1px solid #ddd; */
+	/* border-radius: 2px; */
+}
+
+.datalist>.datalist-header>.datalist_filter label:after {
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translate(0, 0);
+	content: "\f002";
+	color: #666;
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #ddd;
+	border-radius: 2px 0px 0px 2px;
+	border: none;
+}
+
+.datalist>.datalist-header>.datalist_filter label input {
+	width: 100%;
+	height: 30px;
+	padding: 0px 5px;
+	font-size: 12px;
+	line-height: 30px;
+	border: 1px solid #ddd;
+	border-left: none;
+	border-radius: 0px 2px 2px 0px;
+}
+
+.datalist>.datalist-header>.datalist_filter label input:focus {
+	/* border-color: #82a7db; */
+	
+}
+
+.datalist>.datalist-content>.datalist-loading {
+    padding: 0px;
+    background: #f6f8fb;
+    line-height: 34px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px #ddd;
+    position: absolute;
+    top: 10px;
+    height: 34px;
+    left: 50%;
+    margin-left: -100px;
+    right: 0px;
+    width: 200px;
+    text-align: center;
+}
+
+.datalist>.datalist-footer {
+	display: block;
+	margin-top: 5px;
+	overflow: hidden;
+}
+
+.datalist>.datalist-footer>.datalist-length {
+	float: left;
+}
+
+.datalist>.datalist-footer>.datalist-length>label {
+	display: inline-block;
+	margin: 5px 10px 0px 0px;
+	float: none;
+}
+
+.datalist>.datalist-footer>.datalist-length>label>select {
+	height: 30px;
+	padding: 5px 5px;
+	font-size: 12px;
+	line-height: 30px;
+	border-radius: 4px;
+	width: auto !important;
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: normal;
+	color: #333;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	box-shadow: none;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	background-image: none;
+}
+
+.datalist>.datalist-footer>.datalist-info {
+	float: left;
+	padding-top: 9px;
+}
+
+.datalist>.datalist-footer>.datalist-pagination {
+	float: right;
+}
+
+.datalist>.datalist-footer>.datalist-pagination>a[disabled] {
+	color: #777;
+	cursor: not-allowed;
+	background-color: #fff;
+	border-color: #ddd;
+}
+
+.datalist>.datalist-footer>.datalist-pagination>a {
+	position: relative;
+	display: block;
+	width: 30px;
+	text-align: center;
+	height: 30px;
+	float: left;
+	margin-left: 1px;
+	line-height: 30px;
+	color: #3d9421;
+	text-decoration: none;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	margin: 0 5px;
+}
+
+.datalist>.datalist-footer>.datalist-pagination>a.active {
+	background: #ffffff;
+	border-color: #ddd;
+	color: #666;
+}

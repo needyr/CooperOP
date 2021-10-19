@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+.page-content .portlet.box>.portlet-body{
+    padding:0 !important;
+}
+
+.main {
+	padding: 0px !important;
+	background-color: #ffffff !important;
+}
+
+.portlet {
+    margin-bottom: 0px !important;
+    padding: 0px !important;
+}
+
+.portlet-body {
+    margin-top: 0px !important;
+}
+
+.main .leftList{
+    width: 180px;
+    height: calc(100% - 5px);
+    overflow: auto;
+    border-right: 1px solid #d5d0d0;
+    border-left: 1px solid #d5d0d0;
+    display: inline-block;
+}
+
+.main .leftList>ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.main .leftList>ul>li{
+    line-height: 35px;
+}
+
+.main .leftList>ul>li>a{
+    display: block;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0 5px;
+    font-size: 15px;
+}
+
+.main .leftList>ul>li>a:hover{
+    background-color:  #eee;
+}
+
+.main .rightContent{
+    width: calc(100% - 180px);
+    height: calc(100% - 2px);
+    float: right;
+    overflow: auto;
+    border-right: 1px solid #d5d0d0;
+    border-left: 1px solid #d5d0d0;
+}
+
+.main .rightContent>div{
+    padding:5px;
+    margin-bottom:  15px;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+}
+
+.main .rightContent>div:hover{
+    box-shadow: 0 0 5px #cdcaca;
+}
+
+.main .rightContent>div>h5{
+    color: #000;
+    font-size:  15px;
+}
+
+.main .rightContent>div>p{
+    font-size: 14px;
+    /* padding-left: 20px; */
+    /* white-space: pre-line; */
+    line-height: 23px;
+    letter-spacing: 1px;
+}
+
+::-webkit-scrollbar
+{
+    width: 4px;
+    background-color: #F5F5F5;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
+    /*border-radius: 3px;*/
+    background-color: #F5F5F5;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,.3);
+    background-color: #c1c1c1;
+}
+
+.quick{
+	border-bottom: 1px solid #d6cfcf;
+	/* margin-left: 10px; */
+	border-left: 1px solid #d5d0d0;
+}
+
+img {
+    margin: 0px auto;
+    display: block;
+    border: 3px #2890655c solid;
+    max-width: 100%;
+}
+
+.inp{
+	
+}
+
+.quick_search{
+	
+}
+
+#middle{
+	height: 600px;
+	overflow: auto;
+}
+
+#foot{/* background: tan; */height: 48px;border-top: 1px solid #c5bebe;text-align: center;}
+
+#foot .foot_a{
+	margin: 3px;
+	line-height: 20px;
+	/* text-align: center; */
+	color: #0223da;
+	white-space:nowrap;
+}
+
+#top{
+	height: 30px;
+	overflow: hidden;
+}
+
+#select_drug{
+    width: 585px;
+    height: 90%;
+    font-size: 13px;
+}
+
+.control-icon{
+    margin-right: 10px !important;
+    opacity:0;
+}
+.fa-caret-down{
+	display:none !important;
+}

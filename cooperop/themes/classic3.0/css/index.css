@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+body {
+	background: #f5f5f5;
+}
+
+.toplogo.franchiser-logo h2 {
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px solid rgba(255,255,255,0.5);
+}
+
+.topbar .has-drop {
+	min-width: 80px;
+    text-align: right;
+}
+
+.top_kf2 .top-nav-phone-login {
+	letter-spacing: 2px;	
+}
+
+.left-sidebar .cen-add .cen-add-menu {
+	display: block;
+	width: auto;
+	position:relative;
+	padding-left: 53px;
+	text-align: left;
+	height: 38px;
+	line-height: 38px;
+}
+
+.left-sidebar .cen-add .cen-add-menu > i {
+	font-size: 20px;
+	line-height: 40px;
+	position: absolute;
+	left: 25px;
+}
+
+.left-sidebar .cen-add .cen-add-menu > font {
+	font-size: 22px;
+    color: #c81321;
+    font-weight: normal;
+    margin-left: 5px;
+    transition: all 0.3s;
+}
+
+.left-sidebar .cen-add .cen-add-menu:hover > font {
+    color: #FFF;
+}
+
+.left-sidebar .cen-add.start-service .cen-add-menu {
+	background: #ffc588;
+    color: #615354;
+}
+
+.left-sidebar .cen-add.start-service .cen-add-menu:hover {
+	background: #f5922a;
+    color: #FFF;
+}
+
+.left-sidebar .cen-add.start-service,
+.left-sidebar .cen-add.running-service,
+.left-sidebar .cen-add.stop-service {
+	display: none;
+}
+
+.left-sidebar .cen-add.running-service {
+	margin-bottom: 5px;
+}
+
+.left-sidebar .cen-add.stop-service .cen-add-menu {
+	background: #e7e7e7;
+    color: #615354;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.left-sidebar .cen-add.stop-service .cen-add-menu > i {
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: normal;
+    left: 30px;
+}
+
+.left-sidebar .cen-add.stop-service .cen-add-menu:hover {
+	background: #a8a8a8;
+    color: #FFF;
+}
+
+
+
+.left-sidebar .cen-menu .cen-menu-tit{
+	padding-left: 0px;
+}
+
+.left-sidebar .cen-menu .cen-menu-tit > h2{
+	display: block;
+	width: auto;
+	position:relative;
+	padding-left: 32px;
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 35px;
+}
+
+.left-sidebar .cen-menu .cen-menu-tit > h2 >i {
+	font-size: 18px;
+	line-height: 38px;
+	position: absolute;
+	left: 10px;
+}
+
+.left-sidebar .cen-menu .cen-menu-list{
+	padding-left: 10px;
+}
+
+.left-sidebar .cen-menu .cen-menu-list ul li{
+	display: block;
+	width: auto;
+	position:relative;
+	padding-left: 24px;
+	text-align: left;
+}
+
+.left-sidebar .cen-menu .cen-menu-list ul li i {
+	font-size: 18px;
+	line-height: 42px;
+	position: absolute;
+	left: 24px;
+}
+
+.form-horizontal .row-fluid>.cols, .form-horizontal .row-fluid>.cols1,
+	.form-horizontal .row-fluid>.cols2, .form-horizontal .row-fluid>.cols3,
+	.form-horizontal .row-fluid>.cols4 {
+	padding-left: 80px;
+	padding-right: 10px;
+	float: left;
+}
+.form-horizontal .row-fluid>.cols.nolabel, .form-horizontal .row-fluid>.cols1.nolabel,
+	.form-horizontal .row-fluid>.cols2.nolabel, .form-horizontal .row-fluid>.cols3.nolabel,
+	.form-horizontal .row-fluid>.cols4.nolabel {
+	padding-left: 0px;
+	padding-right: 10px;
+	float: left;
+}

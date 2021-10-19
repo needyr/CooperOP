@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CooperOP.iml" filepath="$PROJECT_DIR$/CooperOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/crdc/crdc.iml" filepath="$PROJECT_DIR$/cooperop/WEB-INF/apps/crdc/crdc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_common/hospital_common.iml" filepath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_common/hospital_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/hospital_drgs.iml" filepath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_drgs/hospital_drgs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/hospital_imic.iml" filepath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic/hospital_imic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic_drgs/hospital_imic_drgs.iml" filepath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_imic_drgs/hospital_imic_drgs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_kpi/hospital_kpi.iml" filepath="$PROJECT_DIR$/cooperop/WEB-INF/apps/hospital_kpi/hospital_kpi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/ipc/ipc.iml" filepath="$PROJECT_DIR$/cooperop/WEB-INF/apps/ipc/ipc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/pivascockpit/pivascockpit.iml" filepath="$PROJECT_DIR$/cooperop/WEB-INF/apps/pivascockpit/pivascockpit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cooperop/WEB-INF/apps/setting/setting.iml" filepath="$PROJECT_DIR$/cooperop/WEB-INF/apps/setting/setting.iml" />
+    </modules>
+  </component>
+</project>

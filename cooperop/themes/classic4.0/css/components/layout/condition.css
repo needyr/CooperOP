@@ -1,0 +1,55 @@
+.portlet-condition {
+    margin-bottom: 30px;
+}
+.portlet-condition > .portlet-condition-main {
+	padding-left: 3em;
+/*     text-align: center; */
+    padding-top: 10px;
+}
+.portlet-condition > .portlet-condition-main > .portlet-condition-filter {
+    width: 400px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+}
+.portlet-condition > .portlet-condition-main > .portlet-condition-filter > input{
+    line-height: 30px;
+    display: block;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #368bdb;
+    padding: 0px 5px;
+}
+.portlet-condition > .portlet-condition-main > .portlet-condition-filter > a{
+	position: absolute;
+	line-height: 30px;
+	display: block;
+	right: 0px;
+	top: 0px;
+	width: 70px;
+	height: 30px;
+	border-radius: 0px 5px 5px 0px;
+	background: #368bdb;
+	text-align: center;
+	color: #FFF;
+	letter-spacing: 2px;
+}
+
+.portlet-condition > .portlet-condition-main > .portlet-condition-filter > a > i{
+    font-size: 16px;
+    color: #FFF;
+    margin-right: 3px;
+}
+
+.portlet-condition > .portlet-condition-main > a{
+	margin-left: 10px;
+}
+.portlet-condition > .portlet-condition-main > a > i{
+    margin-right: 0px;
+	margin-left: 3px;
+}
+
+.portlet-condition > .portlet-condition-extend {
+	margin-top: 10px;
+}

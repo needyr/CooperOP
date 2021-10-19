@@ -1,0 +1,607 @@
+@charset "utf-8";
+
+body {
+	/* background: #FFF !important; */
+	background: #4d5b69 !important;
+}
+
+.page-header.navbar {
+	background-color: rgba(25, 64, 103, 0.75);
+	color: #EFF1F3;
+}
+
+.page-header.navbar .page-logo {
+	width: auto !important;
+}
+
+.page-header.navbar .page-logo>.logo-image, .page-header.navbar .page-logo>a
+	{
+	background: url('../imgs/justar-logo.png') no-repeat;
+	background-size: auto 60px;
+	cursor: default;
+	padding-top: 8px;
+	display: block;
+	padding-left: 210px;
+}
+
+.page-header.navbar .page-logo>.logo-image, .page-header.navbar .page-logo>img
+	{
+	height: 60px;
+	float: left;
+	padding-top: 8px;
+}
+
+.page-header.navbar .page-logo>.logo-image, .page-header.navbar .page-logo>span
+	{
+	float: left;
+	font-size: 30px;
+	line-height: 60px;
+	display: block;
+	margin-top: 4px;
+	padding-left: 10px;
+	margin-left: 10px;
+	border-left: 2px solid;
+	line-height: 60px;
+}
+.page-header.navbar .top-menu .navbar-nav {
+	margin-right: 5px;
+}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown .dropdown-toggle>i
+	{
+	color: #EFF1F3;
+}
+
+.page-header.navbar .top-menu .navbar-nav>li.dropdown .dropdown-toggle:hover>i
+	{
+	color: #EFF1F3;
+}
+
+.page-header.navbar .top-menu .navbar-nav>li.dropdown>.dropdown-toggle {
+    padding: 28px 16px 19px 9px;
+}
+
+.page-header.navbar .top-menu .navbar-nav>li.dropdown>.dropdown-toggle>.badge {
+    right: 3px;
+}
+
+.page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle {
+	margin-top: -3px;
+	height: 71px;
+}
+
+.page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.badge {
+    right: auto;
+    bottom: 10px;
+    font-family: inherit;
+    font-size: 8px!important;
+    line-height: 10px;
+    left: 5px;
+    top: auto;
+    height: auto;
+}
+
+.page-sidebar {
+	position: fixed !important;
+	margin-left: 0;
+	top: 68px;
+}
+
+.page-sidebar .page-sidebar-menu>li>a>.title, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li>a>.title {
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    line-height: 20px;
+}
+
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover,
+	.page-sidebar {
+	background-color: transparent;
+}
+
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a,
+	.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active.open>a,
+	.page-sidebar .page-sidebar-menu>li.active>a, .page-sidebar .page-sidebar-menu>li.active.open>a
+	{
+	background: #dc2b19;
+	color: white;
+}
+
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a:hover,
+	.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active.open>a:hover,
+	.page-sidebar .page-sidebar-menu>li.active>a:hover, .page-sidebar .page-sidebar-menu>li.active.open>a:hover
+	{
+	background: #dc2b19;
+}
+
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active+li>a,
+	.page-sidebar .page-sidebar-menu>li.active+li>a {
+	border-top: 1px solid #536372;
+	color: #f2f4f6;
+}
+
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a>i,
+	.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active.open>a>i,
+	.page-sidebar .page-sidebar-menu>li.active>a>i, .page-sidebar .page-sidebar-menu>li.active.open>a>i
+	{
+	color: #eff1f3;
+}
+
+.page-container-bg-solid .page-sidebar .page-sidebar-menu>li.active>a>.selected, .page-container-bg-solid
+ .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a>.selected {
+    border-color: transparent #FFFFFF transparent transparent;
+}
+
+.page-content {
+    padding: 0px 0px 0px 0px !important;
+}
+
+@media (min-width: 992px) {
+.page-content-wrapper .page-content {
+    margin-left: 195px;
+    margin-top: 0px;
+    min-height: 200px;
+    padding: 25px 20px 10px 20px;
+}
+}
+
+.consultation {
+	background: #FFF;
+	margin-top: 68px;
+}
+
+.consultation > .portlet-body {
+    padding: 0px!important;
+}
+
+#videopanel {
+    margin-top: 20px;
+}
+
+#info {
+	margin-top: 100px;
+}
+
+#info .doctor-avatar img {
+	float: none;
+    margin: 0 auto;
+    width: 128px;
+    /* height: 128px; */
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+    background: #d1d0ce;
+}
+
+#info .doctor-avatar .fa {
+	width: 128px;
+    height: 128px;
+    line-height: 124px;
+    text-align: center;
+    font-size: 80px;
+    color: #FFF;
+    display: block;
+    background: #d1d0ce;
+    margin: 0 auto;
+    border-radius: 50% !important;
+}
+
+#info .doctor-title {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#info .doctor-title .doctor-name {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#info .doctor-name {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+#info .doctor-name .label {
+	margin-left: 10px;
+}
+
+#info .doctor-job {
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+#info .doctor-order {
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+#info .doctor-order .num,
+#info .doctor-order .mins {
+	margin: 0 2px;
+	color: #f2784b;
+}
+
+
+#info .doctor-action {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+#info .doctor-action .btn .fa {
+	margin-right: 5px;
+}
+
+#order {
+	margin-top: 100px;
+}
+
+#order .doctor-avatar img {
+	float: none;
+    margin: 0 auto;
+    width: 128px;
+    /* height: 128px; */
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+    background: #d1d0ce;
+}
+
+#order .doctor-avatar .fa {
+	width: 128px;
+    height: 128px;
+    line-height: 124px;
+    text-align: center;
+    font-size: 80px;
+    color: #FFF;
+    display: block;
+    background: #d1d0ce;
+    margin: 0 auto;
+    border-radius: 50% !important;
+}
+
+#order .doctor-title {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#order .doctor-title .doctor-name {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#order .doctor-name {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+#order .doctor-name .label {
+	margin-left: 10px;
+}
+
+#order .doctor-job {
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+#order .doctor-order {
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+#order .doctor-order .num,
+#order .doctor-order .mins {
+	margin: 0 2px;
+	color: #f2784b;
+}
+
+
+#order .doctor-action {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+#order .doctor-action .btn .fa {
+	margin-right: 5px;
+}
+
+#holdon {
+	margin-top: 100px;
+}
+
+#holdon .doctor-avatar img {
+	float: none;
+    margin: 0 auto;
+    width: 128px;
+    /* height: 128px; */
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+    background: #d1d0ce;
+}
+
+#holdon .doctor-avatar .fa {
+	width: 128px;
+    height: 128px;
+    line-height: 124px;
+    text-align: center;
+    font-size: 80px;
+    color: #FFF;
+    display: block;
+    background: #d1d0ce;
+    margin: 0 auto;
+    border-radius: 50% !important;
+}
+
+
+#holdon .doctor-title {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#holdon .doctor-title .doctor-name {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#holdon .doctor-name {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+#holdon .doctor-name .label {
+	margin-left: 10px;
+}
+
+#holdon .doctor-job {
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+#holdon .doctor-order {
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+#holdon .doctor-order .num,
+#holdon .doctor-order .mins {
+	margin: 0 2px;
+	color: #f2784b;
+}
+
+
+#holdon .doctor-action {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+#holdon .doctor-action .btn .fa {
+	margin-right: 5px;
+}
+
+#talking {
+}
+
+#talking .videos {
+	position: relative;
+}
+
+#remoteVideo {
+	background: rgba(0, 0, 0, 1);
+	width: 100%;
+}
+
+#localVideo {
+	background: rgba(0, 0, 0, 1);
+	width: 25%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#talking .doctor-avatar {
+	text-align: center;
+}
+
+#talking .doctor-avatar .doctor-title {
+	padding-left: 74px;
+    padding-top: 11px;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+}
+
+#talking .doctor-avatar .doctor-title img {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    width: 64px;
+    margin: 0 auto;
+    display: inline-block;
+    width: 64px;
+    /* height: 64px; */
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+    background: #d1d0ce;
+}
+
+#talking .doctor-avatar .doctor-title .fa {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    width: 64px;
+    margin: 0 auto;
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+    text-align: center;
+    font-size: 40px;
+    color: #FFF;
+    background: #d1d0ce;
+}
+
+#talking .doctor-avatar .doctor-title .doctor-name {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+#talking .doctor-name .label {
+	margin-left: 10px;
+}
+
+#talking .doctor-avatar .doctor-title .doctor-job {
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+#talking .doctor-order {
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+#talking .doctor-order .num,
+#talking .doctor-order .mins {
+	margin: 0 2px;
+	color: #f2784b;
+}
+
+
+#talking .doctor-action {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+#talking .doctor-action .btn .fa {
+	margin-right: 5px;
+}
+
+#over {
+	margin-top: 100px;
+}
+
+#over .doctor-avatar img {
+	float: none;
+    margin: 0 auto;
+    width: 128px;
+    /* height: 128px; */
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+    background: #d1d0ce;
+}
+
+#over .doctor-avatar .fa {
+	width: 128px;
+    height: 128px;
+    line-height: 124px;
+    text-align: center;
+    font-size: 80px;
+    color: #FFF;
+    display: block;
+    background: #d1d0ce;
+    margin: 0 auto;
+    border-radius: 50% !important;
+}
+
+#over .doctor-title {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#over .doctor-title .doctor-name {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#over .doctor-name {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+#over .doctor-name .label {
+	margin-left: 10px;
+}
+
+#over .doctor-job {
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+#over .doctor-order {
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+#over .doctor-order .num,
+#over .doctor-order .mins {
+	margin: 0 2px;
+	color: #f2784b;
+}
+
+
+#over .doctor-action {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+#over .doctor-action .btn .fa {
+	margin-right: 5px;
+}
+
+
+.page-footer-fixed .page-footer {
+	background-color: rgba(25, 64, 103, 0.75);
+	text-align: center;
+}
+
+.page-footer .page-footer-inner {
+	float: none;
+}
+
+.page-footer .page-footer-inner a {
+	color: #EFF1F3;
+}
+
+.page-footer .page-footer-inner a:hover {
+	color: #dc2b19;
+	text-decoration: none;
+}

@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/*驾驶舱样式*/
+.cockpit > .cockpit-tabpanels > .cockpit-tabpanel > .cockpit-box > .cockpit-chart.cockpit-chart-order_shenc > .cockpit-chart-content{padding-bottom:6rem;}
+.cockpit > .cockpit-tabpanels > .cockpit-tabpanel > .cockpit-box > .cockpit-chart.cockpit-chart-order_shenc ul{border-top: 0.1rem solid rgba(2,105,177,0.1); padding: 1rem 0;}
+.cockpit > .cockpit-tabpanels > .cockpit-tabpanel > .cockpit-box > .cockpit-chart.cockpit-chart-order_shenc ul:before{content: "";display: table;}
+.cockpit > .cockpit-tabpanels > .cockpit-tabpanel > .cockpit-box > .cockpit-chart.cockpit-chart-order_shenc ul:after{content: "";display: table;clear: both;}
+.cockpit > .cockpit-tabpanels > .cockpit-tabpanel > .cockpit-box > .cockpit-chart.cockpit-chart-order_shenc li{width: calc(100% / 3); float: left; text-align: center; position: relative;}
+.cockpit > .cockpit-tabpanels > .cockpit-tabpanel > .cockpit-box > .cockpit-chart.cockpit-chart-order_shenc li:before{content: ""; display: block; width: 0.1rem; height: 50%; background:rgba(2,105,177,0.3); position: absolute; top: 25%; left: 0;}
+.cockpit > .cockpit-tabpanels > .cockpit-tabpanel > .cockpit-box > .cockpit-chart.cockpit-chart-order_shenc li:first-child:before{display: none;}
+.cockpit > .cockpit-tabpanels > .cockpit-tabpanel > .cockpit-box > .cockpit-chart.cockpit-chart-order_shenc em{display: block; font-size: 2.1rem; font-weight: 600; font-style: normal; white-space: nowrap; overflow: hidden;}
+
+
+/*大屏样式*/
+.cockpit > .cockpit-pop > .cockpit-pop-box > .cockpit-pop-chart.cockpit-chart-order_shenc > .cockpit-chart-content{}
+.cockpit > .cockpit-pop > .cockpit-pop-box > .cockpit-pop-chart.cockpit-chart-order_shenc > .cockpit-chart-content > .cockpit-chart-chart .highcharts-container .highcharts-title{display: none;}
+.cockpit > .cockpit-pop > .cockpit-pop-box > .cockpit-pop-chart.cockpit-chart-order_shenc ul{border-top: 0.1 solid rgba(2,105,177,0.1); padding: 1rem 0;}
+.cockpit > .cockpit-pop > .cockpit-pop-box > .cockpit-pop-chart.cockpit-chart-order_shenc ul:before{content: "";display: table;}
+.cockpit > .cockpit-pop > .cockpit-pop-box > .cockpit-pop-chart.cockpit-chart-order_shenc ul:after{content: "";display: table;clear: both;}
+.cockpit > .cockpit-pop > .cockpit-pop-box > .cockpit-pop-chart.cockpit-chart-order_shenc li{width: calc(100% / 3); float: left; text-align: center; position: relative;}
+.cockpit > .cockpit-pop > .cockpit-pop-box > .cockpit-pop-chart.cockpit-chart-order_shenc li:before{content: ""; display: block; width: 0.1rem; height: 50%; background:rgba(2,105,177,0.3); position: absolute; top: 25%; left: 0;}
+.cockpit > .cockpit-pop > .cockpit-pop-box > .cockpit-pop-chart.cockpit-chart-order_shenc li:first-child:before{display: none;}
+.cockpit > .cockpit-pop > .cockpit-pop-box > .cockpit-pop-chart.cockpit-chart-order_shenc em{display: block; font-size: 2.1rem; font-weight: 600; font-style: normal; white-space: nowrap; overflow: hidden;}
+

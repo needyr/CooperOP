@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PrescriptionInfoExt>
+	<Registerno>helloworld</Registerno>
+	<Prescriptionno>helloworld</Prescriptionno>
+	<Prescriptiontype>2</Prescriptiontype>
+	<Prescriptiondate>2018-01-10 13:50:00</Prescriptiondate>
+	<Cost>120</Cost>
+	<Indate>2018-01-10 13:50:00</Indate>
+	<Outdate></Outdate>
+	<Doctorno>20180110_001</Doctorno>
+	<Doctorname>卓xxxx</Doctorname>
+	<Officename>普内</Officename>
+	<Patientno>20180110_001</Patientno>
+	<Patientname>快递</Patientname>
+	<Patienttype>自费</Patienttype>
+	<Birthday>2011-01-10 13:50:00</Birthday>
+	<Gender>男</Gender>
+	<Height>0</Height>
+	<Weight>0</Weight>
+	<Opsid />
+	<Opsname />
+	<Qktype />
+	<Wardcode />
+	<Bednum>2022</Bednum>
+	<ContactWay />
+	<StickCount />
+	<S3 />
+	<S4 />
+	<S5 />
+	<S6 />
+	<S7 />
+	<S8 />
+	<S9 />
+	<S10 />
+</PrescriptionInfoExt>

@@ -1,0 +1,58 @@
+.form-horizontal .row-fluid .note-editor {
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: none;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-horizontal .row-fluid .note-editor:focus {
+	border-color: #82a7db;
+}
+
+.form-horizontal .row-fluid .note-editor:before {
+	display: table;
+	content: " ";
+}
+
+.form-horizontal .row-fluid .note-editor:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+.form-horizontal .row-fluid .note-editor .note-toolbar {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.form-horizontal .row-fluid .note-editor .note-statusbar {
+    background-color: #f5f5f5;
+}
+
+.form-horizontal .row-fluid .note-editor .note-statusbar .note-resizebar {
+    border-top: 1px solid #e5e5e5;
+}
+
+.form-horizontal .row-fluid .note-editor .btn {
+    min-width: 0px;
+    margin-left: 0px;
+}
+
+.form-horizontal .row-fluid .note-editor .btn.dropdown-toggle {
+}
+
+.form-horizontal .row-fluid .note-editor .btn .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}

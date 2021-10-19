@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+.cockpit-chart-cpfuh > .cockpit-chart-content > .cockpit-chart-chart > .cockpit-chart-list-thead > dl > dt {position: relative;}
+.cockpit-chart-cpfuh > .cockpit-chart-content > .cockpit-chart-chart > .cockpit-chart-list-thead > dl > dt > select{display: block;width: 100%;height: 2.5rem;line-height: 1.5rem;font-size: 1rem;color: rgba(0,170,255,1);background: rgba(2,105,177,0.25);border: 0.1rem solid rgba(2,105,177,0.85);border-radius: 0.2rem;padding: 0.5rem 0.6rem;vertical-align: top;transition: all 0.5s;box-sizing: border-box;}
+.cockpit-chart-cpfuh > .cockpit-chart-content > .cockpit-chart-chart > .cockpit-chart-list-thead > dl > dt > .select-tip {display: block;width: 2rem;height: 2rem;color: rgba(0,170,255,1);background: transparent;position: absolute;top: 0.3rem;right: 0.2rem;line-height: 2rem;text-align: center;z-index: 2;pointer-events: none;}
+.cockpit-chart-cpfuh > .cockpit-chart-content > .cockpit-chart-chart > .cockpit-chart-list-thead > dl > dt > .select-tip i {color: rgba(0,170,255,1);display: inline-block;transition: 0.5s;}
+.cockpit-chart-cpfuh > .cockpit-chart-content > .cockpit-chart-chart > .cockpit-chart-list-thead > dl > dt > select:focus{border-color: rgba(47, 141, 213, 1);}
+.cockpit-chart-cpfuh > .cockpit-chart-content > .cockpit-chart-chart > .cockpit-chart-list-thead > dl > dt > select:focus + .select-tip i{transform: rotate(180deg);}
+
+
+.cockpit-chart-cpfuh > .cockpit-chart-title > div.cockpit-chart-tabs {position:absolute;left:0rem;right:0rem;height: 3rem;top:0.9rem;text-align: center;}
+.cockpit-chart-cpfuh > .cockpit-chart-title > div.cockpit-chart-tabs > ul {display:inline-block;}
+.cockpit-chart-cpfuh > .cockpit-chart-title > div.cockpit-chart-tabs > ul + ul {margin-left: 2rem;}
+.cockpit-chart-cpfuh > .cockpit-chart-title > div.cockpit-chart-tabs > ul:before {content:'';display:table;}
+.cockpit-chart-cpfuh > .cockpit-chart-title > div.cockpit-chart-tabs > ul:after {content:'';display:table;clear:both;}
+.cockpit-chart-cpfuh > .cockpit-chart-title > div.cockpit-chart-tabs > ul > li {float:left}
+.cockpit-chart-cpfuh > .cockpit-chart-title > div.cockpit-chart-tabs > ul > li > a {display:block;min-width: 6rem;padding: 0rem 1rem;height:2.5rem;line-height: 2.5rem;text-align: center;color: #8cd9ff; background: rgba(0,170,255,0.2);border: 0.1rem solid rgba(0,170,255,0.4);border-left:none;opacity: 0.5;}
+.cockpit-chart-cpfuh > .cockpit-chart-title > div.cockpit-chart-tabs > ul.cpfh-day > li > a {min-width: 4rem;font-weight: 600;}
+.cockpit-chart-cpfuh > .cockpit-chart-title > div.cockpit-chart-tabs > ul > li:first-child > a {border-radius: 0.5rem 0rem 0rem 0.5rem;border-left:0.1rem solid rgba(0,170,255,0.4);}
+.cockpit-chart-cpfuh > .cockpit-chart-title > div.cockpit-chart-tabs > ul > li:last-child > a {border-radius: 0rem 0.5rem 0.5rem 0rem;}
+.cockpit-chart-cpfuh > .cockpit-chart-title > div.cockpit-chart-tabs > ul > li > a.active {opacity: 1;border-left:0.1rem solid rgba(0,170,255,0.4);}
+
+.cockpit-chart-cpfuh .cockpit-chart-list {position:relative;}
+
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-thead {position:absolute;top:0rem;left:0rem;right:0rem;height:4rem;}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-thead dl{display: flex;font-size: 2rem;padding: 0 1.2rem;line-height: 1em;margin-bottom: 0.9rem;}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-thead .cockpit-chart-list-th{color: #FFF;font-weight: 600;opacity: 0.75;font-size:1.4rem;position: absolute;display: block;width: 100%;top: 0rem;left: 0rem;}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-thead dt{width: 10rem;}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-thead dd{flex: 1;text-align: center;color: rgba(255,255,255,0.4);padding: 2rem 0.5em 0em;overflow: hidden;white-space: nowrap;font-size: 1.2rem;display: flex;flex-direction: row;position: relative;}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-thead dd > span{display: inline-block;font-size: 1.2rem;flex: 3;text-align: center;padding: 0 0.2rem;}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-thead dd > span + span + span{flex: 1;}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-list {position:absolute;top:5rem;left:0px;right:0px;bottom:3rem;overflow:hidden;}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-list > div {position:absolute;top:0px;left:0px;right:0px;bottom:0px;transition:1.5s ease-in-out;}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-list dl{display: flex;font-size: 2rem;line-height: 3.5em;padding: 0 15px;border-top: 1px solid rgba(2,105,177,0.1);}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-list dl:nth-child(odd){background: rgba(0,0,0,0.08);}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-list dt{color: rgba(255,255,255,0.7);width: 10rem;font-weight: 600;padding-right: 0.5em;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-list dd{flex: 1;text-align: center;color: rgba(255,255,255,0.6);padding: 0 0.5em;overflow: hidden;white-space: nowrap;display: flex;flex-direction: row;border-left:0.2rem solid rgba(0,0,0,0.08);}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-list dd > span{display: inline-block;font-size: 1.8rem;font-weight: 600;flex: 3;overflow: hidden;text-align: center;padding: 0 0.2rem;}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-list dd span +span{}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-list dd > i{display: inline-block;font-size: 2rem;flex: 1;text-align: center;padding: 0 0.2rem;}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-list dd > i.cpfuh-jiaojie:before{content:'';display: block;width: 2rem;height: 100%;margin: 0 auto;background-image:url('../images/jiaojie.svg');background-position: center;background-size: contain;background-repeat: no-repeat;}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-pagination{position: absolute;height: 3rem;bottom: 0px;left: 0px;right: 0px;text-align: center;}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-pagination > ul{display: inline-block;width:auto;padding: 1.1rem 1.6rem 0;height: 100%;}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-pagination > ul:before{content:"";display:table;}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-pagination > ul:after{content:"";display:table;clear:both;}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-pagination > ul > li{float:left;}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-pagination > ul > li + li{margin-left:1rem;}
+.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-pagination > ul > li > a{display: block;width: 1rem;height: 1rem;background: rgba(90,90,90,0.6);border-radius: 100%;}
+.cockpit > .cockpit-tabpanels > .cockpit-tabpanel > .cockpit-box > .cockpit-chart.cockpit-chart-cpfuh .cockpit-chart-list > .cockpit-chart-list-pagination > ul > li > a.active{background: rgba(0,170,255,0.6)}
+
+/*驾驶舱样式*/
+.cockpit > .cockpit-tabpanels > .cockpit-tabpanel > .cockpit-box > .cockpit-chart.cockpit-chart-cpfuh .cockpit-chart-list {position:relative;}
+/*大屏样式*/
+.cockpit > .cockpit-pop > .cockpit-pop-box > .cockpit-pop-chart.cockpit-chart-cpfuh .cockpit-chart-list {position:relative;padding-top:5rem;padding-bottom:3rem;}

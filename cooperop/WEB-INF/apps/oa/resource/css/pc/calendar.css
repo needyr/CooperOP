@@ -1,0 +1,364 @@
+/* reset 日历 */
+.fc td.fc-today {
+	background-color: #fff !important;
+}
+
+.fc-slats .fc-minor td {
+	border-top-style: hidden !important;
+}
+
+.fc_workday {
+	background-color: #edf3ff !important;
+	color: #333 !important;
+}
+
+.fc-event {
+	background: #c3d9e6 !important;
+	border: 0;
+	border-left: 3px solid #3ec3ff;
+	border-radius: 0;
+}
+
+.fc-event, .fc-event:hover, .ui-widget .fc-event {
+	color: #333; /* default TEXT color */
+	text-decoration: none; /* if <a> has an href */
+}
+
+.fc-ltr .fc-time-grid .fc-event-container {
+	margin: 0;
+}
+
+.fc-ltr .fc-time-grid .fc-event-container:before {
+	margin: 0;
+}
+
+.fc-time-grid-event .fc-time span {
+	opacity: 0.5;
+	transform: scale(0.8);
+	display: block;
+	transform-origin: left;
+}
+
+.fc-toolbar {
+	height: 40px;
+	background: #cae8ff;
+}
+
+.fc-toolbar .fc-center {
+	position: relative;
+	padding: 0 60px;
+}
+
+.fc-toolbar .fc-center h2 {
+	font-size: 16px;
+	line-height: 40px;
+}
+
+.fc-toolbar .fc-center button {
+	display: block;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background: none;
+	border: 1px solid #ddd;
+	box-shadow: none;
+	margin-left: 0;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -15px;
+	transition: all 0.3s;
+}
+
+.fc-toolbar .fc-center button:hover {
+	border-color: #1296d2;
+	color: #1296d2;
+}
+
+.fc-toolbar .fc-center button:last-child {
+	left: auto;
+	right: 0
+}
+
+.fc-toolbar .fc-center button .fc-icon {
+	left: -3px;
+}
+
+.cr-calendar {
+	position: relative;
+}
+
+.cr-calendar .calendar-btn {
+	position: absolute;
+	top: 4px;
+	left: 10px;
+	z-index: 2;
+}
+
+.cr-calendar .calendar-btn button {
+	line-height: 30px;
+	padding: 0 1em;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 0;
+	min-width: 0;
+}
+.cr-calendar .calendar-btn button:hover{
+	cursor: pointer;
+}
+
+.cr-calendar .calendar-btn button.active {
+	background: none;
+	border-color: #1296d2;
+	color: #1296d2;
+}
+
+.fc-slats {
+	height: 2420px;
+}
+
+.fc-slats table {
+	height: 100%;
+}
+
+.fc .fc-axis {
+	vertical-align: top;
+}
+
+.cr-calendar .days {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	overflow: hidden;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.cr-calendar .fc-other-month .days{
+	opacity: 0.1;
+}
+
+.cr-calendar .work-status .iswork {
+	display: block;
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+	text-indent: -999%;
+	position: absolute;
+	top: 0;
+}
+
+.cr-calendar .work-status.ban {
+	background: #dff4fd;
+}
+
+.cr-calendar .work-status.ban .iswork {
+	background: url(../../img/ban.svg) 0 0/cover no-repeat;
+}
+
+.cr-calendar .work-status.xiu {
+	background: #fff0da;;
+}
+
+.cr-calendar .work-status.xiu .iswork {
+	background: url(../../img/xiu.svg) 0 0/cover no-repeat;
+}
+
+.cr-calendar .fc th, .fc td {
+	position: relative;
+	background: none;
+}
+
+.cr-calendar .remind {
+	position: relative;
+	height: 100%;
+}
+
+.cr-calendar .remind ul {
+    position: absolute;
+    width: 100%;
+    top: 2.7em;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.cr-calendar .remind li {
+	list-style: none;
+	margin-bottom: 1px;
+}
+
+.cr-calendar .remind li .matter {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #fff;
+    opacity: 0.6;
+    padding-left: 0.5em;
+}
+
+.cr-calendar .remind li .matter:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.cr-calendar .btn-box {
+	position: absolute;
+	display: block;
+	z-index: 3;
+	top: 3px;
+	right: 24px;
+	transition: all 0.3s;
+	opacity: 0;
+}
+
+.cr-calendar .days:hover .btn-box {
+	opacity: 1;
+}
+
+.cr-calendar .btn-box a {
+	display: inline-block;
+	height: 18px;
+	line-height: 18px;
+	padding: 0 3px;
+	color: #fff;
+	border-radius: 2px;
+	background: #2196F3;
+	transition: all 0.3s;
+	opacity: 0.8;
+}
+
+.cr-calendar .btn-box a i {
+	font-size: 12px;
+}
+
+.cr-calendar .btn-box a:hover {
+	opacity: 1;
+}
+
+.fc-ltr .fc-basic-view .fc-day-number {
+	font-size: 1.5em;
+}
+
+.fc-row .fc-content-skeleton {
+	display: none;
+}
+
+.day-num {
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	white-space: nowrap;
+}
+
+.day-num span {
+	display: inline-block;
+	width: 26px;
+	line-height: 26px;
+	text-align: center;
+	font-size: 1.5em;
+	border-radius: 100%;
+	vertical-align: middle;
+	font-family: arial;
+}
+
+.fc-today .day-num span {
+	background: #008eff;
+	color: #fff;
+}
+
+.cr-calendar .date-lunar {
+	display: inline-block;
+}
+
+.bg01 {
+	background: rgb(255, 87, 34);
+}
+
+.bg02 {
+	background: rgb(0, 150, 136);
+}
+
+.bg03 {
+	background: rgb(103, 58, 183);
+}
+
+.bg04 {
+	background: rgb(139, 195, 74);
+}
+
+.remind-tips {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remind-tips a {
+	display: block;
+	line-height: 22px;
+	color: #fff;
+	background: rgba(0,0,0,0.3);
+	border-radius: 3px;
+	padding: 0 0.5em;
+	margin:0 2px;
+}
+.remind-tips a:hover {
+	background: rgba(0,0,0,0.5);
+
+}
+
+.remind-tips a i {
+	font-size:12px;
+	margin-right: 0.5em;
+}
+
+.matter-box dl {
+    border-left: 2px solid #000;
+    padding: 6px;
+    margin-top: 8px;
+    margin-left: -1px;
+}
+.matter-box dl dd{
+    line-height: 2em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.matter-box dl dt span{
+    font-weight: 600;
+}
+.matter-box dl.msbox-remind{
+	background-color: #dce5f7;
+    border-color: #749dfc;
+}
+.matter-box dl.msbox-remind dt{
+	color: #749dfc;
+}
+.matter-box dl.msbox-task{
+	background-color: #fbe2e3;  
+    border-color: #f68586;
+}
+.matter-box dl.msbox-task dt{
+	color: #e66667;  
+}
+.matter-box dl.msbox-note{
+	background-color: #dfece0;  
+    border-color: #7aaf76;
+}
+.matter-box dl.msbox-note dt{
+	color: #67a062;  
+}
+.remark{
+    position: absolute;
+    left: 2%;
+    bottom: 2%;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

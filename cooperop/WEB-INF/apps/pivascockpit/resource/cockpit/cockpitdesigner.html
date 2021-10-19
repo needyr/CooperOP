@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>驾驶舱</title>
+<meta name="format-detection" content="telephone=no,email=no,address=no,date=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="screen-orientation" content="portrait">
+<meta name="x5-orientation" content="portrait">
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+<meta name="HandheldFriendly" content="true">
+<!-- 微软的老式浏览器 -->
+<meta name="MobileOptimized" content="320">
+<!-- uc强制竖屏 -->
+<meta name="screen-orientation" content="portrait">
+<!-- QQ强制竖屏 -->
+<meta name="x5-orientation" content="portrait">
+<!-- UC强制全屏 -->
+<meta name="full-screen" content="yes">
+<!-- QQ强制全屏 -->
+<meta name="x5-fullscreen" content="true">
+<!-- UC应用模式 -->
+<meta name="browsermode" content="application">
+<!-- QQ应用模式 -->
+<meta name="x5-page-mode" content="app">
+<!-- windows phone 点击无高光 -->
+<meta name="msapplication-tap-highlight" content="no">
+
+<link type="text/css" rel="stylesheet" href="../../../../../themes/classic/css/main/cicon/iconfont.css"></link>
+<script type="text/javascript" src="../../../../../themes/classic/plugins/jquery.min.js"></script>
+<link type="text/css" rel="stylesheet" href="vdiconfont/iconfont.css">
+<script type="text/javascript" src="cockpitdesigner.js"></script>
+</head>
+<body>
+</body>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$crcockpitdesigner.create("body", {
+			id: 1, //驾驶舱ID
+			name: "静配中心数据监测平台", //驾驶舱名字（标题）
+			supporter: "成都超然祥润科技有限公司", //技术支持（用于显示）
+			hotline: "400-000-7932 028-85534408", //服务热线（用于显示）
+			weixin: "chaoran_jingpei", //微信（用于显示）
+			website: "http://www.crtech.cn", //官网（用于显示）
+			template: "space", //驾驶舱使用模板
+			tabs: [  //驾驶舱TAB页签数组
+				{
+					name: "工作量", //TAB页签名称
+					charts: [  //TAB页签中的图表数组
+						{
+							code: "drug_class",  //图表编号
+							name: "药品统计",  //图表名称
+							refresh_time: 10, //图表数据刷新时间
+							childcode: "drug",  //大屏图表数据项下钻打开图表编号
+							childname: "药品明细统计",  //大屏图表数据项下钻打开图表名称
+							xaxis: 1,  //图表LEFT位置，1～12
+							yaxis: 1,  //图表TOP位置，1～12
+							width: 2,  //图表宽度，1～12
+							height: 6  //图表高度，1～12
+						},
+						{
+							code: "order_shenc",  //图表编号
+							name: "医嘱审查",  //图表名称
+							refresh_time: 10, //图表数据刷新时间
+							childcode: "",  //大屏图表数据项下钻打开图表编号
+							childname: "",  //大屏图表数据项下钻打开图表名称
+							xaxis: 1,  //图表LEFT位置，1～12
+							yaxis: 7,  //图表TOP位置，1～12
+							width: 2,  //图表宽度，1～12
+							height: 6  //图表高度，1～12
+						},
+						{
+							code: "pici_peizhi",  //图表编号
+							name: "批次配置",  //图表名称
+							refresh_time: 10, //图表数据刷新时间
+							childcode: "",  //大屏图表数据项下钻打开图表编号
+							childname: "",  //大屏图表数据项下钻打开图表名称
+							xaxis: 9,  //图表LEFT位置，1～12
+							yaxis: 1,  //图表TOP位置，1～12
+							width: 4,  //图表宽度，1～12
+							height: 4  //图表高度，1～12
+						},
+						{
+							code: "pici_class",  //图表编号
+							name: "分类配置",  //图表名称
+							refresh_time: 10, //图表数据刷新时间
+							childcode: "",  //大屏图表数据项下钻打开图表编号
+							childname: "",  //大屏图表数据项下钻打开图表名称
+							xaxis: 9,  //图表LEFT位置，1～12
+							yaxis: 5,  //图表TOP位置，1～12
+							width: 4,  //图表宽度，1～12
+							height: 4  //图表高度，1～12
+						},
+						{
+							code: "paiyao",  //图表编号
+							name: "排药情况",  //图表名称
+							refresh_time: 10, //图表数据刷新时间
+							childcode: "",  //大屏图表数据项下钻打开图表编号
+							childname: "",  //大屏图表数据项下钻打开图表名称
+							xaxis: 9,  //图表LEFT位置，1～12
+							yaxis: 9,  //图表TOP位置，1～12
+							width: 4,  //图表宽度，1～12
+							height: 4  //图表高度，1～12
+						},
+						{
+							code: "cpfuh",  //图表编号
+							name: "成品复核",  //图表名称
+							refresh_time: 10, //图表数据刷新时间
+							childcode: "",  //大屏图表数据项下钻打开图表编号
+							childname: "",  //大屏图表数据项下钻打开图表名称
+							xaxis: 3,  //图表LEFT位置，1～12
+							yaxis: 1,  //图表TOP位置，1～12
+							width: 6,  //图表宽度，1～12
+							height: 12  //图表高度，1～12
+						}
+					]
+				},
+				{
+					name: "趋势",
+					charts: []
+				},
+				{
+					name: "分析",
+					charts: []
+				},
+				{
+					name: "预警",
+					charts: []
+				}
+			],
+			chartdefs: [
+				{
+					code: "drug_class",  //图表编号
+					name: "药品统计",  //图表名称
+					refresh_time: 10, //图表数据刷新时间
+					childcode: "drug",  //大屏图表数据项下钻打开图表编号
+					childname: "药品明细统计"  //大屏图表数据项下钻打开图表名称
+				},
+				{
+					code: "order_shenc",  //图表编号
+					name: "医嘱审查",  //图表名称
+					refresh_time: 10, //图表数据刷新时间
+					childcode: "",  //大屏图表数据项下钻打开图表编号
+					childname: ""  //大屏图表数据项下钻打开图表名称
+				},
+				{
+					code: "pici_peizhi",  //图表编号
+					name: "批次配置",  //图表名称
+					refresh_time: 10, //图表数据刷新时间
+					childcode: "",  //大屏图表数据项下钻打开图表编号
+					childname: ""  //大屏图表数据项下钻打开图表名称
+				},
+				{
+					code: "pici_class",  //图表编号
+					name: "分类配置",  //图表名称
+					refresh_time: 10, //图表数据刷新时间
+					childcode: "",  //大屏图表数据项下钻打开图表编号
+					childname: ""  //大屏图表数据项下钻打开图表名称
+				},
+				{
+					code: "paiyao",  //图表编号
+					name: "排药情况",  //图表名称
+					refresh_time: 10, //图表数据刷新时间
+					childcode: "",  //大屏图表数据项下钻打开图表编号
+					childname: ""  //大屏图表数据项下钻打开图表名称
+				},
+				{
+					code: "cpfuh",  //图表编号
+					name: "成品复核",  //图表名称
+					refresh_time: 10, //图表数据刷新时间
+					childcode: "",  //大屏图表数据项下钻打开图表编号
+					childname: ""  //大屏图表数据项下钻打开图表名称
+				}
+			],
+			templates: [
+				{bianh: 'space', dictlist: '太空'},
+				{bianh: 'deepsea', dictlist: '深海'},
+				{bianh: 'health', dictlist: '健康'}
+			]
+		});
+	});
+
+</script>
+</html> 

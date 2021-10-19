@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<process displayName="test" expireTime="${process_expireTime}" instanceNoClass="3" instanceUrl="2" name="test">
+<start displayName="start1" layout="92,45,-1,-1" name="start1">
+<transition g="" name="transition1" offset="0,0" to="decision1"/>
+</start>
+<end displayName="end1" layout="229,488,-1,-1" name="end1"/>
+<task assignee="${manager}" assignmentHandler="cn.crtech.assignment" autoExecute="N" displayName="task1" expireTime="120" form="x301" layout="10,350,-1,-1" name="task1" performType="ANY" postInterceptors="cn.crtech.postinterceptors" preInterceptors="cn.crtech.preinterceptors" reminderRepeat="3" reminderTime="30" taskType="Major">
+<transition g="" name="transition3" offset="0,0" to="custom1"/>
+</task>
+<decision displayName="decision1" expr="${aduited}" layout="153,130,-1,-1" name="decision1">
+<transition displayName="True" expr="${audited == 'Y'}" g="" name="True" offset="0,0" to="task1"/>
+<transition displayName="False" expr="${audited != 'Y'}" g="" name="False" offset="0,0" to="task2"/>
+</decision>
+<custom clazz="cn.crtech.aa" displayName="custom1" layout="185,368,-1,-1" methodName="method" name="custom1">
+<transition g="" name="transition4" offset="0,0" to="end1"/>
+</custom>
+<task autoExecute="Y" displayName="task2" layout="287,209,-1,-1" name="task2" performType="ANY" taskType="Major">
+<transition g="" name="transition6" offset="0,0" to="custom1"/>
+</task>
+<fork displayName="fork1" layout="483,269,-1,-1" name="fork1"/>
+<join displayName="join1" layout="627,269,-1,-1" name="join1"/>
+</process>
